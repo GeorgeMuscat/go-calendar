@@ -1,54 +1,54 @@
 {
     "community_day": {
         "name": "Community Day",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__community_day.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__community_day.ics"
     },
     "event": {
         "name": "Event",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__event.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__event.ics"
     },
     "everything": {
         "name": "Everything",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal.ics"
     },
     "go_battle_league": {
         "name": "GO Battle League",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__go_battle_league.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__go_battle_league.ics"
     },
     "pokemon_go_fest": {
         "name": "Pokémon GO Fest",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__pokemon_go_fest.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__pokemon_go_fest.ics"
     },
     "pokemon_spotlight_hour": {
         "name": "Pokémon Spotlight Hour",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__pokemon_spotlight_hour.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__pokemon_spotlight_hour.ics"
     },
     "pokestop_showcase": {
         "name": "PokéStop Showcase",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__pokestop_showcase.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__pokestop_showcase.ics"
     },
     "raid_battles": {
         "name": "Raid Battles",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__raid_battles.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__raid_battles.ics"
     },
     "raid_hour": {
         "name": "Raid Hour",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__raid_hour.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__raid_hour.ics"
     },
     "research": {
         "name": "Research",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__research.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__research.ics"
     },
     "research_breakthrough": {
         "name": "Research Breakthrough",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__research_breakthrough.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__research_breakthrough.ics"
     },
     "season": {
         "name": "Season",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__season.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__season.ics"
     },
     "ticketed": {
         "name": "Ticketed",
-        "url": "github.com\/othyn\/go-calendar\/releases\/latest\/download\/gocal__ticketed.ics"
+        "url": "github.com/GeorgeMuscat/go-calendar/releases/latest/download/gocal__ticketed.ics"
     }
 }
