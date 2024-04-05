@@ -2,10 +2,14 @@
     <div class="container mx-auto">
         <div class="relative px-4 max-w-5xl mx-auto">
             <div class="mb-18 md:mb-16">
-                <span class="inline-block mb-4 text-sm sm:text-base text-red-500 uppercase font-semibold tracking-[.2rem]">
-                    Have something a bit lighter?
+                <span
+                    class="inline-block mb-4 text-sm sm:text-base text-red-500 uppercase font-semibold tracking-[.2rem]"
+                >
+                    Want something a bit lighter?
                 </span>
-                <h2 class="mb-6 text-3xl md:text-5xl lg:text-7xl text-gray-900 font-bold tracking-tight leading-snug md:leading-snug lg:leading-snug">
+                <h2
+                    class="mb-6 text-3xl md:text-5xl lg:text-7xl text-gray-900 font-bold tracking-tight leading-snug md:leading-snug lg:leading-snug"
+                >
                     Let's customise!
                 </h2>
                 <p class="mb-8 text-lg md:text-xl text-gray-500 font-medium leading-loose md:leading-loose">
@@ -17,45 +21,53 @@
                 <div class="inline-block overflow-x-auto w-full min-w-full rounded-lg shadow">
                     <table class="table-auto min-w-full">
                         <thead>
-                        <tr>
-                            <th class="px-5 py-3 text-sm font-normal text-left text-gray-800 uppercase bg-white border-b border-gray-200">
-                                Events
-                            </th>
-                            <th class="px-5 py-3 text-sm font-normal text-left text-gray-800 uppercase bg-white border-b border-gray-200">
-                                Calendar Subscription Options
-                            </th>
-                        </tr>
+                            <tr>
+                                <th
+                                    class="px-5 py-3 text-sm font-normal text-left text-gray-800 uppercase bg-white border-b border-gray-200"
+                                >
+                                    Events
+                                </th>
+                                <th
+                                    class="px-5 py-3 text-sm font-normal text-left text-gray-800 uppercase bg-white border-b border-gray-200"
+                                >
+                                    Calendar Subscription Options
+                                </th>
+                            </tr>
                         </thead>
                         <tbody>
-                        @loop{calendars}
-                        <tr>
-                            <td class="px-5 py-5 text-sm bg-white border-b border-gray-200">
-                                {{ name }}
-                            </td>
-                            <td class="px-5 py-5 text-sm bg-white border-b border-gray-200">
-                                <code class="block text-sm text-gray-700 bg-gray-200 font-medium rounded-md p-2 break-words">
-                                    <a href="webcal://{{ url }}"
-                                       class="hover:text-red-600">
-                                       webcal://{{ url }}</a>
-                                </code>
+                            @loop{calendars}
+                            <tr>
+                                <td class="px-5 py-5 text-sm bg-white border-b border-gray-200">{{ name }}</td>
+                                <td class="px-5 py-5 text-sm bg-white border-b border-gray-200">
+                                    <code
+                                        class="block text-sm text-gray-700 bg-gray-200 font-medium rounded-md p-2 break-words"
+                                    >
+                                        <a href="webcal://{{ url }}" class="hover:text-red-600"> webcal://{{ url }}</a>
+                                    </code>
 
-                                <div class="block mt-3">
-                                    <a class="inline-block text-center uppercase text-xs px-3 py-2 text-red-50 bg-red-600 border border-transparent rounded-lg hover:bg-red-500 focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
-                                    href="webcal://{{ url }}">
-                                        <span>Mobile & Desktop</span>
-                                    </a>
-                                    <a class="inline-block text-center uppercase text-xs px-3 py-2 text-red-50 bg-red-600 border border-transparent rounded-lg hover:bg-red-500 focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
-                                    href="https://www.google.com/calendar/render?cid=webcal://{{ url }}">
-                                        <span>Google Calendar</span>
-                                    </a>
-                                    <a class="inline-block text-center uppercase text-xs px-3 py-2 text-red-50 bg-red-600 border border-transparent rounded-lg hover:bg-red-500 focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
-                                    href="https://{{ url }}">
-                                        <span>ICS file</span>
-                                    </a>
-                                </div>
-                            </td>
-                        </tr>
-                        @endloop
+                                    <div class="block mt-3">
+                                        <a
+                                            class="inline-block text-center uppercase text-xs px-3 py-2 text-red-50 bg-red-600 border border-transparent rounded-lg hover:bg-red-500 focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
+                                            href="webcal://{{ url }}"
+                                        >
+                                            <span>Mobile & Desktop</span>
+                                        </a>
+                                        <a
+                                            class="inline-block text-center uppercase text-xs px-3 py-2 text-red-50 bg-red-600 border border-transparent rounded-lg hover:bg-red-500 focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
+                                            href="https://www.google.com/calendar/render?cid=webcal://{{ url }}"
+                                        >
+                                            <span>Google Calendar</span>
+                                        </a>
+                                        <a
+                                            class="inline-block text-center uppercase text-xs px-3 py-2 text-red-50 bg-red-600 border border-transparent rounded-lg hover:bg-red-500 focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
+                                            href="https://{{ url }}"
+                                        >
+                                            <span>ICS file</span>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            @endloop
                         </tbody>
                     </table>
                 </div>
