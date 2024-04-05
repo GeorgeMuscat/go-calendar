@@ -9,9 +9,43 @@ X-WR-CALDESC:All Pokémon GO events\, in your local time\, auto-updated and
   sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Z
+BEGIN:STANDARD
+DTSTART:20230703T200000Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:20230710T161742Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:DAYLIGHT
+DTSTART:20231001T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20240407T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20241006T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:gbl-world-of-wonders_great-league_ultra-premier
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[GBL] Great League and Ultra Premier | World of Wonders
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /gbl-world-of-wonders_great-league_ultra-premier/
@@ -19,8 +53,8 @@ URL:https://leekduck.com/events/gbl-world-of-wonders_great-league_ultra-pre
  mier/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/gobattle-greatleague
  -key.jpg
-DTSTART;VALUE=DATE:20240329
-DTEND;VALUE=DATE:20240405
+DTSTART;TZID=Z;VALUE=DATE:20240329
+DTEND;TZID=Z;VALUE=DATE:20240405
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Great League and Ultra Premier | World of Wonders
@@ -29,15 +63,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-showcase-tynamo-wailmer-2024-04-03
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[PS] Tynamo and Wailmer PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-tynamo-wailmer-2024-04-03/
 URL:https://leekduck.com/events/pokemon-showcase-tynamo-wailmer-2024-04-03/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;VALUE=DATE:20240403
-DTEND;VALUE=DATE:20240405
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240403
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240405
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Tynamo and Wailmer PokéStop Showcases
@@ -46,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-europe-international-championships-2024-timed-research
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[R] 2024 Pokémon Europe International Championships
 DESCRIPTION:Starts at 08:00\, ends at 15:00.\n\nhttps://leekduck.com/events
  /pokemon-europe-international-championships-2024-timed-research/
@@ -54,8 +88,8 @@ URL:https://leekduck.com/events/pokemon-europe-international-championships-
  2024-timed-research/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/europe-international
  -championships-2024.jpg
-DTSTART;VALUE=DATE:20240405
-DTEND;VALUE=DATE:20240407
+DTSTART;TZID=Z;VALUE=DATE:20240405
+DTEND;TZID=Z;VALUE=DATE:20240407
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[R] 2024 Pokémon Europe International Championships
@@ -64,15 +98,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:april-communitydayclassic2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[CD] Bagon Community Day Classic
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /april-communitydayclassic2024/
 URL:https://leekduck.com/events/april-communitydayclassic2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-2024-classic-apri
  l-bagon.jpg
-DTSTART:20240407T140000
-DTEND:20240407T170000
+DTSTART;TZID=Australia/Sydney:20240407T140000
+DTEND;TZID=Australia/Sydney:20240407T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[CD] Bagon Community Day Classic
@@ -81,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2024-04-03-2024-pokemon-europe-international-bonusmd
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[E] 2024 Pokémon Europe International Championships Bonus
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /2024-04-03-2024-pokemon-europe-international-bonusmd/
@@ -89,8 +123,8 @@ URL:https://leekduck.com/events/2024-04-03-2024-pokemon-europe-internationa
  l-bonusmd/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-battle-league-sea
  son-18-world-of-wonder.jpg
-DTSTART;VALUE=DATE:20240403
-DTEND;VALUE=DATE:20240407
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240403
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240407
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] 2024 Pokémon Europe International Championships Bonus
@@ -99,15 +133,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sizeable-surprises
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[E] Sizeable Surprises
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /sizeable-surprises/
 URL:https://leekduck.com/events/sizeable-surprises/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/sizeable-surprises.j
  pg
-DTSTART;VALUE=DATE:20240404
-DTEND;VALUE=DATE:20240409
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240404
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240409
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Sizeable Surprises
@@ -116,15 +150,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-04-09
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[PSH] Croagunk Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-04-09/
 URL:https://leekduck.com/events/pokemonspotlighthour2024-04-09/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
  .jpg
-DTSTART:20240409T180000
-DTEND:20240409T190000
+DTSTART;TZID=Australia/Sydney:20240409T180000
+DTEND;TZID=Australia/Sydney:20240409T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Croagunk Spotlight Hour
@@ -133,14 +167,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20240410
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RH] Kartana and Celesteela Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240410/
 URL:https://leekduck.com/events/raidhour20240410/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
-DTSTART:20240410T180000
-DTEND:20240410T190000
+DTSTART;TZID=Australia/Sydney:20240410T180000
+DTEND;TZID=Australia/Sydney:20240410T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Kartana and Celesteela Raid Hour
@@ -149,7 +183,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kartana-celesteela-in-5-star-raid-battles-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Kartana and Celesteela in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /kartana-celesteela-in-5-star-raid-battles-april-2024/
@@ -157,8 +191,8 @@ URL:https://leekduck.com/events/kartana-celesteela-in-5-star-raid-battles-a
  pril-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/celesteela-and-karta
  na-ultra-beast.jpg
-DTSTART;VALUE=DATE:20240404
-DTEND;VALUE=DATE:20240412
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240404
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240412
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Kartana and Celesteela in 5-star Raid Battles
@@ -167,7 +201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-world-of-wonders_ultra-league_jungle-cup-great-league
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[GBL] Ultra League and Jungle Cup: Great League | World of Wonders
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /gbl-world-of-wonders_ultra-league_jungle-cup-great-league/
@@ -175,8 +209,8 @@ URL:https://leekduck.com/events/gbl-world-of-wonders_ultra-league_jungle-cu
  p-great-league/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-battle-league-ult
  ra-league-machamp-swampert.jpg
-DTSTART;VALUE=DATE:20240405
-DTEND;VALUE=DATE:20240412
+DTSTART;TZID=Z;VALUE=DATE:20240405
+DTEND;TZID=Z;VALUE=DATE:20240412
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Ultra League and Jungle Cup: Great League | World of Wond
@@ -186,14 +220,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-charizard-x-in-mega-raids-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Mega Charizard X in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-charizard-x-in-mega-raids-april-2024/
 URL:https://leekduck.com/events/mega-charizard-x-in-mega-raids-april-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;VALUE=DATE:20240404
-DTEND;VALUE=DATE:20240413
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240404
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240413
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Mega Charizard X in Mega Raids
@@ -202,15 +236,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-heracross-raid-day
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[E] Mega Heracross Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /mega-heracross-raid-day/
 URL:https://leekduck.com/events/mega-heracross-raid-day/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-heracross-raid-
  day.jpg
-DTSTART:20240413T140000
-DTEND:20240413T170000
+DTSTART;TZID=Australia/Sydney:20240413T140000
+DTEND;TZID=Australia/Sydney:20240413T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Mega Heracross Raid Day
@@ -219,7 +253,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:amazon-prime-partner-research-world-of-wonders
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[R] Limited-time Partner Research: Amazon Prime Gaming
 DESCRIPTION:Starts at 16:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /amazon-prime-partner-research-world-of-wonders/
@@ -227,8 +261,8 @@ URL:https://leekduck.com/events/amazon-prime-partner-research-world-of-wond
  ers/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/amazon-prime-partner
  -research-drampa.jpg
-DTSTART;VALUE=DATE:20240308
-DTEND;VALUE=DATE:20240414
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240308
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240414
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[R] Limited-time Partner Research: Amazon Prime Gaming
@@ -237,15 +271,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-04-16
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[PSH] Caterpie\, Weedle\, and Wurmple Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-04-16/
 URL:https://leekduck.com/events/pokemonspotlighthour2024-04-16/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
  .jpg
-DTSTART:20240416T180000
-DTEND:20240416T190000
+DTSTART;TZID=Australia/Sydney:20240416T180000
+DTEND;TZID=Australia/Sydney:20240416T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Caterpie\, Weedle\, and Wurmple Spotlight Hour
@@ -254,14 +288,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20240417
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RH] Tapu Bulu Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240417/
 URL:https://leekduck.com/events/raidhour20240417/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
-DTSTART:20240417T180000
-DTEND:20240417T190000
+DTSTART;TZID=Australia/Sydney:20240417T180000
+DTEND;TZID=Australia/Sydney:20240417T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Tapu Bulu Raid Hour
@@ -270,14 +304,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bug-out-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[E] Bug Out 2024
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /bug-out-2024/
 URL:https://leekduck.com/events/bug-out-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/bug-out-2024.jpg
-DTSTART;VALUE=DATE:20240412
-DTEND;VALUE=DATE:20240417
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240412
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240417
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Bug Out 2024
@@ -286,7 +320,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-world-of-wonders_master-league_jungle-cup-great-league
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[GBL] Master League and Jungle Cup: Great League | World of Wonders
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /gbl-world-of-wonders_master-league_jungle-cup-great-league/
@@ -294,8 +328,8 @@ URL:https://leekduck.com/events/gbl-world-of-wonders_master-league_jungle-c
  up-great-league/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/gobattleleague-maste
  r-key.jpg
-DTSTART;VALUE=DATE:20240412
-DTEND;VALUE=DATE:20240419
+DTSTART;TZID=Z;VALUE=DATE:20240412
+DTEND;TZID=Z;VALUE=DATE:20240419
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Master League and Jungle Cup: Great League | World of Won
@@ -305,14 +339,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:april-communityday2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[CD] April Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /april-communityday2024/
 URL:https://leekduck.com/events/april-communityday2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-default.jpg
-DTSTART:20240420T140000
-DTEND:20240420T170000
+DTSTART;TZID=Australia/Sydney:20240420T140000
+DTEND;TZID=Australia/Sydney:20240420T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[CD] April Community Day
@@ -321,15 +355,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-04-23
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[PSH] Trubbish Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-04-23/
 URL:https://leekduck.com/events/pokemonspotlighthour2024-04-23/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
  .jpg
-DTSTART:20240423T180000
-DTEND:20240423T190000
+DTSTART;TZID=Australia/Sydney:20240423T180000
+DTEND;TZID=Australia/Sydney:20240423T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Trubbish Spotlight Hour
@@ -338,14 +372,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour202404124
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RH] Tapu Bulu Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour202404124/
 URL:https://leekduck.com/events/raidhour202404124/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
-DTSTART:20240424T180000
-DTEND:20240424T190000
+DTSTART;TZID=Australia/Sydney:20240424T180000
+DTEND;TZID=Australia/Sydney:20240424T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Tapu Bulu Raid Hour
@@ -354,14 +388,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-heracross-in-mega-raids-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Mega Heracross in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-heracross-in-mega-raids-april-2024/
 URL:https://leekduck.com/events/mega-heracross-in-mega-raids-april-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;VALUE=DATE:20240413
-DTEND;VALUE=DATE:20240425
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240413
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240425
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Mega Heracross in Mega Raids
@@ -370,15 +404,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tapu-bulu-in-5-star-raid-battles-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Tapu Bulu in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /tapu-bulu-in-5-star-raid-battles-april-2024/
 URL:https://leekduck.com/events/tapu-bulu-in-5-star-raid-battles-april-2024
  /
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/tapu-bulu.jpg
-DTSTART;VALUE=DATE:20240412
-DTEND;VALUE=DATE:20240425
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240412
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240425
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Tapu Bulu in 5-star Raid Battles
@@ -387,7 +421,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-world-of-wonders_great-league_ultra-league_master-league-split-2
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | World of Wo
  nders
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -396,8 +430,8 @@ URL:https://leekduck.com/events/gbl-world-of-wonders_great-league_ultra-lea
  gue_master-league-split-2/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-battle-league-sea
  son-18-world-of-wonder.jpg
-DTSTART;VALUE=DATE:20240419
-DTEND;VALUE=DATE:20240426
+DTSTART;TZID=Z;VALUE=DATE:20240419
+DTEND;TZID=Z;VALUE=DATE:20240426
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Great League\, Ultra League\, and Master League | World o
@@ -407,15 +441,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sustainability-week-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[E] Sustainability Week 2024
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /sustainability-week-2024/
 URL:https://leekduck.com/events/sustainability-week-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
  pg
-DTSTART;VALUE=DATE:20240422
-DTEND;VALUE=DATE:20240426
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240422
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240426
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Sustainability Week 2024
@@ -424,7 +458,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-entei-in-shadow-raids-world-of-wonder
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Shadow Entei in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-entei-in-shadow-raids-world-of-wonder/
@@ -432,8 +466,8 @@ URL:https://leekduck.com/events/shadow-entei-in-shadow-raids-world-of-wonde
  r/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
  pg
-DTSTART;VALUE=DATE:20240406
-DTEND;VALUE=DATE:20240427
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240406
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240427
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Shadow Entei in Shadow Raids
@@ -442,15 +476,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-hatch-day
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[E] Unannounced Hatch Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-hatch-day/
 URL:https://leekduck.com/events/unannounced-hatch-day/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
  pg
-DTSTART:20240428T140000
-DTEND:20240428T170000
+DTSTART;TZID=Australia/Sydney:20240428T140000
+DTEND;TZID=Australia/Sydney:20240428T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Unannounced Hatch Day
@@ -459,15 +493,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-04-30
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[PSH] Clefairy Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-04-30/
 URL:https://leekduck.com/events/pokemonspotlighthour2024-04-30/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
  .jpg
-DTSTART:20240430T180000
-DTEND:20240430T190000
+DTSTART;TZID=Australia/Sydney:20240430T180000
+DTEND;TZID=Australia/Sydney:20240430T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Clefairy Spotlight Hour
@@ -476,14 +510,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20240501
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RH] Registeel Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240501/
 URL:https://leekduck.com/events/raidhour20240501/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
-DTSTART:20240501T180000
-DTEND:20240501T190000
+DTSTART;TZID=Australia/Sydney:20240501T180000
+DTEND;TZID=Australia/Sydney:20240501T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Registeel Raid Hour
@@ -492,14 +526,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-aggron-in-mega-raids-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Mega Aggron in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-aggron-in-mega-raids-april-2024/
 URL:https://leekduck.com/events/mega-aggron-in-mega-raids-april-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;VALUE=DATE:20240425
-DTEND;VALUE=DATE:20240502
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240425
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240502
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Mega Aggron in Mega Raids
@@ -508,15 +542,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:registeel-in-5-star-raid-battles-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Registeel in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /registeel-in-5-star-raid-battles-april-2024/
 URL:https://leekduck.com/events/registeel-in-5-star-raid-battles-april-2024
  /
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/registeel.jpg
-DTSTART;VALUE=DATE:20240425
-DTEND;VALUE=DATE:20240502
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240425
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240502
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Registeel in 5-star Raid Battles
@@ -525,7 +559,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-world-of-wonders_great-league_master-premier
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[GBL] Great League and Master Premier | World of Wonders
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /gbl-world-of-wonders_great-league_master-premier/
@@ -533,8 +567,8 @@ URL:https://leekduck.com/events/gbl-world-of-wonders_great-league_master-pr
  emier/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/gobattle-greatleague
  -key.jpg
-DTSTART;VALUE=DATE:20240426
-DTEND;VALUE=DATE:20240503
+DTSTART;TZID=Z;VALUE=DATE:20240426
+DTEND;TZID=Z;VALUE=DATE:20240503
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Great League and Master Premier | World of Wonders
@@ -543,15 +577,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-battle-week-world-of-wonder
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[E] GO Battle Week: World of Wonder
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /go-battle-week-world-of-wonder/
 URL:https://leekduck.com/events/go-battle-week-world-of-wonder/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-battle-league-sea
  son-18-world-of-wonder.jpg
-DTSTART;VALUE=DATE:20240504
-DTEND;VALUE=DATE:20240505
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240504
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240505
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] GO Battle Week: World of Wonder
@@ -560,7 +594,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-world-of-wonders_ultra-league_great-league-remix
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[GBL] Ultra League and Great League Remix | World of Wonders
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /gbl-world-of-wonders_ultra-league_great-league-remix/
@@ -568,8 +602,8 @@ URL:https://leekduck.com/events/gbl-world-of-wonders_ultra-league_great-lea
  gue-remix/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-battle-league-ult
  ra-league-machamp-swampert.jpg
-DTSTART;VALUE=DATE:20240503
-DTEND;VALUE=DATE:20240510
+DTSTART;TZID=Z;VALUE=DATE:20240503
+DTEND;TZID=Z;VALUE=DATE:20240510
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Ultra League and Great League Remix | World of Wonders
@@ -578,15 +612,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-season18-event-may-11
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[E] Unannounced Event on May 11
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-season18-event-may-11/
 URL:https://leekduck.com/events/unannounced-season18-event-may-11/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
  pg
-DTSTART:20240511T140000
-DTEND:20240511T170000
+DTSTART;TZID=Australia/Sydney:20240511T140000
+DTEND;TZID=Australia/Sydney:20240511T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Unannounced Event on May 11
@@ -595,7 +629,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-world-of-wonders_master-league_great-league-remix-copy
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[GBL] Master League and Great League Remix | World of Wonders
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /gbl-world-of-wonders_master-league_great-league-remix-copy/
@@ -603,8 +637,8 @@ URL:https://leekduck.com/events/gbl-world-of-wonders_master-league_great-le
  ague-remix-copy/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/gobattleleague-maste
  r-key.jpg
-DTSTART;VALUE=DATE:20240510
-DTEND;VALUE=DATE:20240517
+DTSTART;TZID=Z;VALUE=DATE:20240510
+DTEND;TZID=Z;VALUE=DATE:20240517
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Master League and Great League Remix | World of Wonders
@@ -613,14 +647,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:may-communityday2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[CD] May Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /may-communityday2024/
 URL:https://leekduck.com/events/may-communityday2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-default.jpg
-DTSTART:20240519T140000
-DTEND:20240519T170000
+DTSTART;TZID=Australia/Sydney:20240519T140000
+DTEND;TZID=Australia/Sydney:20240519T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[CD] May Community Day
@@ -630,7 +664,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-world-of-wonders_catch-cup-little-edition_catch-cup-great-league-ed
  ition
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[GBL] Catch Cup: Little Edition and Catch Cup: Great League Edition
   | World of Wonders
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -640,8 +674,8 @@ URL:https://leekduck.com/events/gbl-world-of-wonders_catch-cup-little-editi
  on_catch-cup-great-league-edition/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/gobattle-greatleague
  -key.jpg
-DTSTART;VALUE=DATE:20240517
-DTEND;VALUE=DATE:20240524
+DTSTART;TZID=Z;VALUE=DATE:20240517
+DTEND;TZID=Z;VALUE=DATE:20240524
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Catch Cup: Little Edition and Catch Cup: Great League Edi
@@ -651,7 +685,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-world-of-wonders_great-league_ultra-league_master-league-split-3
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | World of Wo
  nders
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -660,8 +694,8 @@ URL:https://leekduck.com/events/gbl-world-of-wonders_great-league_ultra-lea
  gue_master-league-split-3/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-battle-league-sea
  son-18-world-of-wonder.jpg
-DTSTART;VALUE=DATE:20240524
-DTEND;VALUE=DATE:20240531
+DTSTART;TZID=Z;VALUE=DATE:20240524
+DTEND;TZID=Z;VALUE=DATE:20240531
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Great League\, Ultra League\, and Master League | World o
@@ -671,15 +705,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:season-14-world-of-wonders
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[S] World of Wonders
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /season-14-world-of-wonders/
 URL:https://leekduck.com/events/season-14-world-of-wonders/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/season-14-world-of-w
  onder.jpg
-DTSTART;VALUE=DATE:20240301
-DTEND;VALUE=DATE:20240601
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240301
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240601
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[S] World of Wonders
@@ -688,7 +722,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:season-14-world-of-wonders-research-breakthrough
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RBT] World of Wonders Research Breakthrough
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /season-14-world-of-wonders-research-breakthrough/
@@ -696,8 +730,8 @@ URL:https://leekduck.com/events/season-14-world-of-wonders-research-breakth
  rough/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/SpringResearchBreakt
  hrough.jpg
-DTSTART;VALUE=DATE:20240301
-DTEND;VALUE=DATE:20240601
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240301
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240601
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RBT] World of Wonders Research Breakthrough
@@ -706,15 +740,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-fest-2024-sendai-japan
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[PGF] Pokémon GO Fest 2024: Sendai\, Japan
 DESCRIPTION:Starts at 00:30\, ends at 09:30.\n\nhttps://leekduck.com/events
  /pokemon-go-fest-2024-sendai-japan/
 URL:https://leekduck.com/events/pokemon-go-fest-2024-sendai-japan/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemon-go-fest-2024
  -sendai-japan-key.jpg
-DTSTART;VALUE=DATE:20240530
-DTEND;VALUE=DATE:20240602
+DTSTART;TZID=Z;VALUE=DATE:20240530
+DTEND;TZID=Z;VALUE=DATE:20240602
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PGF] Pokémon GO Fest 2024: Sendai\, Japan
@@ -723,15 +757,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:the-wonder-ticket
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[T] The Wonder Ticket
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /the-wonder-ticket/
 URL:https://leekduck.com/events/the-wonder-ticket/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/wonder-ticket-part2.
  jpg
-DTSTART;VALUE=DATE:20240301
-DTEND;VALUE=DATE:20240614
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240301
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240614
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[T] The Wonder Ticket
@@ -740,15 +774,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-fest-2024-madrid-spain
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[PGF] Pokémon GO Fest 2024: Madrid\, Spain
 DESCRIPTION:Starts at 07:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /pokemon-go-fest-2024-madrid-spain/
 URL:https://leekduck.com/events/pokemon-go-fest-2024-madrid-spain/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemon-go-fest-2024
  -madrid-spain-key.jpg
-DTSTART;VALUE=DATE:20240614
-DTEND;VALUE=DATE:20240616
+DTSTART;TZID=Z;VALUE=DATE:20240614
+DTEND;TZID=Z;VALUE=DATE:20240616
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PGF] Pokémon GO Fest 2024: Madrid\, Spain
@@ -757,15 +791,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-fest-2024-new-york-city-usa
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[PGF] Pokémon GO Fest 2024: New York City\, USA
 DESCRIPTION:Starts at 16:00\, ends at 02:00.\n\nhttps://leekduck.com/events
  /pokemon-go-fest-2024-new-york-city-usa/
 URL:https://leekduck.com/events/pokemon-go-fest-2024-new-york-city-usa/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemon-go-fest-2024
  -new-york-city-usa-key.jpg
-DTSTART;VALUE=DATE:20240705
-DTEND;VALUE=DATE:20240708
+DTSTART;TZID=Z;VALUE=DATE:20240705
+DTEND;TZID=Z;VALUE=DATE:20240708
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PGF] Pokémon GO Fest 2024: New York City\, USA
@@ -774,15 +808,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-fest-2024-global
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[PGF] Pokémon GO Fest 2024: Global
 DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
  /pokemon-go-fest-2024-global/
 URL:https://leekduck.com/events/pokemon-go-fest-2024-global/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemon-go-fest-2024
  -global-key.jpg
-DTSTART;VALUE=DATE:20240713
-DTEND;VALUE=DATE:20240714
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240713
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240714
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PGF] Pokémon GO Fest 2024: Global

@@ -9,9 +9,35 @@ X-WR-CALDESC:All Pokémon GO Raid Battles events\, in your local time\, aut
  o-updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:DAYLIGHT
+DTSTART:20231001T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20240407T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20241006T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:20230710T161742Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:kartana-celesteela-in-5-star-raid-battles-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Kartana and Celesteela in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /kartana-celesteela-in-5-star-raid-battles-april-2024/
@@ -19,8 +45,8 @@ URL:https://leekduck.com/events/kartana-celesteela-in-5-star-raid-battles-a
  pril-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/celesteela-and-karta
  na-ultra-beast.jpg
-DTSTART;VALUE=DATE:20240404
-DTEND;VALUE=DATE:20240412
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240404
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240412
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Kartana and Celesteela in 5-star Raid Battles
@@ -29,14 +55,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-charizard-x-in-mega-raids-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Mega Charizard X in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-charizard-x-in-mega-raids-april-2024/
 URL:https://leekduck.com/events/mega-charizard-x-in-mega-raids-april-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;VALUE=DATE:20240404
-DTEND;VALUE=DATE:20240413
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240404
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240413
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Mega Charizard X in Mega Raids
@@ -45,14 +71,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-heracross-in-mega-raids-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Mega Heracross in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-heracross-in-mega-raids-april-2024/
 URL:https://leekduck.com/events/mega-heracross-in-mega-raids-april-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;VALUE=DATE:20240413
-DTEND;VALUE=DATE:20240425
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240413
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240425
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Mega Heracross in Mega Raids
@@ -61,15 +87,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tapu-bulu-in-5-star-raid-battles-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Tapu Bulu in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /tapu-bulu-in-5-star-raid-battles-april-2024/
 URL:https://leekduck.com/events/tapu-bulu-in-5-star-raid-battles-april-2024
  /
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/tapu-bulu.jpg
-DTSTART;VALUE=DATE:20240412
-DTEND;VALUE=DATE:20240425
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240412
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240425
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Tapu Bulu in 5-star Raid Battles
@@ -78,7 +104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-entei-in-shadow-raids-world-of-wonder
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Shadow Entei in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-entei-in-shadow-raids-world-of-wonder/
@@ -86,8 +112,8 @@ URL:https://leekduck.com/events/shadow-entei-in-shadow-raids-world-of-wonde
  r/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
  pg
-DTSTART;VALUE=DATE:20240406
-DTEND;VALUE=DATE:20240427
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240406
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240427
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Shadow Entei in Shadow Raids
@@ -96,14 +122,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-aggron-in-mega-raids-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Mega Aggron in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-aggron-in-mega-raids-april-2024/
 URL:https://leekduck.com/events/mega-aggron-in-mega-raids-april-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;VALUE=DATE:20240425
-DTEND;VALUE=DATE:20240502
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240425
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240502
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Mega Aggron in Mega Raids
@@ -112,15 +138,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:registeel-in-5-star-raid-battles-april-2024
-DTSTAMP:20240405T160815Z
+DTSTAMP:20240405T161742Z
 SUMMARY:[RB] Registeel in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /registeel-in-5-star-raid-battles-april-2024/
 URL:https://leekduck.com/events/registeel-in-5-star-raid-battles-april-2024
  /
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/registeel.jpg
-DTSTART;VALUE=DATE:20240425
-DTEND;VALUE=DATE:20240502
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240425
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240502
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Registeel in 5-star Raid Battles
