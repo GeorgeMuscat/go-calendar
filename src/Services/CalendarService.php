@@ -22,7 +22,7 @@ class CalendarService
     public const EVERYTHING_CALENDAR_KEY = 'everything';
 
     /**
-     * Timezone identifier to act as the local timezone.
+     * Timezone identifier to set the local timezone.
      */
     public const TIMEZONE = 'Australia/Sydney';
 
