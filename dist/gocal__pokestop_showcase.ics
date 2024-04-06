@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230710T165354Z
+DTSTART:20230711T010937Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-showcase-tynamo-wailmer-2024-04-03
-DTSTAMP:20240405T165354Z
+DTSTAMP:20240406T010937Z
 SUMMARY:[PS] Tynamo and Wailmer PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-tynamo-wailmer-2024-04-03/
@@ -49,6 +49,24 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20240405
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Tynamo and Wailmer PokéStop Showcases
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-showcase-bagon-salamence-2024-04-06
+DTSTAMP:20240406T010937Z
+SUMMARY:[PS] Bagon and Salamence PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-bagon-salamence-2024-04-06/
+URL:https://leekduck.com/events/pokemon-showcase-bagon-salamence-2024-04-06
+ /
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
+ efault.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240406
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240407
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Bagon and Salamence PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
