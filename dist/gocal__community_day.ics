@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230713T011254Z
+DTSTART:20230714T011200Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:april-communitydayclassic2024
-DTSTAMP:20240408T011254Z
-SUMMARY:[CD] Bagon Community Day Classic
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /april-communitydayclassic2024/
-URL:https://leekduck.com/events/april-communitydayclassic2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-2024-classic-apri
- l-bagon.jpg
-DTSTART;TZID=Australia/Sydney:20240407T140000
-DTEND;TZID=Australia/Sydney:20240407T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] Bagon Community Day Classic
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:april-communityday2024
-DTSTAMP:20240408T011254Z
+DTSTAMP:20240409T011200Z
 SUMMARY:[CD] Bellsprout Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /april-communityday2024/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:may-communityday2024
-DTSTAMP:20240408T011254Z
+DTSTAMP:20240409T011200Z
 SUMMARY:[CD] May Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /may-communityday2024/

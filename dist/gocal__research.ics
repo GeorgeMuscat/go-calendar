@@ -10,22 +10,6 @@ X-WR-CALDESC:All Pokémon GO Research events\, in your local time\, auto-up
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
-TZID:Z
-BEGIN:STANDARD
-DTSTART:20230710T080000Z
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
-TZID:UTC
-BEGIN:STANDARD
-DTSTART:20230713T011254Z
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
 TZID:Australia/Sydney
 BEGIN:DAYLIGHT
 DTSTART:20231001T020000Z
@@ -43,27 +27,17 @@ TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
 END:VTIMEZONE
-BEGIN:VEVENT
-UID:pokemon-europe-international-championships-2024-timed-research
-DTSTAMP:20240408T011254Z
-SUMMARY:[R] 2024 Pokémon Europe International Championships
-DESCRIPTION:Starts at 08:00\, ends at 15:00.\n\nhttps://leekduck.com/events
- /pokemon-europe-international-championships-2024-timed-research/
-URL:https://leekduck.com/events/pokemon-europe-international-championships-
- 2024-timed-research/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/europe-international
- -championships-2024.jpg
-DTSTART;TZID=Z;VALUE=DATE:20240405
-DTEND;TZID=Z;VALUE=DATE:20240407
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[R] 2024 Pokémon Europe International Championships
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:20230714T011200Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:amazon-prime-partner-research-world-of-wonders
-DTSTAMP:20240408T011254Z
+DTSTAMP:20240409T011200Z
 SUMMARY:[R] Limited-time Partner Research: Amazon Prime Gaming
 DESCRIPTION:Starts at 16:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /amazon-prime-partner-research-world-of-wonders/
