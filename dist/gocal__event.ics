@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230715T011102Z
+DTSTART:20230716T011239Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:sizeable-surprises
-DTSTAMP:20240410T011102Z
-SUMMARY:[E] Sizeable Surprises
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /sizeable-surprises/
-URL:https://leekduck.com/events/sizeable-surprises/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/sizeable-surprises.j
- pg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240404
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240409
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Sizeable Surprises
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:bug-out-2024
-DTSTAMP:20240410T011102Z
+DTSTAMP:20240411T011239Z
 SUMMARY:[E] Bug Out 2024
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /bug-out-2024/
@@ -70,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sustainability-week-2024
-DTSTAMP:20240410T011102Z
+DTSTAMP:20240411T011239Z
 SUMMARY:[E] Sustainability Week 2024
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /sustainability-week-2024/
@@ -87,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-hatch-day
-DTSTAMP:20240410T011102Z
+DTSTAMP:20240411T011239Z
 SUMMARY:[E] Unannounced Hatch Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-hatch-day/
@@ -104,7 +87,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-battle-week-world-of-wonder
-DTSTAMP:20240410T011102Z
+DTSTAMP:20240411T011239Z
 SUMMARY:[E] GO Battle Week: World of Wonder
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /go-battle-week-world-of-wonder/
@@ -121,7 +104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-season18-event-may-11
-DTSTAMP:20240410T011102Z
+DTSTAMP:20240411T011239Z
 SUMMARY:[E] Unannounced Event on May 11
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-season18-event-may-11/

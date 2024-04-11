@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230715T011102Z
+DTSTART:20230716T011239Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemonspotlighthour2024-04-09
-DTSTAMP:20240410T011102Z
-SUMMARY:[PSH] Croagunk Spotlight Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2024-04-09/
-URL:https://leekduck.com/events/pokemonspotlighthour2024-04-09/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
- .jpg
-DTSTART;TZID=Australia/Sydney:20240409T180000
-DTEND;TZID=Australia/Sydney:20240409T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Croagunk Spotlight Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemonspotlighthour2024-04-16
-DTSTAMP:20240410T011102Z
+DTSTAMP:20240411T011239Z
 SUMMARY:[PSH] Caterpie\, Weedle\, and Wurmple Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-04-16/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-04-23
-DTSTAMP:20240410T011102Z
+DTSTAMP:20240411T011239Z
 SUMMARY:[PSH] Trubbish Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-04-23/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-04-30
-DTSTAMP:20240410T011102Z
+DTSTAMP:20240411T011239Z
 SUMMARY:[PSH] Clefairy Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-04-30/
