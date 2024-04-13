@@ -30,26 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230713T011254Z
+DTSTART:20230718T005936Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-bagon-salamence-2024-04-06
-DTSTAMP:20240408T011254Z
-SUMMARY:[PS] Bagon and Salamence PokéStop Showcases
+UID:pokemon-showcase-heracross-2024-04-13
+DTSTAMP:20240413T005936Z
+SUMMARY:[PS] Heracross PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-bagon-salamence-2024-04-06/
-URL:https://leekduck.com/events/pokemon-showcase-bagon-salamence-2024-04-06
- /
+ /pokemon-showcase-heracross-2024-04-13/
+URL:https://leekduck.com/events/pokemon-showcase-heracross-2024-04-13/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240406
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240407
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240413
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240414
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Bagon and Salamence PokéStop Showcases
+DESCRIPTION:[PS] Heracross PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
