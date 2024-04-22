@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230726T011731Z
+DTSTART:20230727T011428Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-bug-type-2024-04-17
-DTSTAMP:20240421T011731Z
-SUMMARY:[PS] Bug-type PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-bug-type-2024-04-17/
-URL:https://leekduck.com/events/pokemon-showcase-bug-type-2024-04-17/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
- efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240417
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240419
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Bug-type PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-bellsprout-victreebel-2024-04-20
-DTSTAMP:20240421T011731Z
+DTSTAMP:20240422T011428Z
 SUMMARY:[PS] Bellsprout and Victreebel PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-bellsprout-victreebel-2024-04-20/
