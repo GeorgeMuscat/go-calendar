@@ -30,26 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230802T011823Z
+DTSTART:20230805T011828Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-cleffa-clefairy-2024-04-27
-DTSTAMP:20240428T011823Z
-SUMMARY:[PS] Cleffa and Clefairy PokéStop Showcases
+UID:pokemon-showcase-rock-type-2024-05-01
+DTSTAMP:20240501T011828Z
+SUMMARY:[PS] Rock-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-cleffa-clefairy-2024-04-27/
-URL:https://leekduck.com/events/pokemon-showcase-cleffa-clefairy-2024-04-27
- /
+ /pokemon-showcase-rock-type-2024-05-01/
+URL:https://leekduck.com/events/pokemon-showcase-rock-type-2024-05-01/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240426
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240427
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240501
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240503
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Cleffa and Clefairy PokéStop Showcases
+DESCRIPTION:[PS] Rock-type PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

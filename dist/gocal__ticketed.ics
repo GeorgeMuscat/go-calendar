@@ -30,19 +30,19 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230804T011306Z
+DTSTART:20230805T011828Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:the-wonder-ticket
-DTSTAMP:20240430T011306Z
+DTSTAMP:20240501T011828Z
 SUMMARY:[T] The Wonder Ticket
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /the-wonder-ticket/
 URL:https://leekduck.com/events/the-wonder-ticket/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/wonder-ticket-part2.
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/wonder-ticket-part3.
  jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240301
 DTEND;TZID=Australia/Sydney;VALUE=DATE:20240614
