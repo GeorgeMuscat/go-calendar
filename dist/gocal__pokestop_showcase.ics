@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230807T011626Z
+DTSTART:20230808T011301Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-showcase-rock-type-2024-05-01
-DTSTAMP:20240503T011626Z
+DTSTAMP:20240504T011301Z
 SUMMARY:[PS] Rock-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-rock-type-2024-05-01/
@@ -49,6 +49,23 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20240503
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Rock-type PokéStop Showcases
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-showcase-throh-sawk-2024-05-04
+DTSTAMP:20240504T011301Z
+SUMMARY:[PS] Throh and Sawk PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-throh-sawk-2024-05-04/
+URL:https://leekduck.com/events/pokemon-showcase-throh-sawk-2024-05-04/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
+ efault.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240504
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240505
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Throh and Sawk PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
