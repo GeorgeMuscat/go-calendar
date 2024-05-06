@@ -30,7 +30,7 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230809T011831Z
+DTSTART:20230810T011526Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
@@ -45,7 +45,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:go-battle-week-world-of-wonders
-DTSTAMP:20240505T011831Z
+DTSTAMP:20240506T011526Z
 SUMMARY:[E] GO Battle Weekend: World of Wonders
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /go-battle-week-world-of-wonders/
@@ -62,7 +62,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rediscover-kanto
-DTSTAMP:20240505T011831Z
+DTSTAMP:20240506T011526Z
 SUMMARY:[E] Rediscover Kanto
 DESCRIPTION:Starts at 17:00\, ends at 03:00.\n\nhttps://leekduck.com/events
  /rediscover-kanto/
@@ -78,7 +78,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:rivals-week-2024
-DTSTAMP:20240505T011831Z
+DTSTAMP:20240506T011526Z
 SUMMARY:[E] Rivals Week 2024
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /rivals-week-2024/
@@ -94,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catching-wonders
-DTSTAMP:20240505T011831Z
+DTSTAMP:20240506T011526Z
 SUMMARY:[E] Catching Wonders
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /catching-wonders/
@@ -111,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-may-2024-incense-day
-DTSTAMP:20240505T011831Z
+DTSTAMP:20240506T011526Z
 SUMMARY:[E] Unannounced Incense Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-may-2024-incense-day/
@@ -128,7 +128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ultra-space-wonders
-DTSTAMP:20240505T011831Z
+DTSTAMP:20240506T011526Z
 SUMMARY:[E] Ultra Space Wonders
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /ultra-space-wonders/
