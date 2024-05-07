@@ -30,24 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230810T011526Z
+DTSTART:20230811T011457Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:may-communityday2024
-DTSTAMP:20240506T011526Z
-SUMMARY:[CD] May Community Day
+DTSTAMP:20240507T011457Z
+SUMMARY:[CD] Bounsweet Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /may-communityday2024/
 URL:https://leekduck.com/events/may-communityday2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-default.jpg
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-2024-05-bounsweet
+ -temp.jpg
 DTSTART;TZID=Australia/Sydney:20240519T140000
 DTEND;TZID=Australia/Sydney:20240519T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] May Community Day
+DESCRIPTION:[CD] Bounsweet Community Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
