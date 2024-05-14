@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230817T011703Z
+DTSTART:20230818T011520Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:catching-wonders
-DTSTAMP:20240513T011703Z
+DTSTAMP:20240514T011520Z
 SUMMARY:[E] Catching Wonders
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /catching-wonders/
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-may-2024-incense-day
-DTSTAMP:20240513T011703Z
+DTSTAMP:20240514T011520Z
 SUMMARY:[E] Unannounced Incense Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-may-2024-incense-day/
@@ -71,13 +71,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ultra-space-wonders
-DTSTAMP:20240513T011703Z
+DTSTAMP:20240514T011520Z
 SUMMARY:[E] Ultra Space Wonders
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /ultra-space-wonders/
 URL:https://leekduck.com/events/ultra-space-wonders/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
- pg
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/ultra-space-wonders-
+ event.jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240523
 DTEND;TZID=Australia/Sydney;VALUE=DATE:20240528
 BEGIN:VALARM
