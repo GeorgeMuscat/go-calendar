@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230819T011610Z
+DTSTART:20230820T011548Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemonspotlighthour2024-05-14
-DTSTAMP:20240515T011610Z
-SUMMARY:[PSH] Abra Spotlight Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2024-05-14/
-URL:https://leekduck.com/events/pokemonspotlighthour2024-05-14/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
- .jpg
-DTSTART;TZID=Australia/Sydney:20240514T180000
-DTEND;TZID=Australia/Sydney:20240514T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Abra Spotlight Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemonspotlighthour2024-05-21
-DTSTAMP:20240515T011610Z
+DTSTAMP:20240516T011548Z
 SUMMARY:[PSH] Elgyem Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-05-21/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-05-28
-DTSTAMP:20240515T011610Z
+DTSTAMP:20240516T011548Z
 SUMMARY:[PSH] Mareanie Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-05-28/
