@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230823T012049Z
+DTSTART:20230824T011624Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:catching-wonders
-DTSTAMP:20240519T012049Z
+DTSTAMP:20240520T011624Z
 SUMMARY:[E] Catching Wonders - Masterball Masterwork Research
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /catching-wonders/
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ferroseed-incense-day
-DTSTAMP:20240519T012049Z
+DTSTAMP:20240520T011624Z
 SUMMARY:[E] Ferroseed Incense Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /ferroseed-incense-day/
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ultra-space-wonders
-DTSTAMP:20240519T012049Z
+DTSTAMP:20240520T011624Z
 SUMMARY:[E] Ultra Space Wonders
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /ultra-space-wonders/
