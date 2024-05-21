@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230824T011624Z
+DTSTART:20230825T011554Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:catching-wonders
-DTSTAMP:20240520T011624Z
-SUMMARY:[E] Catching Wonders - Masterball Masterwork Research
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /catching-wonders/
-URL:https://leekduck.com/events/catching-wonders/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/catching-wonders-mas
- terball.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240514
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240519
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Catching Wonders - Masterball Masterwork Research
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ferroseed-incense-day
-DTSTAMP:20240520T011624Z
+DTSTAMP:20240521T011554Z
 SUMMARY:[E] Ferroseed Incense Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /ferroseed-incense-day/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ultra-space-wonders
-DTSTAMP:20240520T011624Z
+DTSTAMP:20240521T011554Z
 SUMMARY:[E] Ultra Space Wonders
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /ultra-space-wonders/
@@ -83,6 +66,57 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20240528
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Ultra Space Wonders
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unannounced-raid-day-season15
+DTSTAMP:20240521T011554Z
+SUMMARY:[E] Unannounced Raid Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /unannounced-raid-day-season15/
+URL:https://leekduck.com/events/unannounced-raid-day-season15/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney:20240629T140000
+DTEND;TZID=Australia/Sydney:20240629T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Unannounced Raid Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unannounced-season15-event
+DTSTAMP:20240521T011554Z
+SUMMARY:[E] Unannounced Event
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /unannounced-season15-event/
+URL:https://leekduck.com/events/unannounced-season15-event/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney:20240727T100000
+DTEND;TZID=Australia/Sydney:20240727T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Unannounced Event
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unannounced-shadow-raid-weekend-season15
+DTSTAMP:20240521T011554Z
+SUMMARY:[E] Unannounced Shadow Raid Weekend
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /unannounced-shadow-raid-weekend-season15/
+URL:https://leekduck.com/events/unannounced-shadow-raid-weekend-season15/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240810
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240811
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Unannounced Shadow Raid Weekend
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
