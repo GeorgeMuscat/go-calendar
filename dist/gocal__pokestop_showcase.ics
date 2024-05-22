@@ -30,26 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230824T011624Z
+DTSTART:20230826T011631Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-bounsweet-tsareena-2024-05-18
-DTSTAMP:20240520T011624Z
-SUMMARY:[PS] Bounsweet and Tsareena PokéStop Showcases
+UID:pokemon-showcase-mareanie-2024-05-22
+DTSTAMP:20240522T011631Z
+SUMMARY:[PS] Mareanie PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-bounsweet-tsareena-2024-05-18/
-URL:https://leekduck.com/events/pokemon-showcase-bounsweet-tsareena-2024-05
- -18/
+ /pokemon-showcase-mareanie-2024-05-22/
+URL:https://leekduck.com/events/pokemon-showcase-mareanie-2024-05-22/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240518
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240519
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240522
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240524
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Bounsweet and Tsareena PokéStop Showcases
+DESCRIPTION:[PS] Mareanie PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
