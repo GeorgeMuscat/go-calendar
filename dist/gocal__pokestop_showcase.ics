@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230828T011618Z
+DTSTART:20230829T011500Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-showcase-mareanie-2024-05-22
-DTSTAMP:20240524T011618Z
+DTSTAMP:20240525T011500Z
 SUMMARY:[PS] Mareanie PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-mareanie-2024-05-22/
@@ -49,6 +49,23 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20240524
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Mareanie PokéStop Showcases
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-showcase-ferroseed-2024-05-25
+DTSTAMP:20240525T011500Z
+SUMMARY:[PS] Ferroseed PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-ferroseed-2024-05-25/
+URL:https://leekduck.com/events/pokemon-showcase-ferroseed-2024-05-25/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
+ efault.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240525
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240526
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Ferroseed PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
