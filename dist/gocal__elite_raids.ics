@@ -9,19 +9,40 @@ X-WR-CALDESC:All Pokémon GO Elite Raids events\, in your local time\, auto
  -updated and sourced from Leek Duck.
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:STANDARD
+DTSTART:20240407T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20241006T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:20230902T012013Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-UID:elite-raids-enamorus-february-2024
-DTSTAMP:20240214T001951Z
-SUMMARY:[ER] Enamorus in Elite Raids
-DESCRIPTION:Starts at 12:00\, ends at 18:45.\n\nhttps://leekduck.com/events
- /elite-raids-enamorus-february-2024/
-URL:https://leekduck.com/events/elite-raids-enamorus-february-2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/enamorus-key.jpg
-DTSTART:20240214T120000
-DTEND:20240214T184500
+UID:elite-raid-mega-rayquaza-june
+DTSTAMP:20240529T012013Z
+SUMMARY:[ER] Mega Rayquaza in Elite Raids
+DESCRIPTION:Starts at 12:00\, ends at 18:00.\n\nhttps://leekduck.com/events
+ /elite-raid-mega-rayquaza-june/
+URL:https://leekduck.com/events/elite-raid-mega-rayquaza-june/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-rayquaza.jpg
+DTSTART;TZID=Australia/Sydney:20240629T120000
+DTEND;TZID=Australia/Sydney:20240629T180000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[ER] Enamorus in Elite Raids
+DESCRIPTION:[ER] Mega Rayquaza in Elite Raids
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
