@@ -30,32 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230905T012153Z
+DTSTART:20230906T012210Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:season-14-world-of-wonders-research-breakthrough
-DTSTAMP:20240601T012153Z
-SUMMARY:[RBT] World of Wonders Research Breakthrough
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /season-14-world-of-wonders-research-breakthrough/
-URL:https://leekduck.com/events/season-14-world-of-wonders-research-breakth
- rough/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/SpringResearchBreakt
- hrough.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240301
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240601
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RBT] World of Wonders Research Breakthrough
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:season-15-shared-skies-research-breakthrough
-DTSTAMP:20240601T012153Z
+DTSTAMP:20240602T012210Z
 SUMMARY:[RBT] Shared Skies Research Breakthrough
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /season-15-shared-skies-research-breakthrough/
