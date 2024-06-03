@@ -30,25 +30,42 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230831T011735Z
+DTSTART:20230907T011851Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-ferroseed-2024-05-25
-DTSTAMP:20240527T011735Z
-SUMMARY:[PS] Ferroseed PokéStop Showcases
+UID:pokemon-showcase-emolga-2024-06-01
+DTSTAMP:20240603T011851Z
+SUMMARY:[PS] Emolga PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-ferroseed-2024-05-25/
-URL:https://leekduck.com/events/pokemon-showcase-ferroseed-2024-05-25/
+ /pokemon-showcase-emolga-2024-06-01/
+URL:https://leekduck.com/events/pokemon-showcase-emolga-2024-06-01/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240525
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240526
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240601
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240602
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Ferroseed PokéStop Showcases
+DESCRIPTION:[PS] Emolga PokéStop Showcases
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-showcase-flying-type-2024-06-03
+DTSTAMP:20240603T011851Z
+SUMMARY:[PS] Flying-type PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-flying-type-2024-06-03/
+URL:https://leekduck.com/events/pokemon-showcase-flying-type-2024-06-03/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
+ efault.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240603
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240604
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Flying-type PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
