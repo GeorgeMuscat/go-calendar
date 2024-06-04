@@ -20,14 +20,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230907T011851Z
+DTSTART:20230908T011820Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:gbl-shared-skies_great-league_electric-cup-great-league-edition
-DTSTAMP:20240603T011851Z
+DTSTAMP:20240604T011820Z
 SUMMARY:[GBL] Great League and Ultra Premier | Shared Skies
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /gbl-shared-skies_great-league_electric-cup-great-league-edition/
