@@ -20,14 +20,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230911T012011Z
+DTSTART:20230912T011752Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-north-america-international-championships-2024-timed-research
-DTSTAMP:20240607T012011Z
+DTSTAMP:20240608T011752Z
 SUMMARY:[R] 2024 Pokémon North American International Championships
 DESCRIPTION:Starts at 13:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /pokemon-north-america-international-championships-2024-timed-research/

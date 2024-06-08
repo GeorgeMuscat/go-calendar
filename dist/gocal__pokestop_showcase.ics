@@ -30,25 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230909T011753Z
+DTSTART:20230912T011752Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-flying-type-2024-06-03
-DTSTAMP:20240605T011753Z
-SUMMARY:[PS] Flying-type PokéStop Showcases
+UID:pokemon-showcase-goomy-goodra-2024-06-07
+DTSTAMP:20240608T011752Z
+SUMMARY:[PS] Goomy and Goodra PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-flying-type-2024-06-03/
-URL:https://leekduck.com/events/pokemon-showcase-flying-type-2024-06-03/
+ /pokemon-showcase-goomy-goodra-2024-06-07/
+URL:https://leekduck.com/events/pokemon-showcase-goomy-goodra-2024-06-07/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240603
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240604
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240608
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240609
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Flying-type PokéStop Showcases
+DESCRIPTION:[PS] Goomy and Goodra PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
