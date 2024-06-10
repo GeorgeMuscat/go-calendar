@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230913T012443Z
+DTSTART:20230914T012035Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:slumbering-sands
-DTSTAMP:20240609T012443Z
+DTSTAMP:20240610T012035Z
 SUMMARY:[E] Slumbering Sands
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /slumbering-sands/
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:spelunkers-cove
-DTSTAMP:20240609T012443Z
+DTSTAMP:20240610T012035Z
 SUMMARY:[E] Spelunker's Cove
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /spelunkers-cove/
@@ -69,7 +69,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:scorching-steps
-DTSTAMP:20240609T012443Z
+DTSTAMP:20240610T012035Z
 SUMMARY:[E] Scorching Steps
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /scorching-steps/
@@ -85,7 +85,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-8th-anniversary-party
-DTSTAMP:20240609T012443Z
+DTSTAMP:20240610T012035Z
 SUMMARY:[E] 8th Anniversary Party
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-go-8th-anniversary-party/
@@ -102,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-season15-event
-DTSTAMP:20240609T012443Z
+DTSTAMP:20240610T012035Z
 SUMMARY:[E] Unannounced Event
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /unannounced-season15-event/
@@ -119,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-shadow-raid-weekend-season15
-DTSTAMP:20240609T012443Z
+DTSTAMP:20240610T012035Z
 SUMMARY:[E] Unannounced Shadow Raid Weekend
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /unannounced-shadow-raid-weekend-season15/
