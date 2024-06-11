@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230914T012035Z
+DTSTART:20230915T011924Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:mega-gyrados-in-mega-raids-june-2024
-DTSTAMP:20240610T012035Z
+DTSTAMP:20240611T011924Z
 SUMMARY:[RB] Mega Gyarados in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-gyrados-in-mega-raids-june-2024/
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:zapdos-in-5-star-raid-battles-june-2024
-DTSTAMP:20240610T012035Z
+DTSTAMP:20240611T011924Z
 SUMMARY:[RB] Zapdos in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /zapdos-in-5-star-raid-battles-june-2024/
@@ -69,7 +69,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-alakazam-in-mega-raids-june-2024
-DTSTAMP:20240610T012035Z
+DTSTAMP:20240611T011924Z
 SUMMARY:[RB] Mega Alakazam in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-alakazam-in-mega-raids-june-2024/
@@ -85,7 +85,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:incarnate-forme-landorus-in-5-star-raid-battles-june-2024
-DTSTAMP:20240610T012035Z
+DTSTAMP:20240611T011924Z
 SUMMARY:[RB] Incarnate Forme Landorus in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /incarnate-forme-landorus-in-5-star-raid-battles-june-2024/
@@ -103,7 +103,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-charizard-y-in-mega-raids-june-2024
-DTSTAMP:20240610T012035Z
+DTSTAMP:20240611T011924Z
 SUMMARY:[RB] Mega Charizard Y in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-charizard-y-in-mega-raids-june-2024/
@@ -119,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:yveltal-in-5-star-raid-battles-june-2024
-DTSTAMP:20240610T012035Z
+DTSTAMP:20240611T011924Z
 SUMMARY:[RB] Yveltal in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /yveltal-in-5-star-raid-battles-june-2024/
@@ -135,7 +135,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-raikou-in-shadow-raids-shared-skies
-DTSTAMP:20240610T012035Z
+DTSTAMP:20240611T011924Z
 SUMMARY:[RB] Shadow Raikou in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-raikou-in-shadow-raids-shared-skies/
@@ -152,7 +152,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-tyranitar-in-mega-raids-june-2024
-DTSTAMP:20240610T012035Z
+DTSTAMP:20240611T011924Z
 SUMMARY:[RB] Mega Tyranitar in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-tyranitar-in-mega-raids-june-2024/
@@ -168,7 +168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ho-oh-in-5-star-raid-battles-june-2024
-DTSTAMP:20240610T012035Z
+DTSTAMP:20240611T011924Z
 SUMMARY:[RB] Ho-Oh in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /ho-oh-in-5-star-raid-battles-june-2024/
