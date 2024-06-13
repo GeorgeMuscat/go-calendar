@@ -20,7 +20,7 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230916T011914Z
+DTSTART:20230917T011842Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
@@ -40,7 +40,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-go-fest-2024-madrid-spain
-DTSTAMP:20240612T011914Z
+DTSTAMP:20240613T011842Z
 SUMMARY:[PGF] Pokémon GO Fest 2024: Madrid\, Spain
 DESCRIPTION:Starts at 07:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /pokemon-go-fest-2024-madrid-spain/
@@ -57,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-fest-2024-new-york-city-usa
-DTSTAMP:20240612T011914Z
+DTSTAMP:20240613T011842Z
 SUMMARY:[PGF] Pokémon GO Fest 2024: New York City\, USA
 DESCRIPTION:Starts at 16:00\, ends at 02:00.\n\nhttps://leekduck.com/events
  /pokemon-go-fest-2024-new-york-city-usa/
@@ -74,7 +74,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-fest-2024-global
-DTSTAMP:20240612T011914Z
+DTSTAMP:20240613T011842Z
 SUMMARY:[PGF] Pokémon GO Fest 2024: Global
 DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
  /pokemon-go-fest-2024-global/
