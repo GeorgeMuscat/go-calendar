@@ -12,7 +12,7 @@ X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Z
 BEGIN:STANDARD
-DTSTART:20230905T210000Z
+DTSTART:20230911T210000Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
@@ -20,26 +20,28 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230912T011752Z
+DTSTART:20230918T011854Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:gbl-shared-skies_great-league_electric-cup-great-league-edition
-DTSTAMP:20240608T011752Z
-SUMMARY:[GBL] Great League and Ultra Premier | Shared Skies
+UID:gbl-shared-skies_ultra-league_summer-cup-great-league-edition
+DTSTAMP:20240614T011854Z
+SUMMARY:[GBL] Ultra League and Summer Cup: Great League Edition | Shared Sk
+ ies
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/events
- /gbl-shared-skies_great-league_electric-cup-great-league-edition/
-URL:https://leekduck.com/events/gbl-shared-skies_great-league_electric-cup-
- great-league-edition/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/gobattle-greatleague
- -key.jpg
-DTSTART;TZID=Z;VALUE=DATE:20240601
-DTEND;TZID=Z;VALUE=DATE:20240607
+ /gbl-shared-skies_ultra-league_summer-cup-great-league-edition/
+URL:https://leekduck.com/events/gbl-shared-skies_ultra-league_summer-cup-gr
+ eat-league-edition/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-battle-league-ult
+ ra-league-machamp-swampert.jpg
+DTSTART;TZID=Z;VALUE=DATE:20240607
+DTEND;TZID=Z;VALUE=DATE:20240614
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[GBL] Great League and Ultra Premier | Shared Skies
+DESCRIPTION:[GBL] Ultra League and Summer Cup: Great League Edition | Share
+ d Skies
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
