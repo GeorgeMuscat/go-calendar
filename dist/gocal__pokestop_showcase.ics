@@ -30,25 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230921T012128Z
+DTSTART:20230922T011926Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-crabrawler-2024-06-015
-DTSTAMP:20240617T012128Z
-SUMMARY:[PS] Crabrawler PokéStop Showcases
+UID:pokemon-showcase-water-type-2024-06-17
+DTSTAMP:20240618T011926Z
+SUMMARY:[PS] Water-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-crabrawler-2024-06-015/
-URL:https://leekduck.com/events/pokemon-showcase-crabrawler-2024-06-015/
+ /pokemon-showcase-water-type-2024-06-17/
+URL:https://leekduck.com/events/pokemon-showcase-water-type-2024-06-17/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240615
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240616
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240617
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240618
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Crabrawler PokéStop Showcases
+DESCRIPTION:[PS] Water-type PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
