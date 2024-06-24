@@ -30,25 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230923T011935Z
+DTSTART:20230928T012019Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-water-type-2024-06-17
-DTSTAMP:20240619T011935Z
-SUMMARY:[PS] Water-type PokéStop Showcases
+UID:pokemon-showcase-fire-type-2024-06-24
+DTSTAMP:20240624T012019Z
+SUMMARY:[PS] Fire-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-water-type-2024-06-17/
-URL:https://leekduck.com/events/pokemon-showcase-water-type-2024-06-17/
+ /pokemon-showcase-fire-type-2024-06-24/
+URL:https://leekduck.com/events/pokemon-showcase-fire-type-2024-06-24/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240617
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240618
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240624
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240625
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Water-type PokéStop Showcases
+DESCRIPTION:[PS] Fire-type PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
