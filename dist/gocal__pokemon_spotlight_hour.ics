@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231004T012605Z
+DTSTART:20231005T013447Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-07-02
-DTSTAMP:20240630T012605Z
+DTSTAMP:20240701T013447Z
 SUMMARY:[PSH] Cake Hat Pikachu Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-07-02/
@@ -49,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-07-09
-DTSTAMP:20240630T012605Z
+DTSTAMP:20240701T013447Z
 SUMMARY:[PSH] Spheal Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-07-09/
@@ -66,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-07-16
-DTSTAMP:20240630T012605Z
+DTSTAMP:20240701T013447Z
 SUMMARY:[PSH] Binacle Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-07-16/
@@ -83,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-07-23
-DTSTAMP:20240630T012605Z
+DTSTAMP:20240701T013447Z
 SUMMARY:[PSH] Diglett and Alolan Diglett Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-07-23/
@@ -100,7 +100,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-07-30
-DTSTAMP:20240630T012605Z
+DTSTAMP:20240701T013447Z
 SUMMARY:[PSH] Togedemaru Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-07-30/

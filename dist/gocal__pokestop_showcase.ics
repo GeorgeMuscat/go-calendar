@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231004T012605Z
+DTSTART:20231005T013447Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-showcase-bulbasaur-charmander-squirtle-meltan-2024-06-28
-DTSTAMP:20240630T012605Z
+DTSTAMP:20240701T013447Z
 SUMMARY:[PS] Bulbasaur\, Charmander\, Squirtle\, and Meltan PokéStop Showc
  ases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -47,6 +47,23 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Bulbasaur\, Charmander\, Squirtle\, and Meltan PokéStop S
  howcases
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-showcase-grimer-meltan-2024-06-30
+DTSTAMP:20240701T013447Z
+SUMMARY:[PS] Grimer and Meltan PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-grimer-meltan-2024-06-30/
+URL:https://leekduck.com/events/pokemon-showcase-grimer-meltan-2024-06-30/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
+ efault.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240701
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240702
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Grimer and Meltan PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
