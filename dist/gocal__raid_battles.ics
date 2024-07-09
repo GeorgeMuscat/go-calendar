@@ -25,46 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231012T012206Z
+DTSTART:20231013T012132Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-tyranitar-in-mega-raids-june-2024
-DTSTAMP:20240708T012206Z
-SUMMARY:[RB] Mega Tyranitar in Mega Raids
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /mega-tyranitar-in-mega-raids-june-2024/
-URL:https://leekduck.com/events/mega-tyranitar-in-mega-raids-june-2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240628
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240708
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Tyranitar in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ho-oh-in-5-star-raid-battles-june-2024
-DTSTAMP:20240708T012206Z
-SUMMARY:[RB] Ho-Oh in 5-star Raid Battles
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /ho-oh-in-5-star-raid-battles-june-2024/
-URL:https://leekduck.com/events/ho-oh-in-5-star-raid-battles-june-2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/hooh.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240628
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240708
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Ho-Oh in 5-star Raid Battles
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:guzzlord-in-5-star-raid-battles-july-2024
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Guzzlord in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /guzzlord-in-5-star-raid-battles-july-2024/
@@ -80,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nihilego-in-5-star-raid-battles-july-2024
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Nihilego in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /nihilego-in-5-star-raid-battles-july-2024/
@@ -97,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:celesteela-kartana-in-5-star-raid-battles-july-2024
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Celesteela and Kartana in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /celesteela-kartana-in-5-star-raid-battles-july-2024/
@@ -115,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:stakataka-blacephalon-in-5-star-raid-battles-july-2024
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Stakataka and Blacephalon in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /stakataka-blacephalon-in-5-star-raid-battles-july-2024/
@@ -133,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:buzzwole-pheromosa-xurkitree-in-5-star-raid-battles-july-2024
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Buzzwole\, Pheromosa\, and Xurkitree in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /buzzwole-pheromosa-xurkitree-in-5-star-raid-battles-july-2024/
@@ -152,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:articuno-in-5-star-raid-battles-july-2024
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Articuno in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /articuno-in-5-star-raid-battles-july-2024/
@@ -169,7 +137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-swampert-in-mega-raids-july-2024
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Mega Swampert in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-swampert-in-mega-raids-july-2024/
@@ -185,7 +153,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-entei-in-shadow-raids-shared-skies
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Shadow Entei in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-entei-in-shadow-raids-shared-skies/
@@ -202,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tornadus-incarnate-forme-in-5-star-raid-battles-july-2024
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Incarnate Forme Tornadus in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /tornadus-incarnate-forme-in-5-star-raid-battles-july-2024/
@@ -219,7 +187,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-aggron-in-mega-raids-july-2024
-DTSTAMP:20240708T012206Z
+DTSTAMP:20240709T012132Z
 SUMMARY:[RB] Mega Aggron in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-aggron-in-mega-raids-july-2024/
