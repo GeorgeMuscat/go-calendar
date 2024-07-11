@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:DAYLIGHT
-DTSTART:20231001T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
 BEGIN:STANDARD
 DTSTART:20240407T030000Z
 TZOFFSETFROM:+1100
@@ -30,25 +25,24 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230906T012210Z
+DTSTART:20231015T012140Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-fusions-debut-during-go-fest
-DTSTAMP:20240602T012210Z
-SUMMARY:[U] Pokémon Fusions Debut During Pokémon GO Fest 2024
+UID:fusion-adventure-effects-necrozma
+DTSTAMP:20240711T012140Z
+SUMMARY:[U] New Adventure Effects: Sunsteel Strike and Moongeist Beam
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-fusions-debut-during-go-fest/
-URL:https://leekduck.com/events/pokemon-fusions-debut-during-go-fest/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemon-fusions-debu
- t.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240513
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240601
+ /fusion-adventure-effects-necrozma/
+URL:https://leekduck.com/events/fusion-adventure-effects-necrozma/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/necrozma-fusion.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240709
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240715
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[U] Pokémon Fusions Debut During Pokémon GO Fest 2024
+DESCRIPTION:[U] New Adventure Effects: Sunsteel Strike and Moongeist Beam
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
