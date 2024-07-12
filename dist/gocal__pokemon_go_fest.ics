@@ -25,25 +25,42 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231015T012140Z
+DTSTART:20231016T012028Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-go-fest-2024-global
-DTSTAMP:20240711T012140Z
-SUMMARY:[PGF] Pokémon GO Fest 2024: Global
+DTSTAMP:20240712T012028Z
+SUMMARY:[PGF] Pokémon GO Fest 2024: Global - Saturday
 DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
  /pokemon-go-fest-2024-global/
 URL:https://leekduck.com/events/pokemon-go-fest-2024-global/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemon-go-fest-2024
  -global-key.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240713
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240714
+DTSTART;TZID=Australia/Sydney:20240713T100000
+DTEND;TZID=Australia/Sydney:20240713T180000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PGF] Pokémon GO Fest 2024: Global
+DESCRIPTION:[PGF] Pokémon GO Fest 2024: Global - Saturday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-go-fest-2024-global-sunday
+DTSTAMP:20240712T012028Z
+SUMMARY:[PGF] Pokémon GO Fest 2024: Global - Sunday
+DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
+ /pokemon-go-fest-2024-global-sunday/
+URL:https://leekduck.com/events/pokemon-go-fest-2024-global-sunday/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemon-fusions-debu
+ t.jpg
+DTSTART;TZID=Australia/Sydney:20240714T100000
+DTEND;TZID=Australia/Sydney:20240714T180000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PGF] Pokémon GO Fest 2024: Global - Sunday
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
