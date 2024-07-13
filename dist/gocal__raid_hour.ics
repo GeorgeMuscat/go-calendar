@@ -25,30 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231016T012028Z
+DTSTART:20231017T012125Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:raidhour20240711
-DTSTAMP:20240712T012028Z
-SUMMARY:[RH] Stakataka and Blacephalon Raid Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20240711/
-URL:https://leekduck.com/events/raidhour20240711/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20240711T180000
-DTEND;TZID=Australia/Sydney:20240711T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] Stakataka and Blacephalon Raid Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:raidhour20240712
-DTSTAMP:20240712T012028Z
+DTSTAMP:20240713T012125Z
 SUMMARY:[RH] Buzzwole\, Pheromosa\, and Xurkitree Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240712/
@@ -64,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20240717
-DTSTAMP:20240712T012028Z
+DTSTAMP:20240713T012125Z
 SUMMARY:[RH] Articuno Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240717/
@@ -80,7 +64,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20240724
-DTSTAMP:20240712T012028Z
+DTSTAMP:20240713T012125Z
 SUMMARY:[RH] Incarnate Forme Tornadus Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240724/
@@ -96,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20240731
-DTSTAMP:20240712T012028Z
+DTSTAMP:20240713T012125Z
 SUMMARY:[RH] Incarnate Forme Tornadus Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240731/
