@@ -25,25 +25,26 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231014T012124Z
+DTSTART:20231020T012307Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-water-type-2024-07-08
-DTSTAMP:20240710T012124Z
-SUMMARY:[PS] Water-type PokéStop Showcases
+UID:pokemon-showcase-solrock-lunatone-2024-07-15
+DTSTAMP:20240716T012307Z
+SUMMARY:[PS] Solrock and Lunatone PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-water-type-2024-07-08/
-URL:https://leekduck.com/events/pokemon-showcase-water-type-2024-07-08/
+ /pokemon-showcase-solrock-lunatone-2024-07-15/
+URL:https://leekduck.com/events/pokemon-showcase-solrock-lunatone-2024-07-1
+ 5/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240708
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240709
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240715
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240716
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Water-type PokéStop Showcases
+DESCRIPTION:[PS] Solrock and Lunatone PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

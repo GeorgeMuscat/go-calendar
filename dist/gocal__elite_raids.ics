@@ -25,25 +25,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231004T012605Z
+DTSTART:20231020T012307Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:elite-raid-mega-rayquaza-june
-DTSTAMP:20240630T012605Z
-SUMMARY:[ER] Mega Rayquaza in Elite Raids
-DESCRIPTION:Starts at 12:00\, ends at 18:00.\n\nhttps://leekduck.com/events
- /elite-raid-mega-rayquaza-june/
-URL:https://leekduck.com/events/elite-raid-mega-rayquaza-june/
+UID:elite-raids-rayquaza-makeup
+DTSTAMP:20240716T012307Z
+SUMMARY:[ER] Mega Rayquaza in Elite Raids - Makeup
+DESCRIPTION:Starts at 13:00\, ends at 18:45.\n\nhttps://leekduck.com/events
+ /elite-raids-rayquaza-makeup/
+URL:https://leekduck.com/events/elite-raids-rayquaza-makeup/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/elite-raids-mega-ray
  quaza.jpg
-DTSTART;TZID=Australia/Sydney:20240629T120000
-DTEND;TZID=Australia/Sydney:20240629T180000
+DTSTART;TZID=Australia/Sydney:20240803T130000
+DTEND;TZID=Australia/Sydney:20240803T184500
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[ER] Mega Rayquaza in Elite Raids
+DESCRIPTION:[ER] Mega Rayquaza in Elite Raids - Makeup
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
