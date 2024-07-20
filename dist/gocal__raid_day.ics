@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:DAYLIGHT
-DTSTART:20231001T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
 BEGIN:STANDARD
 DTSTART:20240407T030000Z
 TZOFFSETFROM:+1100
@@ -30,25 +25,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20230719T012536Z
+DTSTART:20231024T011959Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-heracross-raid-day
-DTSTAMP:20240414T012536Z
-SUMMARY:[RD] Mega Heracross Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /mega-heracross-raid-day/
-URL:https://leekduck.com/events/mega-heracross-raid-day/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-heracross-raid-
- day.jpg
-DTSTART;TZID=Australia/Sydney:20240413T140000
-DTEND;TZID=Australia/Sydney:20240413T170000
+UID:ultra-unlock-part-3-mega-lucario-raid-day
+DTSTAMP:20240720T011959Z
+SUMMARY:[RD] Mega Lucario Raid Day (Ultra Unlock Part 3)
+DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /ultra-unlock-part-3-mega-lucario-raid-day/
+URL:https://leekduck.com/events/ultra-unlock-part-3-mega-lucario-raid-day/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-lucario-raid-da
+ y.jpg
+DTSTART;TZID=Australia/Sydney:20240727T110000
+DTEND;TZID=Australia/Sydney:20240727T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Mega Heracross Raid Day
+DESCRIPTION:[RD] Mega Lucario Raid Day (Ultra Unlock Part 3)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
