@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231025T013325Z
+DTSTART:20231026T012415Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-showcase-tynamo-eelektross-2024-07-20
-DTSTAMP:20240721T013325Z
+DTSTAMP:20240722T012415Z
 SUMMARY:[PS] Tynamo and Eelektross PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-tynamo-eelektross-2024-07-20/
@@ -45,6 +45,24 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20240721
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Tynamo and Eelektross PokéStop Showcases
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-showcase-ultra-buddy-or-higher-2024-07-22
+DTSTAMP:20240722T012415Z
+SUMMARY:[PS] Ultra Buddy and Best Buddy PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-ultra-buddy-or-higher-2024-07-22/
+URL:https://leekduck.com/events/pokemon-showcase-ultra-buddy-or-higher-2024
+ -07-22/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
+ efault.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240722
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240723
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Ultra Buddy and Best Buddy PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
