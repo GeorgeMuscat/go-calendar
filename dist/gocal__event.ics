@@ -25,30 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231027T012204Z
+DTSTART:20231028T012218Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ultra-unlock-part-1-better-together
-DTSTAMP:20240723T012204Z
-SUMMARY:[E] Better Together (Ultra Unlock Part 1)
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /ultra-unlock-part-1-better-together/
-URL:https://leekduck.com/events/ultra-unlock-part-1-better-together/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/better-together.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240717
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240722
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Better Together (Ultra Unlock Part 1)
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ultra-unlock-part-2-strength-of-steel
-DTSTAMP:20240723T012204Z
+DTSTAMP:20240724T012218Z
 SUMMARY:[E] Strength of Steel (Ultra Unlock Part 2)
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /ultra-unlock-part-2-strength-of-steel/
@@ -65,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-shadow-raid-weekend-season15
-DTSTAMP:20240723T012204Z
+DTSTAMP:20240724T012218Z
 SUMMARY:[E] Unannounced Shadow Raid Weekend
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /unannounced-shadow-raid-weekend-season15/
@@ -82,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-battle-week-shared-skies
-DTSTAMP:20240723T012204Z
+DTSTAMP:20240724T012218Z
 SUMMARY:[E] GO Battle Weekend: Shared Skies
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /go-battle-week-shared-skies/
