@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231029T012157Z
+DTSTART:20231030T012114Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:shadow-entei-in-shadow-raids-shared-skies
-DTSTAMP:20240725T012157Z
+DTSTAMP:20240726T012114Z
 SUMMARY:[RB] Shadow Entei in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-entei-in-shadow-raids-shared-skies/
@@ -49,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tornadus-incarnate-forme-in-5-star-raid-battles-july-2024
-DTSTAMP:20240725T012157Z
+DTSTAMP:20240726T012114Z
 SUMMARY:[RB] Incarnate Forme Tornadus in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /tornadus-incarnate-forme-in-5-star-raid-battles-july-2024/
@@ -66,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-aggron-in-mega-raids-july-2024
-DTSTAMP:20240725T012157Z
+DTSTAMP:20240726T012114Z
 SUMMARY:[RB] Mega Aggron in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-aggron-in-mega-raids-july-2024/
@@ -82,7 +82,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:moltres-in-5-star-raid-battles-august-2024
-DTSTAMP:20240725T012157Z
+DTSTAMP:20240726T012114Z
 SUMMARY:[RB] Moltres in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /moltres-in-5-star-raid-battles-august-2024/
@@ -98,8 +98,24 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:mega-aerodactyl-in-mega-raids-august-2024
+DTSTAMP:20240726T012114Z
+SUMMARY:[RB] Mega Aerodactyl in Mega Raids
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /mega-aerodactyl-in-mega-raids-august-2024/
+URL:https://leekduck.com/events/mega-aerodactyl-in-mega-raids-august-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240803
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240812
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Aerodactyl in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:thundurus-in-5-star-raid-battles-august-2024
-DTSTAMP:20240725T012157Z
+DTSTAMP:20240726T012114Z
 SUMMARY:[RB] Incarnate Forme Thundurus in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /thundurus-in-5-star-raid-battles-august-2024/
@@ -115,8 +131,42 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:mega-kangaskhan-in-mega-raids-august-2024
+DTSTAMP:20240726T012114Z
+SUMMARY:[RB] Mega Kangaskhan in Mega Raids
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /mega-kangaskhan-in-mega-raids-august-2024/
+URL:https://leekduck.com/events/mega-kangaskhan-in-mega-raids-august-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240812
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240821
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Kangaskhan in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shadow-suicune-in-shadow-raids-shared-skies
+DTSTAMP:20240726T012114Z
+SUMMARY:[RB] Shadow Suicune in Shadow Raids
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /shadow-suicune-in-shadow-raids-shared-skies/
+URL:https://leekduck.com/events/shadow-suicune-in-shadow-raids-shared-skies
+ /
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240803
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240831
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Shadow Suicune in Shadow Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:xerneas-in-5-star-raid-battles-august-2024
-DTSTAMP:20240725T012157Z
+DTSTAMP:20240726T012114Z
 SUMMARY:[RB] Xerneas in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /xerneas-in-5-star-raid-battles-august-2024/
@@ -127,6 +177,22 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20240903
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Xerneas in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-salamence-in-mega-raids-august-2024
+DTSTAMP:20240726T012114Z
+SUMMARY:[RB] Mega Salamence in Mega Raids
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /mega-salamence-in-mega-raids-august-2024/
+URL:https://leekduck.com/events/mega-salamence-in-mega-raids-august-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240821
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240903
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Salamence in Mega Raids
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
