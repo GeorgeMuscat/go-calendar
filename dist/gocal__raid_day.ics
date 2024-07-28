@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231031T012036Z
+DTSTART:20231101T013347Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:ultra-unlock-part-3-mega-lucario-raid-day
-DTSTAMP:20240727T012036Z
+DTSTAMP:20240728T013347Z
 SUMMARY:[RD] Mega Lucario Raid Day (Ultra Unlock Part 3)
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /ultra-unlock-part-3-mega-lucario-raid-day/
@@ -44,6 +44,24 @@ DTEND;TZID=Australia/Sydney:20240727T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RD] Mega Lucario Raid Day (Ultra Unlock Part 3)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ultra-unlock-part-3-mega-lucario-raid-day-redo
+DTSTAMP:20240728T013347Z
+SUMMARY:[RD] Some Regions: Mega Lucario Raid Day Makeup
+DESCRIPTION:Starts at 12:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /ultra-unlock-part-3-mega-lucario-raid-day-redo/
+URL:https://leekduck.com/events/ultra-unlock-part-3-mega-lucario-raid-day-r
+ edo/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-lucario-raid-da
+ y.jpg
+DTSTART;TZID=Australia/Sydney:20240728T120000
+DTEND;TZID=Australia/Sydney:20240728T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] Some Regions: Mega Lucario Raid Day Makeup
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
