@@ -25,20 +25,20 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231102T012404Z
+DTSTART:20231103T012229Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:adventure-week-2024-taken-over
-DTSTAMP:20240729T012404Z
+DTSTAMP:20240730T012229Z
 SUMMARY:[TGR] Adventure Week: Taken Over
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /adventure-week-2024-taken-over/
 URL:https://leekduck.com/events/adventure-week-2024-taken-over/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
- pg
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/team-go-rocket-giova
+ nni-shadow-cresselia.jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240808
 DTEND;TZID=Australia/Sydney;VALUE=DATE:20240812
 BEGIN:VALARM
