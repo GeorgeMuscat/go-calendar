@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231103T012229Z
+DTSTART:20231104T010836Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:raidhour20240731
-DTSTAMP:20240730T012229Z
+DTSTAMP:20240731T010836Z
 SUMMARY:[RH] Incarnate Forme Tornadus Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240731/
@@ -47,8 +47,25 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:special-raid-event-rayquaza-makeup
+DTSTAMP:20240731T010836Z
+SUMMARY:[RH] Mega Rayquaza Special Raid Event - Makeup
+DESCRIPTION:Starts at 11:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /special-raid-event-rayquaza-makeup/
+URL:https://leekduck.com/events/special-raid-event-rayquaza-makeup/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/elite-raids-mega-ray
+ quaza.jpg
+DTSTART;TZID=Australia/Sydney:20240803T110000
+DTEND;TZID=Australia/Sydney:20240803T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Mega Rayquaza Special Raid Event - Makeup
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:raidhour20240807
-DTSTAMP:20240730T012229Z
+DTSTAMP:20240731T010836Z
 SUMMARY:[RH] Moltres Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240807/
@@ -64,7 +81,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20240814
-DTSTAMP:20240730T012229Z
+DTSTAMP:20240731T010836Z
 SUMMARY:[RH] Incarnate Forme Thundurus Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240814/
@@ -80,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20240821
-DTSTAMP:20240730T012229Z
+DTSTAMP:20240731T010836Z
 SUMMARY:[RH] Xerneas Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240821/
@@ -96,7 +113,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20240828
-DTSTAMP:20240730T012229Z
+DTSTAMP:20240731T010836Z
 SUMMARY:[RH] Xerneas Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240828/
