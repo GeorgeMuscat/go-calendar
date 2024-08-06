@@ -25,14 +25,30 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231109T012413Z
+DTSTART:20231110T012242Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:august-communitydayclassic2024
+DTSTAMP:20240806T012242Z
+SUMMARY:[CD] August Community Day Classic
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /august-communitydayclassic2024/
+URL:https://leekduck.com/events/august-communitydayclassic2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Australia/Sydney:20240818T140000
+DTEND;TZID=Australia/Sydney:20240818T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] August Community Day Classic
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:august-communityday2024
-DTSTAMP:20240805T012413Z
+DTSTAMP:20240806T012242Z
 SUMMARY:[CD] Popplio Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /august-communityday2024/
