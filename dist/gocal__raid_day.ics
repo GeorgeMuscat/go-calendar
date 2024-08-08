@@ -21,30 +21,51 @@ DTSTART:20241006T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20250406T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231102T012404Z
+DTSTART:20231112T012316Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ultra-unlock-part-3-mega-lucario-raid-day-redo
-DTSTAMP:20240729T012404Z
-SUMMARY:[RD] Some Regions: Mega Lucario Raid Day Makeup
-DESCRIPTION:Starts at 12:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /ultra-unlock-part-3-mega-lucario-raid-day-redo/
-URL:https://leekduck.com/events/ultra-unlock-part-3-mega-lucario-raid-day-r
- edo/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-lucario-raid-da
- y.jpg
-DTSTART;TZID=Australia/Sydney:20240728T120000
-DTEND;TZID=Australia/Sydney:20240728T170000
+UID:unannounced-raid-day-september-2024
+DTSTAMP:20240808T012316Z
+SUMMARY:[RD] Unannounced Raid Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /unannounced-raid-day-september-2024/
+URL:https://leekduck.com/events/unannounced-raid-day-september-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney:20240908T140000
+DTEND;TZID=Australia/Sydney:20240908T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Some Regions: Mega Lucario Raid Day Makeup
+DESCRIPTION:[RD] Unannounced Raid Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unannounced-raid-day-october-2024
+DTSTAMP:20240808T012316Z
+SUMMARY:[RD] Unannounced Raid Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /unannounced-raid-day-october-2024/
+URL:https://leekduck.com/events/unannounced-raid-day-october-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney:20241012T140000
+DTEND;TZID=Australia/Sydney:20241012T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] Unannounced Raid Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

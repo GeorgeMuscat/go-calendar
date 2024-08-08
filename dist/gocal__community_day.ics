@@ -21,34 +21,40 @@ DTSTART:20241006T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20250406T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231111T012328Z
+DTSTART:20231112T012316Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:august-communitydayclassic2024
-DTSTAMP:20240807T012328Z
-SUMMARY:[CD] August Community Day Classic
+DTSTAMP:20240808T012316Z
+SUMMARY:[CD] Beldum Community Day Classic
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /august-communitydayclassic2024/
 URL:https://leekduck.com/events/august-communitydayclassic2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-default.jpg
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-2024-08-beldum-cl
+ assic-temp.jpg
 DTSTART;TZID=Australia/Sydney:20240818T140000
 DTEND;TZID=Australia/Sydney:20240818T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] August Community Day Classic
+DESCRIPTION:[CD] Beldum Community Day Classic
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:august-communityday2024
-DTSTAMP:20240807T012328Z
+DTSTAMP:20240808T012316Z
 SUMMARY:[CD] Popplio Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /august-communityday2024/
@@ -60,6 +66,54 @@ DTEND;TZID=Australia/Sydney:20240831T170000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[CD] Popplio Community Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:september-communityday2024
+DTSTAMP:20240808T012316Z
+SUMMARY:[CD] September Community Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /september-communityday2024/
+URL:https://leekduck.com/events/september-communityday2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Australia/Sydney:20240914T140000
+DTEND;TZID=Australia/Sydney:20240914T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] September Community Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:october-communityday2024
+DTSTAMP:20240808T012316Z
+SUMMARY:[CD] October Community Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /october-communityday2024/
+URL:https://leekduck.com/events/october-communityday2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Australia/Sydney:20241005T140000
+DTEND;TZID=Australia/Sydney:20241005T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] October Community Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:november-communityday2024
+DTSTAMP:20240808T012316Z
+SUMMARY:[CD] November Community Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /november-communityday2024/
+URL:https://leekduck.com/events/november-communityday2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Australia/Sydney:20241110T140000
+DTEND;TZID=Australia/Sydney:20241110T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] November Community Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
