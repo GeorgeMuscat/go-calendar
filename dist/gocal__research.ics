@@ -10,6 +10,22 @@ X-WR-CALDESC:All Pokémon GO Research events\, in your local time\, auto-up
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
+TZID:Z
+BEGIN:STANDARD
+DTSTART:20231120T190000Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:20231115T013553Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
 TZID:Australia/Sydney
 BEGIN:STANDARD
 DTSTART:20240407T030000Z
@@ -27,17 +43,27 @@ TZOFFSETFROM:+1100
 TZOFFSETTO:+1000
 END:STANDARD
 END:VTIMEZONE
-BEGIN:VTIMEZONE
-TZID:UTC
-BEGIN:STANDARD
-DTSTART:20231114T012348Z
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0000
-END:STANDARD
-END:VTIMEZONE
+BEGIN:VEVENT
+UID:pokemon-world-championship-2024-timed-research-twitch-drops
+DTSTAMP:20240811T013553Z
+SUMMARY:[R] Twitch Drops for 2024 Pokémon World Championships
+DESCRIPTION:Starts at 19:00\, ends at 05:00.\n\nhttps://leekduck.com/events
+ /pokemon-world-championship-2024-timed-research-twitch-drops/
+URL:https://leekduck.com/events/pokemon-world-championship-2024-timed-resea
+ rch-twitch-drops/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/wcs-2024-twitch-drop
+ s.jpg
+DTSTART;TZID=Z;VALUE=DATE:20240816
+DTEND;TZID=Z;VALUE=DATE:20240818
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[R] Twitch Drops for 2024 Pokémon World Championships
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-research-day-september-2024
-DTSTAMP:20240810T012348Z
+DTSTAMP:20240811T013553Z
 SUMMARY:[R] Unannounced Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-research-day-september-2024/
@@ -54,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-research-day-october-2024
-DTSTAMP:20240810T012348Z
+DTSTAMP:20240811T013553Z
 SUMMARY:[R] Unannounced Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-research-day-october-2024/
