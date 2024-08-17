@@ -20,7 +20,7 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231120T012302Z
+DTSTART:20231121T012106Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
@@ -45,7 +45,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-world-championship-2024-timed-research-twitch-drops
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[R] Twitch Drops for 2024 Pokémon World Championships
 DESCRIPTION:Starts at 19:00\, ends at 05:00.\n\nhttps://leekduck.com/events
  /pokemon-world-championship-2024-timed-research-twitch-drops/
@@ -63,7 +63,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-research-day-september-2024
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[R] Unannounced Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-research-day-september-2024/
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-research-day-october-2024
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[R] Unannounced Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-research-day-october-2024/

@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231120T012302Z
+DTSTART:20231121T012106Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-world-championships-2024
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[E] 2024 Pokémon World Championship Celebration
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-world-championships-2024/
@@ -49,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-battle-week-shared-skies
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[E] GO Battle Week: Shared Skies
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /go-battle-week-shared-skies/
@@ -66,15 +66,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:triumph-together
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[E] Triumph Together
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+DESCRIPTION:Starts at 07:00\, ends at 16:00.\n\nhttps://leekduck.com/events
  /triumph-together/
 URL:https://leekduck.com/events/triumph-together/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
  pg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240823
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240830
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240824
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240831
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Triumph Together

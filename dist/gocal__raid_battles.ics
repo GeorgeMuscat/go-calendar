@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231120T012302Z
+DTSTART:20231121T012106Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:thundurus-in-5-star-raid-battles-august-2024
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[RB] Incarnate Forme Thundurus in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /thundurus-in-5-star-raid-battles-august-2024/
@@ -49,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-kangaskhan-in-mega-raids-august-2024
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[RB] Mega Kangaskhan in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-kangaskhan-in-mega-raids-august-2024/
@@ -65,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-suicune-in-shadow-raids-shared-skies
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[RB] Shadow Suicune in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-suicune-in-shadow-raids-shared-skies/
@@ -83,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:xerneas-in-5-star-raid-battles-august-2024
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[RB] Xerneas in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /xerneas-in-5-star-raid-battles-august-2024/
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-salamence-in-mega-raids-august-2024
-DTSTAMP:20240816T012302Z
+DTSTAMP:20240817T012106Z
 SUMMARY:[RB] Mega Salamence in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-salamence-in-mega-raids-august-2024/
