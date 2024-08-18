@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231121T012106Z
+DTSTART:20231122T013418Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-world-championships-2024
-DTSTAMP:20240817T012106Z
+DTSTAMP:20240818T013418Z
 SUMMARY:[E] 2024 Pokémon World Championship Celebration
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-world-championships-2024/
@@ -49,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-battle-week-shared-skies
-DTSTAMP:20240817T012106Z
+DTSTAMP:20240818T013418Z
 SUMMARY:[E] GO Battle Week: Shared Skies
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /go-battle-week-shared-skies/
@@ -66,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:triumph-together
-DTSTAMP:20240817T012106Z
+DTSTAMP:20240818T013418Z
 SUMMARY:[E] Triumph Together
 DESCRIPTION:Starts at 07:00\, ends at 16:00.\n\nhttps://leekduck.com/events
  /triumph-together/
