@@ -25,25 +25,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231123T012439Z
+DTSTART:20231124T012256Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-mienfoo-2024-08-05
-DTSTAMP:20240819T012439Z
-SUMMARY:[PS] Mienfoo PokéStop Showcases
+UID:pokemon-showcase-fighting-type-2024-08-19
+DTSTAMP:20240820T012256Z
+SUMMARY:[PS] Fighting-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-mienfoo-2024-08-05/
-URL:https://leekduck.com/events/pokemon-showcase-mienfoo-2024-08-05/
+ /pokemon-showcase-fighting-type-2024-08-19/
+URL:https://leekduck.com/events/pokemon-showcase-fighting-type-2024-08-19/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240817
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240818
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240819
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240820
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Mienfoo PokéStop Showcases
+DESCRIPTION:[PS] Fighting-type PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231123T012439Z
+DTSTART:20231124T012256Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:august-communitydayclassic2024
-DTSTAMP:20240819T012439Z
-SUMMARY:[CD] Beldum Community Day Classic
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /august-communitydayclassic2024/
-URL:https://leekduck.com/events/august-communitydayclassic2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-2024-08-beldum-cl
- assic-temp.jpg
-DTSTART;TZID=Australia/Sydney:20240818T140000
-DTEND;TZID=Australia/Sydney:20240818T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] Beldum Community Day Classic
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:august-communityday2024
-DTSTAMP:20240819T012439Z
+DTSTAMP:20240820T012256Z
 SUMMARY:[CD] Popplio Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /august-communityday2024/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:september-communityday2024
-DTSTAMP:20240819T012439Z
+DTSTAMP:20240820T012256Z
 SUMMARY:[CD] September Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /september-communityday2024/
@@ -87,7 +70,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:october-communityday2024
-DTSTAMP:20240819T012439Z
+DTSTAMP:20240820T012256Z
 SUMMARY:[CD] October Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /october-communityday2024/
@@ -103,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:november-communityday2024
-DTSTAMP:20240819T012439Z
+DTSTAMP:20240820T012256Z
 SUMMARY:[CD] November Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /november-communityday2024/
