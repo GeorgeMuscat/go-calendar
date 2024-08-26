@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231129T013648Z
+DTSTART:20231130T012437Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-showcase-fire-type-2024-08-24
-DTSTAMP:20240825T013648Z
+DTSTAMP:20240826T012437Z
 SUMMARY:[PS] Fire-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-fire-type-2024-08-24/
@@ -44,6 +44,23 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20240825
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Fire-type PokéStop Showcases
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-showcase-electric-type-2024-08-26
+DTSTAMP:20240826T012437Z
+SUMMARY:[PS] Electric-type PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-electric-type-2024-08-26/
+URL:https://leekduck.com/events/pokemon-showcase-electric-type-2024-08-26/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
+ efault.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240826
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240827
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Electric-type PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
