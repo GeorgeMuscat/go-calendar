@@ -25,25 +25,76 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231202T012603Z
+DTSTART:20231203T012634Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemonspotlighthour2024-08-27
-DTSTAMP:20240828T012603Z
-SUMMARY:[PSH] Magnemite Spotlight Hour
+UID:pokemonspotlighthour2024-09-03
+DTSTAMP:20240829T012634Z
+SUMMARY:[PSH] Wooloo Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2024-08-27/
-URL:https://leekduck.com/events/pokemonspotlighthour2024-08-27/
+ /pokemonspotlighthour2024-09-03/
+URL:https://leekduck.com/events/pokemonspotlighthour2024-09-03/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
  .jpg
-DTSTART;TZID=Australia/Sydney:20240827T180000
-DTEND;TZID=Australia/Sydney:20240827T190000
+DTSTART;TZID=Australia/Sydney:20240903T180000
+DTEND;TZID=Australia/Sydney:20240903T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PSH] Magnemite Spotlight Hour
+DESCRIPTION:[PSH] Wooloo Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2024-09-10
+DTSTAMP:20240829T012634Z
+SUMMARY:[PSH] Dewpider Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2024-09-10/
+URL:https://leekduck.com/events/pokemonspotlighthour2024-09-10/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
+ .jpg
+DTSTART;TZID=Australia/Sydney:20240910T180000
+DTEND;TZID=Australia/Sydney:20240910T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Dewpider Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2024-09-17
+DTSTAMP:20240829T012634Z
+SUMMARY:[PSH] Wobbuffet Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2024-09-17/
+URL:https://leekduck.com/events/pokemonspotlighthour2024-09-17/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
+ .jpg
+DTSTART;TZID=Australia/Sydney:20240917T180000
+DTEND;TZID=Australia/Sydney:20240917T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Wobbuffet Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2024-09-24
+DTSTAMP:20240829T012634Z
+SUMMARY:[PSH] Machop Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2024-09-24/
+URL:https://leekduck.com/events/pokemonspotlighthour2024-09-24/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
+ .jpg
+DTSTART;TZID=Australia/Sydney:20240924T180000
+DTEND;TZID=Australia/Sydney:20240924T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Machop Spotlight Hour
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

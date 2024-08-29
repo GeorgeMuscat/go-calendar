@@ -20,7 +20,7 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231202T012603Z
+DTSTART:20231203T012634Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
@@ -40,7 +40,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:triumph-together
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[E] Triumph Together
 DESCRIPTION:Starts at 22:00\, ends at 06:59.\n\nhttps://leekduck.com/events
  /triumph-together/
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-all-out
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[E] GO All Out
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /go-all-out/
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-big-dynamax
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[E] GO Big
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /go-big-dynamax/
@@ -83,6 +83,40 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20240915
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] GO Big
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:psychic-spectacular-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[E] Psychic Spectacular 2024
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /psychic-spectacular-2024/
+URL:https://leekduck.com/events/psychic-spectacular-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240918
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240922
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Psychic Spectacular 2024
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:legendary-heroes
+DTSTAMP:20240829T012634Z
+SUMMARY:[E] Legendary Heroes
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /legendary-heroes/
+URL:https://leekduck.com/events/legendary-heroes/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240926
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241001
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Legendary Heroes
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

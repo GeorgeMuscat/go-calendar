@@ -35,7 +35,7 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231202T012603Z
+DTSTART:20231203T012634Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
@@ -49,42 +49,8 @@ TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemonspotlighthour2024-08-27
-DTSTAMP:20240828T012603Z
-SUMMARY:[PSH] Magnemite Spotlight Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2024-08-27/
-URL:https://leekduck.com/events/pokemonspotlighthour2024-08-27/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
- .jpg
-DTSTART;TZID=Australia/Sydney:20240827T180000
-DTEND;TZID=Australia/Sydney:20240827T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Magnemite Spotlight Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemon-showcase-electric-type-2024-08-26
-DTSTAMP:20240828T012603Z
-SUMMARY:[PS] Electric-type PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-electric-type-2024-08-26/
-URL:https://leekduck.com/events/pokemon-showcase-electric-type-2024-08-26/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
- efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240826
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240827
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Electric-type PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:raidhour20240828
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[RH] Xerneas Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20240828/
@@ -100,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-showcase-ice-type-2024-08-28
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[PS] Ice-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-ice-type-2024-08-28/
@@ -117,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:triumph-together
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[E] Triumph Together
 DESCRIPTION:Starts at 22:00\, ends at 06:59.\n\nhttps://leekduck.com/events
  /triumph-together/
@@ -133,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:august-communityday2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[CD] Popplio Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /august-communityday2024/
@@ -150,7 +116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-suicune-in-shadow-raids-shared-skies
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[RB] Shadow Suicune in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-suicune-in-shadow-raids-shared-skies/
@@ -168,7 +134,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:season-15-shared-skies-research-breakthrough
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[RBT] Shared Skies Research Breakthrough
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /season-15-shared-skies-research-breakthrough/
@@ -186,7 +152,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:season-15-shared-skies
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[S] Shared Skies
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /season-15-shared-skies/
@@ -203,7 +169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:xerneas-in-5-star-raid-battles-august-2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[RB] Xerneas in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /xerneas-in-5-star-raid-battles-august-2024/
@@ -219,7 +185,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-salamence-in-mega-raids-august-2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[RB] Mega Salamence in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-salamence-in-mega-raids-august-2024/
@@ -235,7 +201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-shared-skies_great-league_ultra-league_master-league-split-3
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | Shared Skie
  s
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -254,25 +220,58 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unannounced-raid-day-september-2024
-DTSTAMP:20240828T012603Z
-SUMMARY:[RD] Unannounced Raid Day
+UID:pokemonspotlighthour2024-09-03
+DTSTAMP:20240829T012634Z
+SUMMARY:[PSH] Wooloo Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2024-09-03/
+URL:https://leekduck.com/events/pokemonspotlighthour2024-09-03/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
+ .jpg
+DTSTART;TZID=Australia/Sydney:20240903T180000
+DTEND;TZID=Australia/Sydney:20240903T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Wooloo Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20240904
+DTSTAMP:20240829T012634Z
+SUMMARY:[RH] Kyogre Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20240904/
+URL:https://leekduck.com/events/raidhour20240904/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20240904T180000
+DTEND;TZID=Australia/Sydney:20240904T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Kyogre Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:falinks-raid-day-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RD] Falinks Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /unannounced-raid-day-september-2024/
-URL:https://leekduck.com/events/unannounced-raid-day-september-2024/
+ /falinks-raid-day-september-2024/
+URL:https://leekduck.com/events/falinks-raid-day-september-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
  pg
 DTSTART;TZID=Australia/Sydney:20240908T140000
 DTEND;TZID=Australia/Sydney:20240908T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Unannounced Raid Day
+DESCRIPTION:[RD] Falinks Raid Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-all-out
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[E] GO All Out
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /go-all-out/
@@ -287,8 +286,74 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pokemonspotlighthour2024-09-10
+DTSTAMP:20240829T012634Z
+SUMMARY:[PSH] Dewpider Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2024-09-10/
+URL:https://leekduck.com/events/pokemonspotlighthour2024-09-10/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
+ .jpg
+DTSTART;TZID=Australia/Sydney:20240910T180000
+DTEND;TZID=Australia/Sydney:20240910T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Dewpider Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20240911
+DTSTAMP:20240829T012634Z
+SUMMARY:[RH] Kyogre Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20240911/
+URL:https://leekduck.com/events/raidhour20240911/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20240911T180000
+DTEND;TZID=Australia/Sydney:20240911T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Kyogre Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-absol-in-mega-raids-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Mega Absol in Mega Raids
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /mega-absol-in-mega-raids-september-2024/
+URL:https://leekduck.com/events/mega-absol-in-mega-raids-september-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240903
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240914
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Absol in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kyogre-in-5-star-raid-battles-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Kyogre in 5-star Raid Battles
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /kyogre-in-5-star-raid-battles-september-2024/
+URL:https://leekduck.com/events/kyogre-in-5-star-raid-battles-september-202
+ 4/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/kyogre.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240903
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240914
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Kyogre in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:september-communityday2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[CD] Ponyta Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /september-communityday2024/
@@ -305,7 +370,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-big-dynamax
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[E] GO Big
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /go-big-dynamax/
@@ -320,8 +385,41 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pokemonspotlighthour2024-09-17
+DTSTAMP:20240829T012634Z
+SUMMARY:[PSH] Wobbuffet Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2024-09-17/
+URL:https://leekduck.com/events/pokemonspotlighthour2024-09-17/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
+ .jpg
+DTSTART;TZID=Australia/Sydney:20240917T180000
+DTEND;TZID=Australia/Sydney:20240917T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Wobbuffet Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20240918
+DTSTAMP:20240829T012634Z
+SUMMARY:[RH] Groudon Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20240918/
+URL:https://leekduck.com/events/raidhour20240918/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20240918T180000
+DTEND;TZID=Australia/Sydney:20240918T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Groudon Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:pokemon-go-city-safari-jakarta-2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[CS] Jakarta\, Indonesia - Pokémon GO City Safari
 DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
  /pokemon-go-city-safari-jakarta-2024/
@@ -337,25 +435,109 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unannounced-research-day-september-2024
-DTSTAMP:20240828T012603Z
-SUMMARY:[R] Unannounced Research Day
+UID:oranguru-and-passimian-research-day-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[R] Oranguru and Passimian Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /unannounced-research-day-september-2024/
-URL:https://leekduck.com/events/unannounced-research-day-september-2024/
+ /oranguru-and-passimian-research-day-september-2024/
+URL:https://leekduck.com/events/oranguru-and-passimian-research-day-septemb
+ er-2024/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
  pg
 DTSTART;TZID=Australia/Sydney:20240922T140000
 DTEND;TZID=Australia/Sydney:20240922T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[R] Unannounced Research Day
+DESCRIPTION:[R] Oranguru and Passimian Research Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:psychic-spectacular-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[E] Psychic Spectacular 2024
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /psychic-spectacular-2024/
+URL:https://leekduck.com/events/psychic-spectacular-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240918
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240922
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Psychic Spectacular 2024
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2024-09-24
+DTSTAMP:20240829T012634Z
+SUMMARY:[PSH] Machop Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2024-09-24/
+URL:https://leekduck.com/events/pokemonspotlighthour2024-09-24/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
+ .jpg
+DTSTART;TZID=Australia/Sydney:20240924T180000
+DTEND;TZID=Australia/Sydney:20240924T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Machop Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20240925
+DTSTAMP:20240829T012634Z
+SUMMARY:[RH] Groudon Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20240925/
+URL:https://leekduck.com/events/raidhour20240925/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20240925T180000
+DTEND;TZID=Australia/Sydney:20240925T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Groudon Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-houndoom-in-mega-raids-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Mega Houndoom in Mega Raids
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /mega-houndoom-in-mega-raids-september-2024/
+URL:https://leekduck.com/events/mega-houndoom-in-mega-raids-september-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240914
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Houndoom in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:groudon-in-5-star-raid-battles-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Groudon in 5-star Raid Battles
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /groudon-in-5-star-raid-battles-september-2024/
+URL:https://leekduck.com/events/groudon-in-5-star-raid-battles-september-20
+ 24/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/groudon.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240914
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Groudon in 5-star Raid Battles
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemon-go-safari-zone-icheon-south-korea-2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[SZ] Incheon\, South Korea - Pokémon GO Safari Zone
 DESCRIPTION:Starts at 10:30\, ends at 19:30.\n\nhttps://leekduck.com/events
  /pokemon-go-safari-zone-icheon-south-korea-2024/
@@ -372,8 +554,77 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:shadow-raikou-in-shadow-raids-max-out
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Shadow Raikou in Shadow Raids
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /shadow-raikou-in-shadow-raids-max-out/
+URL:https://leekduck.com/events/shadow-raikou-in-shadow-raids-max-out/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240901
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240929
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Shadow Raikou in Shadow Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:legendary-heroes
+DTSTAMP:20240829T012634Z
+SUMMARY:[E] Legendary Heroes
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /legendary-heroes/
+URL:https://leekduck.com/events/legendary-heroes/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240926
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241001
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Legendary Heroes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zacian-in-5-star-raid-battles-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Zacian in 5-star Raid Battles
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /zacian-in-5-star-raid-battles-september-2024/
+URL:https://leekduck.com/events/zacian-in-5-star-raid-battles-september-202
+ 4/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/zacian-and-zamazenta
+ .jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240926
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241004
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Zacian in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-gardevoir-in-mega-raids-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Mega Gardevoir in Mega Raids
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /mega-gardevoir-in-mega-raids-september-2024/
+URL:https://leekduck.com/events/mega-gardevoir-in-mega-raids-september-2024
+ /
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240926
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241004
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Gardevoir in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:october-communityday2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[CD] October Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /october-communityday2024/
@@ -389,7 +640,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-raid-day-october-2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[RD] Unannounced Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-raid-day-october-2024/
@@ -406,7 +657,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-research-day-october-2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[R] Unannounced Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-research-day-october-2024/
@@ -423,7 +674,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:november-communityday2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[CD] November Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /november-communityday2024/
@@ -438,8 +689,42 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:pokemon-go-wild-area-2024-fukuoka-japan
+DTSTAMP:20240829T012634Z
+SUMMARY:[WA] Pokémon GO Wild Area: Fukuoka
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-go-wild-area-2024-fukuoka-japan/
+URL:https://leekduck.com/events/pokemon-go-wild-area-2024-fukuoka-japan/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemon-go-wild-area
+ -2024.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241116
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241117
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[WA] Pokémon GO Wild Area: Fukuoka
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-go-wild-area-2024-global
+DTSTAMP:20240829T012634Z
+SUMMARY:[WA] Pokémon GO Wild Area: Global
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-go-wild-area-2024-global/
+URL:https://leekduck.com/events/pokemon-go-wild-area-2024-global/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemon-go-wild-area
+ -2024.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241123
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[WA] Pokémon GO Wild Area: Global
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:season-16-max-out
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[S] Max Out
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /season-16-max-out/

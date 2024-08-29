@@ -21,18 +21,23 @@ DTSTART:20241006T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20250406T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231202T012603Z
+DTSTART:20231203T012634Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:shadow-suicune-in-shadow-raids-shared-skies
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[RB] Shadow Suicune in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-suicune-in-shadow-raids-shared-skies/
@@ -50,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:xerneas-in-5-star-raid-battles-august-2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[RB] Xerneas in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /xerneas-in-5-star-raid-battles-august-2024/
@@ -66,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-salamence-in-mega-raids-august-2024
-DTSTAMP:20240828T012603Z
+DTSTAMP:20240829T012634Z
 SUMMARY:[RB] Mega Salamence in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-salamence-in-mega-raids-august-2024/
@@ -77,6 +82,124 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20240903
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Mega Salamence in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-absol-in-mega-raids-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Mega Absol in Mega Raids
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /mega-absol-in-mega-raids-september-2024/
+URL:https://leekduck.com/events/mega-absol-in-mega-raids-september-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240903
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240914
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Absol in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:kyogre-in-5-star-raid-battles-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Kyogre in 5-star Raid Battles
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /kyogre-in-5-star-raid-battles-september-2024/
+URL:https://leekduck.com/events/kyogre-in-5-star-raid-battles-september-202
+ 4/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/kyogre.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240903
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240914
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Kyogre in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-houndoom-in-mega-raids-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Mega Houndoom in Mega Raids
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /mega-houndoom-in-mega-raids-september-2024/
+URL:https://leekduck.com/events/mega-houndoom-in-mega-raids-september-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240914
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Houndoom in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:groudon-in-5-star-raid-battles-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Groudon in 5-star Raid Battles
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /groudon-in-5-star-raid-battles-september-2024/
+URL:https://leekduck.com/events/groudon-in-5-star-raid-battles-september-20
+ 24/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/groudon.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240914
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240926
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Groudon in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shadow-raikou-in-shadow-raids-max-out
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Shadow Raikou in Shadow Raids
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /shadow-raikou-in-shadow-raids-max-out/
+URL:https://leekduck.com/events/shadow-raikou-in-shadow-raids-max-out/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
+ pg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240901
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240929
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Shadow Raikou in Shadow Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:zacian-in-5-star-raid-battles-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Zacian in 5-star Raid Battles
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /zacian-in-5-star-raid-battles-september-2024/
+URL:https://leekduck.com/events/zacian-in-5-star-raid-battles-september-202
+ 4/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/zacian-and-zamazenta
+ .jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240926
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241004
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Zacian in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-gardevoir-in-mega-raids-september-2024
+DTSTAMP:20240829T012634Z
+SUMMARY:[RB] Mega Gardevoir in Mega Raids
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /mega-gardevoir-in-mega-raids-september-2024/
+URL:https://leekduck.com/events/mega-gardevoir-in-mega-raids-september-2024
+ /
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240926
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241004
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Gardevoir in Mega Raids
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
