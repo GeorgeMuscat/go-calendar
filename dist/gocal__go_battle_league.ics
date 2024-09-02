@@ -20,14 +20,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231206T014652Z
+DTSTART:20231207T013555Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:gbl-shared-skies_great-league_ultra-league_master-league-split-3
-DTSTAMP:20240901T014652Z
+DTSTAMP:20240902T013555Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | Shared Skie
  s
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -42,6 +42,61 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Great League\, Ultra League\, and Master League | Shared 
  Skies
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gbl-max-out_great-league_galar-cup-little-edition
+DTSTAMP:20240902T013555Z
+SUMMARY:[GBL] Great League and Galar Cup: Little Edition | Max Out
+DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /gbl-max-out_great-league_galar-cup-little-edition/
+URL:https://leekduck.com/events/gbl-max-out_great-league_galar-cup-little-e
+ dition/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/gobattle-greatleague
+ -key.jpg
+DTSTART;TZID=Z;VALUE=DATE:20240903
+DTEND;TZID=Z;VALUE=DATE:20240910
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[GBL] Great League and Galar Cup: Little Edition | Max Out
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gbl-max-out_ultra-league_galar-cup-little-edition
+DTSTAMP:20240902T013555Z
+SUMMARY:[GBL] Ultra League and Galar Cup: Little Edition | Max Out
+DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /gbl-max-out_ultra-league_galar-cup-little-edition/
+URL:https://leekduck.com/events/gbl-max-out_ultra-league_galar-cup-little-e
+ dition/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-battle-league-ult
+ ra-league-machamp-swampert.jpg
+DTSTART;TZID=Z;VALUE=DATE:20240910
+DTEND;TZID=Z;VALUE=DATE:20240917
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[GBL] Ultra League and Galar Cup: Little Edition | Max Out
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:gbl-max-out_master-league_psychic-cup-great-league-edition
+DTSTAMP:20240902T013555Z
+SUMMARY:[GBL] Master League and Psychic Cup: Great League Edition | Max Out
+DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /gbl-max-out_master-league_psychic-cup-great-league-edition/
+URL:https://leekduck.com/events/gbl-max-out_master-league_psychic-cup-great
+ -league-edition/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/gobattleleague-maste
+ r-key.jpg
+DTSTART;TZID=Z;VALUE=DATE:20240917
+DTEND;TZID=Z;VALUE=DATE:20240924
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[GBL] Master League and Psychic Cup: Great League Edition | Max
+  Out
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
