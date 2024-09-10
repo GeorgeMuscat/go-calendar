@@ -25,32 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231214T013716Z
+DTSTART:20231215T013553Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-grookey-scorbunny-sobble-2024-09-07
-DTSTAMP:20240909T013716Z
-SUMMARY:[PS] Grookey\, Scorbunny\, and Sobble PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-grookey-scorbunny-sobble-2024-09-07/
-URL:https://leekduck.com/events/pokemon-showcase-grookey-scorbunny-sobble-2
- 024-09-07/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
- efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240907
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240908
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Grookey\, Scorbunny\, and Sobble PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-skwovet-wooloo-2024-09-09-copy
-DTSTAMP:20240909T013716Z
+DTSTAMP:20240910T013553Z
 SUMMARY:[PS] Skwovet and Wooloo PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-skwovet-wooloo-2024-09-09-copy/

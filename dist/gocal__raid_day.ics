@@ -30,30 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231214T013716Z
+DTSTART:20231215T013553Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:falinks-raid-day-september-2024
-DTSTAMP:20240909T013716Z
-SUMMARY:[RD] Falinks Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /falinks-raid-day-september-2024/
-URL:https://leekduck.com/events/falinks-raid-day-september-2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/falink-raid-day.jpg
-DTSTART;TZID=Australia/Sydney:20240908T140000
-DTEND;TZID=Australia/Sydney:20240908T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Falinks Raid Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:unannounced-raid-day-october-2024
-DTSTAMP:20240909T013716Z
+DTSTAMP:20240910T013553Z
 SUMMARY:[RD] Unannounced Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-raid-day-october-2024/
