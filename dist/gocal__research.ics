@@ -30,21 +30,21 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231216T013442Z
+DTSTART:20231217T013503Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:oranguru-and-passimian-research-day-september-2024
-DTSTAMP:20240911T013442Z
+DTSTAMP:20240912T013503Z
 SUMMARY:[R] Oranguru and Passimian Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /oranguru-and-passimian-research-day-september-2024/
 URL:https://leekduck.com/events/oranguru-and-passimian-research-day-septemb
  er-2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
- pg
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/oranguru-passimian-r
+ esearch-day.jpg
 DTSTART;TZID=Australia/Sydney:20240922T140000
 DTEND;TZID=Australia/Sydney:20240922T170000
 BEGIN:VALARM
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:unannounced-research-day-october-2024
-DTSTAMP:20240911T013442Z
+DTSTAMP:20240912T013503Z
 SUMMARY:[R] Unannounced Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /unannounced-research-day-october-2024/

@@ -25,30 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231216T013442Z
+DTSTART:20231217T013503Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:go-all-out
-DTSTAMP:20240911T013442Z
-SUMMARY:[E] GO All Out
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /go-all-out/
-URL:https://leekduck.com/events/go-all-out/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-all-out-galar.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240903
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240910
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] GO All Out
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:go-big-dynamax
-DTSTAMP:20240911T013442Z
+DTSTAMP:20240912T013503Z
 SUMMARY:[E] GO Big
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /go-big-dynamax/
@@ -64,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:psychic-spectacular-2024
-DTSTAMP:20240911T013442Z
+DTSTAMP:20240912T013503Z
 SUMMARY:[E] Psychic Spectacular 2024
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /psychic-spectacular-2024/
@@ -81,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:legendary-heroes
-DTSTAMP:20240911T013442Z
+DTSTAMP:20240912T013503Z
 SUMMARY:[E] Legendary Heroes
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /legendary-heroes/
