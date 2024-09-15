@@ -25,26 +25,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231217T013503Z
+DTSTART:20231220T014406Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-skwovet-wooloo-2024-09-09-copy
-DTSTAMP:20240912T013503Z
-SUMMARY:[PS] Skwovet and Wooloo PokéStop Showcases
+UID:pokemon-showcase-ponyta-2024-09-14
+DTSTAMP:20240915T014406Z
+SUMMARY:[PS] Ponyta PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-skwovet-wooloo-2024-09-09-copy/
-URL:https://leekduck.com/events/pokemon-showcase-skwovet-wooloo-2024-09-09-
- copy/
+ /pokemon-showcase-ponyta-2024-09-14/
+URL:https://leekduck.com/events/pokemon-showcase-ponyta-2024-09-14/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240909
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240911
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240914
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240915
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Skwovet and Wooloo PokéStop Showcases
+DESCRIPTION:[PS] Ponyta PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
