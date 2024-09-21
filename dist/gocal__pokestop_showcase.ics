@@ -25,25 +25,26 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231224T013706Z
+DTSTART:20231226T013509Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-normal-type-2024-09-16
-DTSTAMP:20240919T013706Z
-SUMMARY:[PS] Normal-type PokéStop Showcases
+UID:pokemon-showcase-oranguru-passimian-2024-09-21
+DTSTAMP:20240921T013509Z
+SUMMARY:[PS] Oranguru and Passimian PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-normal-type-2024-09-16/
-URL:https://leekduck.com/events/pokemon-showcase-normal-type-2024-09-16/
+ /pokemon-showcase-oranguru-passimian-2024-09-21/
+URL:https://leekduck.com/events/pokemon-showcase-oranguru-passimian-2024-09
+ -21/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240916
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240918
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240921
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240922
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Normal-type PokéStop Showcases
+DESCRIPTION:[PS] Oranguru and Passimian PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
