@@ -20,14 +20,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231226T013509Z
+DTSTART:20231227T014441Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:gbl-max-out_master-league_psychic-cup-great-league-edition
-DTSTAMP:20240921T013509Z
+DTSTAMP:20240922T014441Z
 SUMMARY:[GBL] Master League and Psychic Cup: Great League Edition | Max Out
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /gbl-max-out_master-league_psychic-cup-great-league-edition/
