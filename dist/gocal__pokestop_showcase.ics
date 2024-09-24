@@ -25,32 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231228T013955Z
+DTSTART:20231229T013948Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-oranguru-passimian-2024-09-21
-DTSTAMP:20240923T013955Z
-SUMMARY:[PS] Oranguru and Passimian PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-oranguru-passimian-2024-09-21/
-URL:https://leekduck.com/events/pokemon-showcase-oranguru-passimian-2024-09
- -21/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
- efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240921
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240922
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Oranguru and Passimian PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-morelull-hatenna-2024-09-23
-DTSTAMP:20240923T013955Z
+DTSTAMP:20240924T013948Z
 SUMMARY:[PS] Morelull and Hatenna PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-morelull-hatenna-2024-09-23/
@@ -58,8 +40,8 @@ URL:https://leekduck.com/events/pokemon-showcase-morelull-hatenna-2024-09-2
  3/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240922
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240924
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240923
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20240925
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Morelull and Hatenna PokéStop Showcases

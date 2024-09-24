@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20231228T013955Z
+DTSTART:20231229T013948Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:psychic-spectacular-2024
-DTSTAMP:20240923T013955Z
-SUMMARY:[E] Psychic Spectacular 2024
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /psychic-spectacular-2024/
-URL:https://leekduck.com/events/psychic-spectacular-2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/psychic-spectacular-
- 2024.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240918
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240922
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Psychic Spectacular 2024
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:legendary-heroes
-DTSTAMP:20240923T013955Z
+DTSTAMP:20240924T013948Z
 SUMMARY:[E] Legendary Heroes
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /legendary-heroes/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:galarian-expedition
-DTSTAMP:20240923T013955Z
+DTSTAMP:20240924T013948Z
 SUMMARY:[E] Galarian Expedition
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /galarian-expedition/
