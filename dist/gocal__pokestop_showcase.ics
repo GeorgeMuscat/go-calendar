@@ -25,31 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240104T014239Z
+DTSTART:20240105T014812Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-zacian-2024-09-28
-DTSTAMP:20240930T014239Z
-SUMMARY:[PS] Zacian PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-zacian-2024-09-28/
-URL:https://leekduck.com/events/pokemon-showcase-zacian-2024-09-28/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
- efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240928
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20240929
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Zacian PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-fighting-and-fairy-type-2024-09-30
-DTSTAMP:20240930T014239Z
+DTSTAMP:20241001T014812Z
 SUMMARY:[PS] Fighting- and Fairy-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-fighting-and-fairy-type-2024-09-30/
