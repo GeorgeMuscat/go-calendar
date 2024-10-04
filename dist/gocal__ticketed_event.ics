@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240107T013936Z
+DTSTART:20240108T013955Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:daily-pokecoin-bounty-ticket-max-out
-DTSTAMP:20241003T013936Z
-SUMMARY:[TE] Daily PokéCoin Bounty Part 1 Ticket
-DESCRIPTION:Starts at 00:00\, ends at 11:59.\n\nhttps://leekduck.com/events
- /daily-pokecoin-bounty-ticket-max-out/
-URL:https://leekduck.com/events/daily-pokecoin-bounty-ticket-max-out/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/daily-pokecoin-bount
- y-max-out.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240903
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20241002
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[TE] Daily PokéCoin Bounty Part 1 Ticket
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:daily-pokecoin-bounty-ticket-max-out-part-2
-DTSTAMP:20241003T013936Z
+DTSTAMP:20241004T013955Z
 SUMMARY:[TE] Daily PokéCoin Bounty Part 2 Ticket
 DESCRIPTION:Starts at 00:00\, ends at 11:59.\n\nhttps://leekduck.com/events
  /daily-pokecoin-bounty-ticket-max-out-part-2/
