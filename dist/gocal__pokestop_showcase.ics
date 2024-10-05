@@ -21,30 +21,36 @@ DTSTART:20241006T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20250406T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240107T013936Z
+DTSTART:20240109T013817Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-fighting-and-fairy-type-2024-09-30
-DTSTAMP:20241003T013936Z
-SUMMARY:[PS] Fighting- and Fairy-type PokéStop Showcases
+UID:pokemon-showcase-galarian-slowpoke-galarian-slowking-2024-10-05
+DTSTAMP:20241005T013817Z
+SUMMARY:[PS] Galarian Slowpoke and Galarian Slowking PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-fighting-and-fairy-type-2024-09-30/
-URL:https://leekduck.com/events/pokemon-showcase-fighting-and-fairy-type-20
- 24-09-30/
+ /pokemon-showcase-galarian-slowpoke-galarian-slowking-2024-10-05/
+URL:https://leekduck.com/events/pokemon-showcase-galarian-slowpoke-galarian
+ -slowking-2024-10-05/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240930
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20241002
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241005
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241006
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Fighting- and Fairy-type PokéStop Showcases
+DESCRIPTION:[PS] Galarian Slowpoke and Galarian Slowking PokéStop Showcase
+ s
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
