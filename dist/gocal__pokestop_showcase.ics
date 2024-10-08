@@ -30,35 +30,15 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240111T014230Z
+DTSTART:20240112T013949Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-galarian-slowpoke-galarian-slowking-2024-10-05
-DTSTAMP:20241007T014230Z
-SUMMARY:[PS] Galarian Slowpoke\, Galarian Slowbro\, and Galarian Slowking P
- okéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-galarian-slowpoke-galarian-slowking-2024-10-05/
-URL:https://leekduck.com/events/pokemon-showcase-galarian-slowpoke-galarian
- -slowking-2024-10-05/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
- efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241005
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20241006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Galarian Slowpoke\, Galarian Slowbro\, and Galarian Slowki
- ng PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-zamazenta-2024-10-07
-DTSTAMP:20241007T014230Z
-SUMMARY:[PS] Zamanzenta PokéStop Showcases
+DTSTAMP:20241008T013949Z
+SUMMARY:[PS] Zamazenta PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-zamazenta-2024-10-07/
 URL:https://leekduck.com/events/pokemon-showcase-zamazenta-2024-10-07/
@@ -68,7 +48,7 @@ DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241007
 DTEND;TZID=Australia/Sydney;VALUE=DATE:20241009
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Zamanzenta PokéStop Showcases
+DESCRIPTION:[PS] Zamazenta PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

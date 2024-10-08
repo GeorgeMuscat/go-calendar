@@ -30,24 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240111T014230Z
+DTSTART:20240112T013949Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:november-communityday2024
-DTSTAMP:20241007T014230Z
-SUMMARY:[CD] November Community Day
+DTSTAMP:20241008T013949Z
+SUMMARY:[CD] Mankey Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /november-communityday2024/
 URL:https://leekduck.com/events/november-communityday2024/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-default.jpg
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/cd-2024-11-mankey.jp
+ g
 DTSTART;TZID=Australia/Sydney:20241110T140000
 DTEND;TZID=Australia/Sydney:20241110T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] November Community Day
+DESCRIPTION:[CD] Mankey Community Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
