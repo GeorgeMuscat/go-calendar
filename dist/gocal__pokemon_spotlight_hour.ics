@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240113T013854Z
+DTSTART:20240114T013930Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemonspotlighthour2024-10-08
-DTSTAMP:20241009T013854Z
-SUMMARY:[PSH] Galarian Slowpoke Spotlight Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2024-10-08/
-URL:https://leekduck.com/events/pokemonspotlighthour2024-10-08/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
- .jpg
-DTSTART;TZID=Australia/Sydney:20241008T180000
-DTEND;TZID=Australia/Sydney:20241008T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Galarian Slowpoke Spotlight Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemonspotlighthour2024-10-15
-DTSTAMP:20241009T013854Z
+DTSTAMP:20241010T013930Z
 SUMMARY:[PSH] Shroomish Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-10-15/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-10-22
-DTSTAMP:20241009T013854Z
+DTSTAMP:20241010T013930Z
 SUMMARY:[PSH] Gastly\, Duskull\, and Litwick Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-10-22/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-10-29
-DTSTAMP:20241009T013854Z
+DTSTAMP:20241010T013930Z
 SUMMARY:[PSH] Unannoucned Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-10-29/
