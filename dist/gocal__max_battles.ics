@@ -30,14 +30,33 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240118T014208Z
+DTSTART:20240119T014104Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:go-bigger-gigantamax
+DTSTAMP:20241015T014104Z
+SUMMARY:[MB] Gigantamax VenusaurGigantamax Charizardand Gigantamax Blastois
+ e in Max Battles
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /go-bigger-gigantamax/
+URL:https://leekduck.com/events/go-bigger-gigantamax/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/go-bigger-gigantamax
+ .jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241026
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241027
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MB] Gigantamax VenusaurGigantamax Charizardand Gigantamax Blas
+ toise in Max Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:october-max-battles-2024
-DTSTAMP:20241014T014208Z
+DTSTAMP:20241015T014104Z
 SUMMARY:[MB] October Max Battles
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /october-max-battles-2024/
