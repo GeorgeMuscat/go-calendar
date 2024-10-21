@@ -30,18 +30,19 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240124T014705Z
+DTSTART:20240125T014235Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-mawile-2024-10-12-copy
-DTSTAMP:20241020T014705Z
+UID:pokemon-showcase-yamask-galarian-yamaks-2024-10-12-copy
+DTSTAMP:20241021T014235Z
 SUMMARY:[PS] Yamask and Galarian Yamask PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-mawile-2024-10-12-copy/
-URL:https://leekduck.com/events/pokemon-showcase-mawile-2024-10-12-copy/
+ /pokemon-showcase-yamask-galarian-yamaks-2024-10-12-copy/
+URL:https://leekduck.com/events/pokemon-showcase-yamask-galarian-yamaks-202
+ 4-10-12-copy/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241019
@@ -49,6 +50,23 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20241020
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Yamask and Galarian Yamask PokéStop Showcases
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-showcase-ghost-type-2024-10-21
+DTSTAMP:20241021T014235Z
+SUMMARY:[PS] Ghost-type PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-ghost-type-2024-10-21/
+URL:https://leekduck.com/events/pokemon-showcase-ghost-type-2024-10-21/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
+ efault.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241021
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241023
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Ghost-type PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
