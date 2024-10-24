@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240127T013944Z
+DTSTART:20240128T013949Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:shadow-entei-in-shadow-raids-max-out
-DTSTAMP:20241023T013944Z
+DTSTAMP:20241024T013949Z
 SUMMARY:[RB] Shadow Entei in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-entei-in-shadow-raids-max-out/
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:origin-forme-giratina-in-5-star-raid-battles-october-2024
-DTSTAMP:20241023T013944Z
+DTSTAMP:20241024T013949Z
 SUMMARY:[RB] Origin Forme Giratina in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /origin-forme-giratina-in-5-star-raid-battles-october-2024/
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-sableye-in-mega-raids-october-2024
-DTSTAMP:20241023T013944Z
+DTSTAMP:20241024T013949Z
 SUMMARY:[RB] Mega Sableye in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-sableye-in-mega-raids-october-2024/
@@ -88,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:darkrai-in-5-star-raid-battles-october-2024
-DTSTAMP:20241023T013944Z
+DTSTAMP:20241024T013949Z
 SUMMARY:[RB] Darkrai in 5-star Raid Battles
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /darkrai-in-5-star-raid-battles-october-2024/
@@ -105,7 +105,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-banette-in-mega-raids-october-2024
-DTSTAMP:20241023T013944Z
+DTSTAMP:20241024T013949Z
 SUMMARY:[RB] Mega Banette in Mega Raids
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /mega-banette-in-mega-raids-october-2024/
