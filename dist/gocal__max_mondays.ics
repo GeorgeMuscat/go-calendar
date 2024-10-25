@@ -1,0 +1,106 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:spatie/icalendar-generator
+NAME:GO Calendar - Max Mondays (MM)
+X-WR-CALNAME:GO Calendar - Max Mondays (MM)
+DESCRIPTION:All Pokémon GO Max Mondays events\, in your local time\, auto-
+ updated and sourced from Leek Duck.
+X-WR-CALDESC:All Pokémon GO Max Mondays events\, in your local time\, auto
+ -updated and sourced from Leek Duck.
+REFRESH-INTERVAL;VALUE=DURATION:PT1440M
+X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:STANDARD
+DTSTART:20240407T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20241006T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20250406T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:20240129T014046Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:max-mondays-2024-11-11
+DTSTAMP:20241025T014046Z
+SUMMARY:[MM] Dyanamax Charmander during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 07:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2024-11-11/
+URL:https://leekduck.com/events/max-mondays-2024-11-11/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/max-battles-kanto.jp
+ g
+DTSTART;TZID=Australia/Sydney:20241111T060000
+DTEND;TZID=Australia/Sydney:20241111T070000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dyanamax Charmander during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2024-11-18
+DTSTAMP:20241025T014046Z
+SUMMARY:[MM] Dyanamax Drilbur during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 07:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2024-11-18/
+URL:https://leekduck.com/events/max-mondays-2024-11-18/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/max-battles-kanto.jp
+ g
+DTSTART;TZID=Australia/Sydney:20241118T060000
+DTEND;TZID=Australia/Sydney:20241118T070000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dyanamax Drilbur during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2024-11-25
+DTSTAMP:20241025T014046Z
+SUMMARY:[MM] Dyanamax Bulbasaur during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 07:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2024-11-25/
+URL:https://leekduck.com/events/max-mondays-2024-11-25/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/max-battles-kanto.jp
+ g
+DTSTART;TZID=Australia/Sydney:20241125T060000
+DTEND;TZID=Australia/Sydney:20241125T070000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dyanamax Bulbasaur during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2024-12-02
+DTSTAMP:20241025T014046Z
+SUMMARY:[MM] Dyanamax Squirtle during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 07:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2024-12-02/
+URL:https://leekduck.com/events/max-mondays-2024-12-02/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/max-battles-kanto.jp
+ g
+DTSTART;TZID=Australia/Sydney:20241202T060000
+DTEND;TZID=Australia/Sydney:20241202T070000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dyanamax Squirtle during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
