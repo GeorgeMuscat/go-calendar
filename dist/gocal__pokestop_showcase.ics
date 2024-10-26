@@ -30,25 +30,26 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240128T013949Z
+DTSTART:20240130T013723Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-ghost-type-2024-10-21
-DTSTAMP:20241024T013949Z
-SUMMARY:[PS] Ghost-type PokéStop Showcases
+UID:pokemon-showcase-grass-fire-water-type-2024-10-26
+DTSTAMP:20241026T013723Z
+SUMMARY:[PS] Grass-\, Fire-\, and Water-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-ghost-type-2024-10-21/
-URL:https://leekduck.com/events/pokemon-showcase-ghost-type-2024-10-21/
+ /pokemon-showcase-grass-fire-water-type-2024-10-26/
+URL:https://leekduck.com/events/pokemon-showcase-grass-fire-water-type-2024
+ -10-26/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241021
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20241023
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241026
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241027
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Ghost-type PokéStop Showcases
+DESCRIPTION:[PS] Grass-\, Fire-\, and Water-type PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
