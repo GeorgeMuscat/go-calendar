@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240131T014602Z
+DTSTART:20240201T014411Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-go-halloween-2024-part-1
-DTSTAMP:20241027T014602Z
+DTSTAMP:20241028T014411Z
 SUMMARY:[E] Pokémon GO Halloween 2024 - Part I
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /pokemon-go-halloween-2024-part-1/
@@ -53,25 +53,8 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:unannnounced-event-max-out-2
-DTSTAMP:20241027T014602Z
-SUMMARY:[E] Unannounced Event
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /unannnounced-event-max-out-2/
-URL:https://leekduck.com/events/unannnounced-event-max-out-2/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/events-default-img.j
- pg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241031
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20241103
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Unannounced Event
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-go-halloween-2024-part-2
-DTSTAMP:20241027T014602Z
+DTSTAMP:20241028T014411Z
 SUMMARY:[E] Pokémon GO Halloween 2024 - Part II
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-go-halloween-2024-part-2/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:go-battle-weekend-max-out
-DTSTAMP:20241027T014602Z
+DTSTAMP:20241028T014411Z
 SUMMARY:[E] GO Battle Weekend: Max Out
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /go-battle-weekend-max-out/
@@ -105,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dia-de-muertos-2024
-DTSTAMP:20241027T014602Z
+DTSTAMP:20241028T014411Z
 SUMMARY:[E] Día de Muertos 2024 (Latin America)
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /dia-de-muertos-2024/
@@ -122,7 +105,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-of-lights-2024
-DTSTAMP:20241027T014602Z
+DTSTAMP:20241028T014411Z
 SUMMARY:[E] Festival of Lights 2024 (India Only)
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /festival-of-lights-2024/
@@ -139,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:harvest-festival-2024
-DTSTAMP:20241027T014602Z
+DTSTAMP:20241028T014411Z
 SUMMARY:[E] Harvest Festival 2024
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /harvest-festival-2024/
@@ -155,7 +138,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:simply-groundbreaking
-DTSTAMP:20241027T014602Z
+DTSTAMP:20241028T014411Z
 SUMMARY:[E] Simply Groundbreaking
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /simply-groundbreaking/
@@ -172,7 +155,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:into-the-wild
-DTSTAMP:20241027T014602Z
+DTSTAMP:20241028T014411Z
 SUMMARY:[E] Into the Wild
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /into-the-wild/
@@ -189,7 +172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-out-finale
-DTSTAMP:20241027T014602Z
+DTSTAMP:20241028T014411Z
 SUMMARY:[E] Max Out: Finale
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /max-out-finale/
