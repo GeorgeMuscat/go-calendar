@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240210T013809Z
+DTSTART:20240211T013822Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemonspotlighthour2024-11-05
-DTSTAMP:20241106T013809Z
-SUMMARY:[PSH] Surskit Spotlight Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2024-11-05/
-URL:https://leekduck.com/events/pokemonspotlighthour2024-11-05/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokemonspotlighthour
- .jpg
-DTSTART;TZID=Australia/Sydney:20241105T180000
-DTEND;TZID=Australia/Sydney:20241105T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Surskit Spotlight Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemonspotlighthour2024-11-12
-DTSTAMP:20241106T013809Z
+DTSTAMP:20241107T013822Z
 SUMMARY:[PSH] Smoliv Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-11-12/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-11-19
-DTSTAMP:20241106T013809Z
+DTSTAMP:20241107T013822Z
 SUMMARY:[PSH] Teddiursa and Combee Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-11-19/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2024-11-26
-DTSTAMP:20241106T013809Z
+DTSTAMP:20241107T013822Z
 SUMMARY:[PSH] Joltik Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2024-11-26/
