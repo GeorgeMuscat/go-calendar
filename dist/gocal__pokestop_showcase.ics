@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240221T014936Z
+DTSTART:20240222T014743Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-showcase-pichu-budew-2024-11-16
-DTSTAMP:20241117T014936Z
+DTSTAMP:20241118T014743Z
 SUMMARY:[PS] Pichu and Budew PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-pichu-budew-2024-11-16/
@@ -49,6 +49,23 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20241117
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Pichu and Budew PokéStop Showcases
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-showcase-dialga-palkia-2024-11-18
+DTSTAMP:20241118T014743Z
+SUMMARY:[PS] Dialga and Palkia PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-dialga-palkia-2024-11-18/
+URL:https://leekduck.com/events/pokemon-showcase-dialga-palkia-2024-11-18/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
+ efault.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241118
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241120
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Dialga and Palkia PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
