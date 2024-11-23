@@ -30,25 +30,26 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240226T014520Z
+DTSTART:20240227T014223Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-dialga-palkia-2024-11-18
-DTSTAMP:20241122T014520Z
-SUMMARY:[PS] Dialga and Palkia PokéStop Showcases
+UID:pokemon-showcase-toxel-toxtricity-2024-11-22
+DTSTAMP:20241123T014223Z
+SUMMARY:[PS] Toxel and Toxtricity PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-dialga-palkia-2024-11-18/
-URL:https://leekduck.com/events/pokemon-showcase-dialga-palkia-2024-11-18/
+ /pokemon-showcase-toxel-toxtricity-2024-11-22/
+URL:https://leekduck.com/events/pokemon-showcase-toxel-toxtricity-2024-11-2
+ 2/
 IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/pokestop-showcases-d
  efault.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241118
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20241120
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241123
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241124
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Dialga and Palkia PokéStop Showcases
+DESCRIPTION:[PS] Toxel and Toxtricity PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

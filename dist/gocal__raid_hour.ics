@@ -30,46 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240226T014520Z
+DTSTART:20240227T014223Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:raidhour20241120
-DTSTAMP:20241122T014520Z
-SUMMARY:[RH] Tapu Koko Raid Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20241120/
-URL:https://leekduck.com/events/raidhour20241120/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20241120T180000
-DTEND;TZID=Australia/Sydney:20241120T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] Tapu Koko Raid Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:raidhour20241121
-DTSTAMP:20241122T014520Z
-SUMMARY:[RH] Origin Forme Dialga Raid Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20241121/
-URL:https://leekduck.com/events/raidhour20241121/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20241121T180000
-DTEND;TZID=Australia/Sydney:20241121T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] Origin Forme Dialga Raid Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:raidhour20241122
-DTSTAMP:20241122T014520Z
+DTSTAMP:20241123T014223Z
 SUMMARY:[RH] Origin Forme Palkia Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20241122/
@@ -85,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20241127
-DTSTAMP:20241122T014520Z
+DTSTAMP:20241123T014223Z
 SUMMARY:[RH] Zacian\, Zamazenta\, Regieleki\, and Regidrago Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20241127/
