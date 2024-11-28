@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240302T014723Z
+DTSTART:20240303T014702Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:november-max-battles-2024
-DTSTAMP:20241127T014723Z
+DTSTAMP:20241128T014702Z
 SUMMARY:[MB] November Max Battles
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /november-max-battles-2024/
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gigantamax-lapras-max-battle-day
-DTSTAMP:20241127T014723Z
+DTSTAMP:20241128T014702Z
 SUMMARY:[MB] Gigantamax Lapras Max Battle Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /gigantamax-lapras-max-battle-day/
@@ -71,8 +71,59 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:december-max-battles-split-1-2024
+DTSTAMP:20241128T014702Z
+SUMMARY:[MB] Max Battles - December 3 to 9
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /december-max-battles-split-1-2024/
+URL:https://leekduck.com/events/december-max-battles-split-1-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/power-spots-max-batt
+ les.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241203
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241209
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MB] Max Battles - December 3 to 9
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:december-max-battles-split-2-2024
+DTSTAMP:20241128T014702Z
+SUMMARY:[MB] Max Battles - December 9 to 23
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /december-max-battles-split-2-2024/
+URL:https://leekduck.com/events/december-max-battles-split-2-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/power-spots-max-batt
+ les.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241209
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20241223
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MB] Max Battles - December 9 to 23
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:december-max-battles-split-3-2024
+DTSTAMP:20241128T014702Z
+SUMMARY:[MB] Max Battles - December 23 to January 6
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /december-max-battles-split-3-2024/
+URL:https://leekduck.com/events/december-max-battles-split-3-2024/
+IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/power-spots-max-batt
+ les.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241223
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250106
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MB] Max Battles - December 23 to January 6
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:max-battle-day-february-2025
-DTSTAMP:20241127T014723Z
+DTSTAMP:20241128T014702Z
 SUMMARY:[MB] Max Battle Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /max-battle-day-february-2025/
