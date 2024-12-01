@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240305T014409Z
+DTSTART:20240306T020224Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:daily-pokecoin-bounty-ticket-max-out-part-3
-DTSTAMP:20241130T014409Z
+DTSTAMP:20241201T020224Z
 SUMMARY:[TE] Daily PokéCoin Bounty Part 3 Ticket
 DESCRIPTION:Starts at 00:00\, ends at 11:59.\n\nhttps://leekduck.com/events
  /daily-pokecoin-bounty-ticket-max-out-part-3/
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eggs-pedition-access-december-2024
-DTSTAMP:20241130T014409Z
+DTSTAMP:20241201T020224Z
 SUMMARY:[TE] Eggs-pedition Access: December
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /eggs-pedition-access-december-2024/

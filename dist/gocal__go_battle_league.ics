@@ -20,7 +20,7 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240305T014409Z
+DTSTART:20240306T020224Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
@@ -28,7 +28,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:gbl-max-out_great-league_ultra-league_master-league_catch-cup-great-lea
  gue-edition
-DTSTAMP:20241130T014409Z
+DTSTAMP:20241201T020224Z
 SUMMARY:[GBL] Great League\, Ultra League\, Master League\, and Catch Cup: 
  Great League Edition | Max Out
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/events
