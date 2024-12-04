@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240308T014900Z
+DTSTART:20240309T014924Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:max-mondays-2024-12-02
-DTSTAMP:20241203T014900Z
-SUMMARY:[MM] Dynamax Squirtle during Max Monday
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /max-mondays-2024-12-02/
-URL:https://leekduck.com/events/max-mondays-2024-12-02/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/max-battles-kanto.jp
- g
-DTSTART;TZID=Australia/Sydney:20241202T180000
-DTEND;TZID=Australia/Sydney:20241202T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Squirtle during Max Monday
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:max-mondays-2024-12-09
-DTSTAMP:20241203T014900Z
+DTSTAMP:20241204T014924Z
 SUMMARY:[MM] Dynamax Krabby during Max Monday
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /max-mondays-2024-12-09/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2024-12-16
-DTSTAMP:20241203T014900Z
+DTSTAMP:20241204T014924Z
 SUMMARY:[MM] Dynamax Charmander during Max Monday
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /max-mondays-2024-12-16/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2024-12-23
-DTSTAMP:20241203T014900Z
+DTSTAMP:20241204T014924Z
 SUMMARY:[MM] Dynamax Cryogonal during Max Monday
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /max-mondays-2024-12-23/
@@ -105,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2024-12-30
-DTSTAMP:20241203T014900Z
+DTSTAMP:20241204T014924Z
 SUMMARY:[MM] Dynamax Bulbasaur during Max Monday
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /max-mondays-2024-12-30/

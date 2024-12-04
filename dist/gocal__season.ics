@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240308T014900Z
+DTSTART:20240309T014924Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:season-16-max-out
-DTSTAMP:20241203T014900Z
-SUMMARY:[S] Max Out
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /season-16-max-out/
-URL:https://leekduck.com/events/season-16-max-out/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/season-16-max-out.jp
- g
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20240903
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20241203
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[S] Max Out
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:season-17-dual-destiny
-DTSTAMP:20241203T014900Z
+DTSTAMP:20241204T014924Z
 SUMMARY:[S] Dual Destiny
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /season-17-dual-destiny/
