@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:STANDARD
-DTSTART:20240407T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-END:STANDARD
 BEGIN:DAYLIGHT
 DTSTART:20241006T020000Z
 TZOFFSETFROM:+1000
@@ -30,31 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240328T014151Z
+DTSTART:20240329T013958Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:december-communityday2024
-DTSTAMP:20241223T014151Z
-SUMMARY:[CD] December Community Day 2024
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /december-communityday2024/
-URL:https://leekduck.com/events/december-communityday2024/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 024/2024-12-21-december-communityday2024/2024-12-december-communityday.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241221
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20241222
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] December Community Day 2024
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:january-communityday2025
-DTSTAMP:20241223T014151Z
+DTSTAMP:20241224T013958Z
 SUMMARY:[CD] Sprigatito Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /january-communityday2025/
@@ -71,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:january-communitydayclassic2025
-DTSTAMP:20241223T014151Z
+DTSTAMP:20241224T013958Z
 SUMMARY:[CD] January Community Day Classic
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /january-communitydayclassic2025/
@@ -87,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:february-communityday2025
-DTSTAMP:20241223T014151Z
+DTSTAMP:20241224T013958Z
 SUMMARY:[CD] February Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /february-communityday2025/
