@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240405T013934Z
+DTSTART:20240406T014728Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:eggs-pedition-access-december-2024
-DTSTAMP:20241231T013934Z
+DTSTAMP:20250101T014728Z
 SUMMARY:[TE] Eggs-pedition Access: December
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /eggs-pedition-access-december-2024/
@@ -50,6 +50,24 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20241231
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[TE] Eggs-pedition Access: December
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eggs-pedition-access-january-2025
+DTSTAMP:20250101T014728Z
+SUMMARY:[TE] Eggs-pedition Access: January
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /eggs-pedition-access-january-2025/
+URL:https://leekduck.com/events/eggs-pedition-access-january-2025/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-01-01-eggs-pedition-access-january-2025/eggs-pedition-access-janu
+ ary.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250101
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250131
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[TE] Eggs-pedition Access: January
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
