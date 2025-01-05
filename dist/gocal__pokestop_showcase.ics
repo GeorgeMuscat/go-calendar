@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:STANDARD
-DTSTART:20240407T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-END:STANDARD
 BEGIN:DAYLIGHT
 DTSTART:20241006T020000Z
 TZOFFSETFROM:+1000
@@ -30,26 +25,26 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240407T013911Z
+DTSTART:20240410T014640Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-jigglypuff-hoothoot-2024-12-28
-DTSTAMP:20250102T013911Z
-SUMMARY:[PS] Jigglypuff and Hoothoot PokéStop Showcases
+UID:pokemon-showcase-sprigatito-meowscarada-2025-01-04-copy
+DTSTAMP:20250105T014640Z
+SUMMARY:[PS] Sprigatito PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-jigglypuff-hoothoot-2024-12-28/
-URL:https://leekduck.com/events/pokemon-showcase-jigglypuff-hoothoot-2024-1
- 2-28/
+ /pokemon-showcase-sprigatito-meowscarada-2025-01-04-copy/
+URL:https://leekduck.com/events/pokemon-showcase-sprigatito-meowscarada-202
+ 5-01-04-copy/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
  es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241230
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250101
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250104
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250105
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Jigglypuff and Hoothoot PokéStop Showcases
+DESCRIPTION:[PS] Sprigatito PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
