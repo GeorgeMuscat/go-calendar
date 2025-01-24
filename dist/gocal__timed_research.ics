@@ -25,26 +25,26 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240427T013942Z
+DTSTART:20240429T013804Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:legendary-flight-lead-up-timed-research-for-articuno
-DTSTAMP:20250122T013942Z
-SUMMARY:[TR] Legendary Flight Lead-Up Timed Research for Articuno
+UID:legendary-flight-lead-up-timed-research-for-zapdos
+DTSTAMP:20250124T013804Z
+SUMMARY:[TR] Legendary Flight Lead-Up Timed Research for Zapdos
 DESCRIPTION:Starts at 10:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /legendary-flight-lead-up-timed-research-for-articuno/
+ /legendary-flight-lead-up-timed-research-for-zapdos/
 URL:https://leekduck.com/events/legendary-flight-lead-up-timed-research-for
- -articuno/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/dynamax-articuno
- .jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250117
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250120
+ -zapdos/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/dynamax-zapdos.j
+ pg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250124
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250127
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[TR] Legendary Flight Lead-Up Timed Research for Articuno
+DESCRIPTION:[TR] Legendary Flight Lead-Up Timed Research for Zapdos
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
