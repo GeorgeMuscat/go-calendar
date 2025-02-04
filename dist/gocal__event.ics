@@ -25,31 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240509T013912Z
+DTSTART:20240510T013819Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:lunar-new-year-2025
-DTSTAMP:20250203T013912Z
-SUMMARY:[E] Lunar New Year 2025
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /lunar-new-year-2025/
-URL:https://leekduck.com/events/lunar-new-year-2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-01-29-lunar-new-year-2025/lunar-new-year-2025.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250129
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250202
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Lunar New Year 2025
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:small-yet-strong
-DTSTAMP:20250203T013912Z
+DTSTAMP:20250204T013819Z
 SUMMARY:[E] Small Yet Strong
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /small-yet-strong/
@@ -66,13 +49,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:beloved-buddies
-DTSTAMP:20250203T013912Z
+DTSTAMP:20250204T013819Z
 SUMMARY:[E] Beloved Buddies
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /beloved-buddies/
 URL:https://leekduck.com/events/beloved-buddies/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-02-11-beloved-buddies/beloved-buddies.jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250211
 DTEND;TZID=Australia/Sydney;VALUE=DATE:20250215
 BEGIN:VALARM
@@ -83,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:scattered-to-the-winds
-DTSTAMP:20250203T013912Z
+DTSTAMP:20250204T013819Z
 SUMMARY:[E] Scattered to the Winds
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /scattered-to-the-winds/
@@ -100,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:road-to-unova
-DTSTAMP:20250203T013912Z
+DTSTAMP:20250204T013819Z
 SUMMARY:[E] Road to Unova
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /road-to-unova/
