@@ -21,35 +21,23 @@ DTSTART:20250406T030000Z
 TZOFFSETFROM:+1100
 TZOFFSETTO:+1000
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20251005T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240516T014047Z
+DTSTART:20240517T013927Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:small-yet-strong
-DTSTAMP:20250210T014047Z
-SUMMARY:[E] Small Yet Strong
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /small-yet-strong/
-URL:https://leekduck.com/events/small-yet-strong/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-02-05-small-yet-strong/small-yet-strong.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250205
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250208
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Small Yet Strong
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:beloved-buddies
-DTSTAMP:20250210T014047Z
+DTSTAMP:20250211T013927Z
 SUMMARY:[E] Beloved Buddies
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /beloved-buddies/
@@ -66,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:scattered-to-the-winds
-DTSTAMP:20250210T014047Z
+DTSTAMP:20250211T013927Z
 SUMMARY:[E] Scattered to the Winds
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /scattered-to-the-winds/
@@ -83,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:road-to-unova
-DTSTAMP:20250210T014047Z
+DTSTAMP:20250211T013927Z
 SUMMARY:[E] Road to Unova
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /road-to-unova/
@@ -95,6 +83,40 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20250301
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Road to Unova
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:catch-mastery-march-2025
+DTSTAMP:20250211T013927Z
+SUMMARY:[E] Catch Mastery March 2025
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /catch-mastery-march-2025/
+URL:https://leekduck.com/events/catch-mastery-march-2025/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20250316T100000
+DTEND;TZID=Australia/Sydney:20250316T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Catch Mastery March 2025
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hatch-day-april-2025
+DTSTAMP:20250211T013927Z
+SUMMARY:[E] Hatch Day April 2025
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /hatch-day-april-2025/
+URL:https://leekduck.com/events/hatch-day-april-2025/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20250406T140000
+DTEND;TZID=Australia/Sydney:20250406T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Hatch Day April 2025
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
