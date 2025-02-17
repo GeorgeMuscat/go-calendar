@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240522T014628Z
+DTSTART:20240523T014302Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:hoopa-unbound-raid-day
-DTSTAMP:20250216T014628Z
-SUMMARY:[RD] Hoopa Unbound Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /hoopa-unbound-raid-day/
-URL:https://leekduck.com/events/hoopa-unbound-raid-day/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-02-15-hoopa-unbound-raid-day/hoopa-unleashed-raid-day.jpg
-DTSTART;TZID=Australia/Sydney:20250215T140000
-DTEND;TZID=Australia/Sydney:20250215T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Hoopa Unbound Raid Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:raid-day-march-2025
-DTSTAMP:20250216T014628Z
+DTSTAMP:20250217T014302Z
 SUMMARY:[RD] Raid Day March 2025
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /raid-day-march-2025/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raid-day-april-2025
-DTSTAMP:20250216T014628Z
+DTSTAMP:20250217T014302Z
 SUMMARY:[RD] Raid Day April 2025
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /raid-day-april-2025/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raid-day-april-2025-2
-DTSTAMP:20250216T014628Z
+DTSTAMP:20250217T014302Z
 SUMMARY:[RD] Raid Day April 2025
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /raid-day-april-2025-2/
@@ -105,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raid-day-may-2025
-DTSTAMP:20250216T014628Z
+DTSTAMP:20250217T014302Z
 SUMMARY:[RD] Raid Day May 2025
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /raid-day-may-2025/
@@ -122,7 +105,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-raid-day-may-2025
-DTSTAMP:20250216T014628Z
+DTSTAMP:20250217T014302Z
 SUMMARY:[RD] Shadow Raid Day May 2025
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /shadow-raid-day-may-2025/
