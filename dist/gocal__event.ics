@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240605T014742Z
+DTSTART:20240606T014551Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:road-to-unova
-DTSTAMP:20250302T014742Z
-SUMMARY:[E] Road to Unova
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /road-to-unova/
-URL:https://leekduck.com/events/road-to-unova/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-02-24-road-to-unova/road-to-unova.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250224
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250301
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Road to Unova
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:powerful-potential
-DTSTAMP:20250302T014742Z
+DTSTAMP:20250303T014551Z
 SUMMARY:[E] Powerful Potential
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /powerful-potential/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catch-mastery-march-2025
-DTSTAMP:20250302T014742Z
+DTSTAMP:20250303T014551Z
 SUMMARY:[E] Catch Mastery March 2025
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /catch-mastery-march-2025/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-april-2025
-DTSTAMP:20250302T014742Z
+DTSTAMP:20250303T014551Z
 SUMMARY:[E] Hatch Day April 2025
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-april-2025/
