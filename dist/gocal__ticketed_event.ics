@@ -21,30 +21,34 @@ DTSTART:20250406T030000Z
 TZOFFSETFROM:+1100
 TZOFFSETTO:+1000
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20251005T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240604T014852Z
+DTSTART:20240607T014427Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:eggs-pedition-access-february-2025
-DTSTAMP:20250301T014852Z
-SUMMARY:[TE] Eggs-pedition Access: February
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /eggs-pedition-access-february-2025/
-URL:https://leekduck.com/events/eggs-pedition-access-february-2025/
+UID:power-up-ticket-march
+DTSTAMP:20250304T014427Z
+SUMMARY:[TE] Power Up Ticket: March
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /power-up-ticket-march/
+URL:https://leekduck.com/events/power-up-ticket-march/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-02-01-eggs-pedition-access-february-2025/eggs-pedition-access-feb
- ruary.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250201
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250228
+ 025/2025-03-04-power-up-ticket-march/power-up-ticket-march.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250304
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250404
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[TE] Eggs-pedition Access: February
+DESCRIPTION:[TE] Power Up Ticket: March
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
