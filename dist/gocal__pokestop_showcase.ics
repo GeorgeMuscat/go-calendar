@@ -25,32 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240613T012136Z
+DTSTART:20240614T014519Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-fuecoco-skeledirge-2025-03-08
-DTSTAMP:20250310T012136Z
-SUMMARY:[PS] Fuecoco and Skeledirge PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-fuecoco-skeledirge-2025-03-08/
-URL:https://leekduck.com/events/pokemon-showcase-fuecoco-skeledirge-2025-03
- -08/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
- es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250308
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250309
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Fuecoco and Skeledirge PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-charcadet-2025-03-10
-DTSTAMP:20250310T012136Z
+DTSTAMP:20250311T014519Z
 SUMMARY:[PS] Charcadet PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-charcadet-2025-03-10/
