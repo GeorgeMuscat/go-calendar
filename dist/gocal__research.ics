@@ -21,18 +21,23 @@ DTSTART:20250406T030000Z
 TZOFFSETFROM:+1100
 TZOFFSETTO:+1000
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20251005T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240704T015321Z
+DTSTART:20240705T015927Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:masterwork-research-a-dazzling-aria
-DTSTAMP:20250331T015321Z
+DTSTAMP:20250401T015927Z
 SUMMARY:[R] Masterwork Research: A Dazzling Aria
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /masterwork-research-a-dazzling-aria/
@@ -40,7 +45,7 @@ URL:https://leekduck.com/events/masterwork-research-a-dazzling-aria/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
  025/2025-02-21-masterwork-research-a-dazzling-aria/shiny-meloetta.jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250221
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250330
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250430
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[R] Masterwork Research: A Dazzling Aria
