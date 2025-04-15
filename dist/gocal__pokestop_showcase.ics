@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240718T015339Z
+DTSTART:20240719T015208Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-gossifleur-2025-04-12
-DTSTAMP:20250414T015339Z
-SUMMARY:[PS] Gossifleur PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-gossifleur-2025-04-12/
-URL:https://leekduck.com/events/pokemon-showcase-gossifleur-2025-04-12/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
- es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250412
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250413
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Gossifleur PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-grass-type-2025-04-14
-DTSTAMP:20250414T015339Z
+DTSTAMP:20250415T015208Z
 SUMMARY:[PS] Grass-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-grass-type-2025-04-14/
