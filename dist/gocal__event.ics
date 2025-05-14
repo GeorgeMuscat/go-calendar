@@ -30,48 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240729T015240Z
+DTSTART:20240817T015446Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:sweet-discoveries-2025
-DTSTAMP:20250425T015240Z
-SUMMARY:[E] Sweet Discoveries
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /sweet-discoveries-2025/
-URL:https://leekduck.com/events/sweet-discoveries-2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-04-24-sweet-discoveries-2025/sweet-discoveries.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250424
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250429
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Sweet Discoveries
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:growing-up
-DTSTAMP:20250425T015240Z
-SUMMARY:[E] Growing Up
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /growing-up/
-URL:https://leekduck.com/events/growing-up/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-05-02-growing-up/growing-up-event.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250502
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250507
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Growing Up
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:crown-clash
-DTSTAMP:20250425T015240Z
+DTSTAMP:20250514T015446Z
 SUMMARY:[E] Crown Clash
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /crown-clash/
@@ -87,8 +53,42 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:crown-clash-taken-over
+DTSTAMP:20250514T015446Z
+SUMMARY:[E] Crown Clash: Taken Over
+DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
+ /crown-clash-taken-over/
+URL:https://leekduck.com/events/crown-clash-taken-over/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-05-14-crown-clash-taken-over/crown-clash-taken-over.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250514
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250518
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Crown Clash: Taken Over
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:final-strike-go-battle-week
+DTSTAMP:20250514T015446Z
+SUMMARY:[E] Final Strike: GO Battle Week
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /final-strike-go-battle-week/
+URL:https://leekduck.com/events/final-strike-go-battle-week/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-05-21-final-strike-go-battle-week/final-strike-go-battle-week.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250521
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250527
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Final Strike: GO Battle Week
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:go-battle-week-might-and-mastery
-DTSTAMP:20250425T015240Z
+DTSTAMP:20250514T015446Z
 SUMMARY:[E] GO Battle Week: Might and Mastery
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /go-battle-week-might-and-mastery/
