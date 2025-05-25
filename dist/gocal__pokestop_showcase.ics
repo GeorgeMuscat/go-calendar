@@ -30,25 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240824T015622Z
+DTSTART:20240828T020443Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-kingambit-2025-05-19
-DTSTAMP:20250521T015622Z
-SUMMARY:[PS] Kingambit PokéStop Showcases
+UID:pokemon-showcase-machop-machamp-2025-05-24
+DTSTAMP:20250525T020443Z
+SUMMARY:[PS] Machop and Machamp PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-kingambit-2025-05-19/
-URL:https://leekduck.com/events/pokemon-showcase-kingambit-2025-05-19/
+ /pokemon-showcase-machop-machamp-2025-05-24/
+URL:https://leekduck.com/events/pokemon-showcase-machop-machamp-2025-05-24/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
  es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250519
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250520
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250524
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250525
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Kingambit PokéStop Showcases
+DESCRIPTION:[PS] Machop and Machamp PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
