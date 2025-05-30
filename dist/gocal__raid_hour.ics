@@ -30,24 +30,152 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240901T015628Z
+DTSTART:20240902T015432Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:raidhour20250528
-DTSTAMP:20250529T015628Z
+UID:raidhour20250604
+DTSTAMP:20250530T015432Z
 SUMMARY:[RH] Tapu Bulu Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20250528/
-URL:https://leekduck.com/events/raidhour20250528/
+ /raidhour20250604/
+URL:https://leekduck.com/events/raidhour20250604/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20250528T180000
-DTEND;TZID=Australia/Sydney:20250528T190000
+DTSTART;TZID=Australia/Sydney:20250604T180000
+DTEND;TZID=Australia/Sydney:20250604T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RH] Tapu Bulu Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20250611
+DTSTAMP:20250530T015432Z
+SUMMARY:[RH] Groudon Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20250611/
+URL:https://leekduck.com/events/raidhour20250611/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20250611T180000
+DTEND;TZID=Australia/Sydney:20250611T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Groudon Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20250618
+DTSTAMP:20250530T015432Z
+SUMMARY:[RH] Kyogre Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20250618/
+URL:https://leekduck.com/events/raidhour20250618/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20250618T180000
+DTEND;TZID=Australia/Sydney:20250618T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Kyogre Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20250623
+DTSTAMP:20250530T015432Z
+SUMMARY:[RH] Regirock\, Regice &amp\; Registeel Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20250623/
+URL:https://leekduck.com/events/raidhour20250623/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20250623T180000
+DTEND;TZID=Australia/Sydney:20250623T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Regirock\, Regice &amp\; Registeel Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20250624
+DTSTAMP:20250530T015432Z
+SUMMARY:[RH] Regieleki Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20250624/
+URL:https://leekduck.com/events/raidhour20250624/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20250624T180000
+DTEND;TZID=Australia/Sydney:20250624T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Regieleki Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20250625
+DTSTAMP:20250530T015432Z
+SUMMARY:[RH] Regidrago Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20250625/
+URL:https://leekduck.com/events/raidhour20250625/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20250625T180000
+DTEND;TZID=Australia/Sydney:20250625T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Regidrago Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20250626
+DTSTAMP:20250530T015432Z
+SUMMARY:[RH] Regigigas Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20250626/
+URL:https://leekduck.com/events/raidhour20250626/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20250626T180000
+DTEND;TZID=Australia/Sydney:20250626T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Regigigas Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20250627
+DTSTAMP:20250530T015432Z
+SUMMARY:[RH] Legendary Giants Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20250627/
+URL:https://leekduck.com/events/raidhour20250627/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20250627T180000
+DTEND;TZID=Australia/Sydney:20250627T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Legendary Giants Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raidhour20250702
+DTSTAMP:20250530T015432Z
+SUMMARY:[RH] Cobalion Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20250702/
+URL:https://leekduck.com/events/raidhour20250702/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20250702T180000
+DTEND;TZID=Australia/Sydney:20250702T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Cobalion Raid Hour
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
