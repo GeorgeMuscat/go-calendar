@@ -30,32 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240912T020421Z
+DTSTART:20240913T020026Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-ferroseed-falinks-2025-06-07
-DTSTAMP:20250609T020421Z
-SUMMARY:[PS] Ferroseed and Falinks PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-ferroseed-falinks-2025-06-07/
-URL:https://leekduck.com/events/pokemon-showcase-ferroseed-falinks-2025-06-
- 07/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
- es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250607
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250608
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Ferroseed and Falinks PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-ferroseed-falinks-2025-06-09
-DTSTAMP:20250609T020421Z
+DTSTAMP:20250610T020026Z
 SUMMARY:[PS] Ferroseed and Falinks PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-showcase-ferroseed-falinks-2025-06-09/
