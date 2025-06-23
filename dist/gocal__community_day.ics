@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:DAYLIGHT
-DTSTART:20241006T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
 BEGIN:STANDARD
 DTSTART:20250406T030000Z
 TZOFFSETFROM:+1100
@@ -30,31 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240925T020825Z
+DTSTART:20240926T020641Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:june-communityday2025
-DTSTAMP:20250622T020825Z
-SUMMARY:[CD] Jangmo-o Community Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /june-communityday2025/
-URL:https://leekduck.com/events/june-communityday2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-06-21-june-communityday2025/jangmo-o-community-day.jpg
-DTSTART;TZID=Australia/Sydney:20250621T140000
-DTEND;TZID=Australia/Sydney:20250621T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] Jangmo-o Community Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:july-communitydayclassic2025
-DTSTAMP:20250622T020825Z
+DTSTAMP:20250623T020641Z
 SUMMARY:[CD] July Community Day Classic
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /july-communitydayclassic2025/
@@ -72,23 +50,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:july-communityday2025
-DTSTAMP:20250622T020825Z
-SUMMARY:[CD] July Community Day
+DTSTAMP:20250623T020641Z
+SUMMARY:[CD] Quaxly Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /july-communityday2025/
 URL:https://leekduck.com/events/july-communityday2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-07-20-july-communityday2025/quaxly-community-day-temp.jpg?v2
 DTSTART;TZID=Australia/Sydney:20250720T140000
 DTEND;TZID=Australia/Sydney:20250720T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] July Community Day
+DESCRIPTION:[CD] Quaxly Community Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:august-communityday2025
-DTSTAMP:20250622T020825Z
+DTSTAMP:20250623T020641Z
 SUMMARY:[CD] August Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /august-communityday2025/
