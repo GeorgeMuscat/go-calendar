@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:DAYLIGHT
-DTSTART:20241006T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
 BEGIN:STANDARD
 DTSTART:20250406T030000Z
 TZOFFSETFROM:+1100
@@ -30,31 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241005T020011Z
+DTSTART:20241006T020026Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemonspotlighthour2025-07-01
-DTSTAMP:20250702T020011Z
-SUMMARY:[PSH] Party Hat Pikachu Spotlight Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2025-07-01/
-URL:https://leekduck.com/events/pokemonspotlighthour2025-07-01/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
- hour.jpg
-DTSTART;TZID=Australia/Sydney:20250701T180000
-DTEND;TZID=Australia/Sydney:20250701T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Party Hat Pikachu Spotlight Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemonspotlighthour2025-07-08
-DTSTAMP:20250702T020011Z
+DTSTAMP:20250703T020026Z
 SUMMARY:[PSH] Voltorb and Hisuian Voltorb Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2025-07-08/
@@ -71,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2025-07-15
-DTSTAMP:20250702T020011Z
+DTSTAMP:20250703T020026Z
 SUMMARY:[PSH] Feebas Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2025-07-15/
@@ -88,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2025-07-22
-DTSTAMP:20250702T020011Z
+DTSTAMP:20250703T020026Z
 SUMMARY:[PSH] Jigglypuff Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2025-07-22/
@@ -105,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:pokemonspotlighthour2025-07-29
-DTSTAMP:20250702T020011Z
+DTSTAMP:20250703T020026Z
 SUMMARY:[PSH] Roggenrola Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2025-07-29/
