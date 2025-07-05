@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:DAYLIGHT
-DTSTART:20241006T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
 BEGIN:STANDARD
 DTSTART:20250406T030000Z
 TZOFFSETFROM:+1100
@@ -30,26 +25,27 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241005T020011Z
+DTSTART:20241008T015547Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-bulbasaur-charmander-squirtle-2025-06-30
-DTSTAMP:20250702T020011Z
-SUMMARY:[PS] Bulbasaur\, Charmander\, and Squirtle PokéStop Showcases
+UID:pokemon-showcase-eevee-evolutions-2025-07-05
+DTSTAMP:20250705T015547Z
+SUMMARY:[PS] Eevee\, Vaporeon\, Jolteon\, and Flareon PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-bulbasaur-charmander-squirtle-2025-06-30/
-URL:https://leekduck.com/events/pokemon-showcase-bulbasaur-charmander-squir
- tle-2025-06-30/
+ /pokemon-showcase-eevee-evolutions-2025-07-05/
+URL:https://leekduck.com/events/pokemon-showcase-eevee-evolutions-2025-07-0
+ 5/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
  es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250630
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250701
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250705
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250706
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Bulbasaur\, Charmander\, and Squirtle PokéStop Showcases
+DESCRIPTION:[PS] Eevee\, Vaporeon\, Jolteon\, and Flareon PokéStop Showcas
+ es
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
