@@ -25,33 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241010T020614Z
+DTSTART:20241011T020101Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-eevee-evolutions-2025-07-05
-DTSTAMP:20250707T020614Z
-SUMMARY:[PS] Eevee\, Vaporeon\, Jolteon\, and Flareon PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-eevee-evolutions-2025-07-05/
-URL:https://leekduck.com/events/pokemon-showcase-eevee-evolutions-2025-07-0
- 5/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
- es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250705
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250706
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Eevee\, Vaporeon\, Jolteon\, and Flareon PokéStop Showcas
- es
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-eevee-evolutions-2025-07-07
-DTSTAMP:20250707T020614Z
+DTSTAMP:20250708T020101Z
 SUMMARY:[PS] Espeon\, Umbreon\, Leafeon\, Glaceon\, and Sylveon PokéStop S
  howcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events

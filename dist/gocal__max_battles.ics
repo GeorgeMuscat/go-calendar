@@ -25,14 +25,32 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241010T020614Z
+DTSTART:20241011T020101Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:gigantamax-lapras-max-battle-day-july-2025
+DTSTAMP:20250708T020101Z
+SUMMARY:[MB] Gigantamax Lapras Max Battle Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /gigantamax-lapras-max-battle-day-july-2025/
+URL:https://leekduck.com/events/gigantamax-lapras-max-battle-day-july-2025/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-07-19-gigantamax-lapras-max-battle-day-july-2025/gigantamax-lapra
+ s-battle-day.jpg
+DTSTART;TZID=Australia/Sydney:20250719T140000
+DTEND;TZID=Australia/Sydney:20250719T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MB] Gigantamax Lapras Max Battle Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:max-battle-day-july-2025
-DTSTAMP:20250707T020614Z
+DTSTAMP:20250708T020101Z
 SUMMARY:[MB] Max Battle Day
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-battle-day-july-2025/
@@ -49,7 +67,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-battle-weekend-july-2025
-DTSTAMP:20250707T020614Z
+DTSTAMP:20250708T020101Z
 SUMMARY:[MB] Max Battle Weekend
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-battle-weekend-july-2025/
@@ -66,7 +84,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-battle-day-august-2025
-DTSTAMP:20250707T020614Z
+DTSTAMP:20250708T020101Z
 SUMMARY:[MB] Max Battle Day
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-battle-day-august-2025/
