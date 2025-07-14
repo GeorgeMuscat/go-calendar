@@ -25,31 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241016T022011Z
+DTSTART:20241017T020936Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:hisuian-lilligant-raid-day
-DTSTAMP:20250713T022011Z
-SUMMARY:[RD] Hisuian Lilligant Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /hisuian-lilligant-raid-day/
-URL:https://leekduck.com/events/hisuian-lilligant-raid-day/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-07-12-hisuian-lilligant-raid-day/hisuian-lilligant-raid-day.jpg
-DTSTART;TZID=Australia/Sydney:20250712T140000
-DTEND;TZID=Australia/Sydney:20250712T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Hisuian Lilligant Raid Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:raid-day-august-2025-1
-DTSTAMP:20250713T022011Z
+DTSTAMP:20250714T020936Z
 SUMMARY:[RD] Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /raid-day-august-2025-1/
@@ -66,7 +49,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raid-day-august-2025-2
-DTSTAMP:20250713T022011Z
+DTSTAMP:20250714T020936Z
 SUMMARY:[RD] Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /raid-day-august-2025-2/
