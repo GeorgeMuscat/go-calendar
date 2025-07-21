@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241023T022214Z
+DTSTART:20241024T021912Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:gigantamax-lapras-max-battle-day-lead-up-timed-research
-DTSTAMP:20250720T022214Z
+DTSTAMP:20250721T021912Z
 SUMMARY:[R] Gigantamax Lapras Lead Up Timed Research
 DESCRIPTION:Starts at 06:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /gigantamax-lapras-max-battle-day-lead-up-timed-research/
