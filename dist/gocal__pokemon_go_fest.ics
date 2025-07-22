@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:DAYLIGHT
-DTSTART:20241006T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
 BEGIN:STANDARD
 DTSTART:20250406T030000Z
 TZOFFSETFROM:+1100
@@ -30,25 +25,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241003T020540Z
+DTSTART:20241025T020721Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-go-fest-2025-global
-DTSTAMP:20250630T020540Z
-SUMMARY:[PGF] Pokémon GO Fest 2025: Global
-DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
- /pokemon-go-fest-2025-global/
-URL:https://leekduck.com/events/pokemon-go-fest-2025-global/
+UID:pokemon-go-fest-2025-max-finale
+DTSTAMP:20250722T020721Z
+SUMMARY:[PGF] Pokémon GO Fest 2025: Max Finale
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-go-fest-2025-max-finale/
+URL:https://leekduck.com/events/pokemon-go-fest-2025-max-finale/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-06-28-pokemon-go-fest-2025-global/go-fest-2025-updated-key.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250628
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250629
+ 025/2025-08-23-pokemon-go-fest-2025-max-finale/go-fest-finale-2025.jpg?v2
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250823
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250824
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PGF] Pokémon GO Fest 2025: Global
+DESCRIPTION:[PGF] Pokémon GO Fest 2025: Max Finale
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

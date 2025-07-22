@@ -25,41 +25,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241024T021912Z
+DTSTART:20241025T020721Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:july-communityday2025
-DTSTAMP:20250721T021912Z
-SUMMARY:[CD] Quaxly Community Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /july-communityday2025/
-URL:https://leekduck.com/events/july-communityday2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-07-20-july-communityday2025/quaxly-community-day-temp.jpg?v2
-DTSTART;TZID=Australia/Sydney:20250720T140000
-DTEND;TZID=Australia/Sydney:20250720T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] Quaxly Community Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:august-communityday2025
-DTSTAMP:20250721T021912Z
-SUMMARY:[CD] August Community Day
+DTSTAMP:20250722T020721Z
+SUMMARY:[CD] Rookidee Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /august-communityday2025/
 URL:https://leekduck.com/events/august-communityday2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-08-30-august-communityday2025/august-cd-2025-rookidee-vote.jpg
 DTSTART;TZID=Australia/Sydney:20250830T140000
 DTEND;TZID=Australia/Sydney:20250830T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] August Community Day
+DESCRIPTION:[CD] Rookidee Community Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
