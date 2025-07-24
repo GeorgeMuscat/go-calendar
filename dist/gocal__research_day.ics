@@ -25,20 +25,20 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241026T020829Z
+DTSTART:20241027T020725Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:research-day-august-2025
-DTSTAMP:20250723T020829Z
+UID:fossil-research-day-august-2025
+DTSTAMP:20250724T020725Z
 SUMMARY:[RD] Fossil Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /research-day-august-2025/
-URL:https://leekduck.com/events/research-day-august-2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
+ /fossil-research-day-august-2025/
+URL:https://leekduck.com/events/fossil-research-day-august-2025/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-08-02-fossil-research-day-august-2025/fossil-research-day.jpg
 DTSTART;TZID=Australia/Sydney:20250802T140000
 DTEND;TZID=Australia/Sydney:20250802T170000
 BEGIN:VALARM
