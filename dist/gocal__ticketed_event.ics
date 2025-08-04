@@ -25,32 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241106T022511Z
+DTSTART:20241107T022451Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:eggs-pedition-access-july-2025
-DTSTAMP:20250803T022511Z
-SUMMARY:[TE] Eggs-pedition Access: July
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /eggs-pedition-access-july-2025/
-URL:https://leekduck.com/events/eggs-pedition-access-july-2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-07-03-eggs-pedition-access-july-2025/eggs-pedition-access-july.jp
- g
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250703
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250803
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[TE] Eggs-pedition Access: July
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:eggs-pedition-access-august-2025
-DTSTAMP:20250803T022511Z
+DTSTAMP:20250804T022451Z
 SUMMARY:[TE] Eggs-pedition Access: August
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /eggs-pedition-access-august-2025/
