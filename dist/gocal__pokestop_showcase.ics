@@ -25,25 +25,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241114T021102Z
+DTSTART:20241115T015853Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-munchlax-2025-08-09
-DTSTAMP:20250811T021102Z
-SUMMARY:[PS] Munchlax PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-munchlax-2025-08-09/
-URL:https://leekduck.com/events/pokemon-showcase-munchlax-2025-08-09/
+UID:pokemon-showcase-great-buddy-2025-08-12
+DTSTAMP:20250812T015853Z
+SUMMARY:[PS] Great Buddy or Higher PokéStop Showcases
+DESCRIPTION:Starts at 10:00\, ends at 19:59.\n\nhttps://leekduck.com/events
+ /pokemon-showcase-great-buddy-2025-08-12/
+URL:https://leekduck.com/events/pokemon-showcase-great-buddy-2025-08-12/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
  es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250809
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250810
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250811
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250812
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Munchlax PokéStop Showcases
+DESCRIPTION:[PS] Great Buddy or Higher PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
