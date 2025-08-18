@@ -10,22 +10,6 @@ X-WR-CALDESC:All Pokémon GO Research events\, in your local time\, auto-up
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
-TZID:Z
-BEGIN:STANDARD
-DTSTART:20241118T160000Z
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
-TZID:UTC
-BEGIN:STANDARD
-DTSTART:20241120T020749Z
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
 TZID:Australia/Sydney
 BEGIN:STANDARD
 DTSTART:20250406T030000Z
@@ -38,28 +22,25 @@ TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
 END:VTIMEZONE
-BEGIN:VEVENT
-UID:pokemon-world-championship-2025-timed-research-twitch-drops
-DTSTAMP:20250817T020749Z
-SUMMARY:[R] Twitch Drops for 2025 Pokémon World Championships
-DESCRIPTION:Starts at 16:00\, ends at 02:00.\n\nhttps://leekduck.com/events
- /pokemon-world-championship-2025-timed-research-twitch-drops/
-URL:https://leekduck.com/events/pokemon-world-championship-2025-timed-resea
- rch-twitch-drops/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-08-12-pokemon-world-championship-2025-timed-research-twitch-drops
- /wcs-2025-twitch-drops.jpg
-DTSTART;TZID=Z;VALUE=DATE:20250815
-DTEND;TZID=Z;VALUE=DATE:20250818
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[R] Twitch Drops for 2025 Pokémon World Championships
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:20241121T020814Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Z
+BEGIN:STANDARD
+DTSTART:20241118T160000Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:max-finale-promo-code
-DTSTAMP:20250817T020749Z
+DTSTAMP:20250818T020814Z
 SUMMARY:[R] Promo Code for Max Finale Timed Research
 DESCRIPTION:Starts at 00:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-finale-promo-code/
@@ -71,6 +52,25 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20250824
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[R] Promo Code for Max Finale Timed Research
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-world-championship-2025-timed-research-twitch-drops
+DTSTAMP:20250818T020814Z
+SUMMARY:[R] Twitch Drops for 2025 Pokémon World Championships
+DESCRIPTION:Starts at 16:00\, ends at 02:00.\n\nhttps://leekduck.com/events
+ /pokemon-world-championship-2025-timed-research-twitch-drops/
+URL:https://leekduck.com/events/pokemon-world-championship-2025-timed-resea
+ rch-twitch-drops/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-08-12-pokemon-world-championship-2025-timed-research-twitch-drops
+ /wcs-2025-twitch-drops.jpg
+DTSTART;TZID=Z;VALUE=DATE:20250815
+DTEND;TZID=Z;VALUE=DATE:20250831
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[R] Twitch Drops for 2025 Pokémon World Championships
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
