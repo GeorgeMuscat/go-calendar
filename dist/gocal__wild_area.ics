@@ -10,42 +10,69 @@ X-WR-CALDESC:All Pokémon GO Wild Area events\, in your local time\, auto-u
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
-TZID:Australia/Sydney
+TZID:Z
 BEGIN:STANDARD
-DTSTART:20240407T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-END:STANDARD
-BEGIN:DAYLIGHT
-DTSTART:20241006T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
-BEGIN:STANDARD
-DTSTART:20250406T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
+DTSTART:20250210T000000Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240229T014728Z
+DTSTART:20241201T014918Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:STANDARD
+DTSTART:20250406T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20251005T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20260405T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-go-wild-area-2024-global
-DTSTAMP:20241125T014728Z
+UID:pokemon-go-wild-area-2025-nagasaki-japan
+DTSTAMP:20250828T014918Z
+SUMMARY:[WA] Pokémon GO Wild Area: Nagasaki
+DESCRIPTION:Starts at 00:00\, ends at 08:00.\n\nhttps://leekduck.com/events
+ /pokemon-go-wild-area-2025-nagasaki-japan/
+URL:https://leekduck.com/events/pokemon-go-wild-area-2025-nagasaki-japan/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-11-07-pokemon-go-wild-area-2025-nagasaki-japan/wild-area-2025-nag
+ asaki-key-art.jpg
+DTSTART;TZID=Z;VALUE=DATE:20251107
+DTEND;TZID=Z;VALUE=DATE:20251109
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[WA] Pokémon GO Wild Area: Nagasaki
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-go-wild-area-2025-global
+DTSTAMP:20250828T014918Z
 SUMMARY:[WA] Pokémon GO Wild Area: Global
-DESCRIPTION:Starts at 10:00\, ends at 18:15.\n\nhttps://leekduck.com/events
- /pokemon-go-wild-area-2024-global/
-URL:https://leekduck.com/events/pokemon-go-wild-area-2024-global/
-IMAGE;VALUE=URI:https://leekduck.com/assets/img/events/wild-area-2024-key-a
- rt.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20241123
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20241124
+DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
+ /pokemon-go-wild-area-2025-global/
+URL:https://leekduck.com/events/pokemon-go-wild-area-2025-global/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-11-15-pokemon-go-wild-area-2025-global/wild-area-2025-global-key-
+ art.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251115
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20251116
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[WA] Pokémon GO Wild Area: Global
