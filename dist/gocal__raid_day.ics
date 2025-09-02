@@ -25,32 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241205T020509Z
+DTSTART:20241206T015126Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-gyarados-raid-day-august-2025
-DTSTAMP:20250901T020509Z
-SUMMARY:[RD] Mega Gyarados Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /mega-gyarados-raid-day-august-2025/
-URL:https://leekduck.com/events/mega-gyarados-raid-day-august-2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-08-31-mega-gyarados-raid-day-august-2025/mega-gyarados-raid-day.j
- pg
-DTSTART;TZID=Australia/Sydney:20250831T140000
-DTEND;TZID=Australia/Sydney:20250831T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Mega Gyarados Raid Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:mega-sharpedo-raid-day-september-2025
-DTSTAMP:20250901T020509Z
+DTSTAMP:20250902T015126Z
 SUMMARY:[RD] Mega Sharpedo Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /mega-sharpedo-raid-day-september-2025/
@@ -68,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-raid-day-september-2025
-DTSTAMP:20250901T020509Z
+DTSTAMP:20250902T015126Z
 SUMMARY:[RD] Mega Raid Day
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /mega-raid-day-september-2025/
