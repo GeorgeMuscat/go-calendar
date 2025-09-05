@@ -25,36 +25,20 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241208T014417Z
+DTSTART:20241209T014648Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:raidhour20250903
-DTSTAMP:20250904T014417Z
-SUMMARY:[RH] Palkia (Origin Forme) Raid Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20250903/
-URL:https://leekduck.com/events/raidhour20250903/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20250903T180000
-DTEND;TZID=Australia/Sydney:20250903T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] Palkia (Origin Forme) Raid Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:raidhour20250910
-DTSTAMP:20250904T014417Z
+DTSTAMP:20250905T014648Z
 SUMMARY:[RH] Palkia (Origin Forme) Raid Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+DESCRIPTION:Starts at 17:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20250910/
 URL:https://leekduck.com/events/raidhour20250910/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20250910T180000
+DTSTART;TZID=Australia/Sydney:20250910T170000
 DTEND;TZID=Australia/Sydney:20250910T190000
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -64,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20250917
-DTSTAMP:20250904T014417Z
+DTSTAMP:20250905T014648Z
 SUMMARY:[RH] Mega Latias and Mega Latios Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20250917/
@@ -80,7 +64,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20250924
-DTSTAMP:20250904T014417Z
+DTSTAMP:20250905T014648Z
 SUMMARY:[RH] Dialga (Origin Forme) Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20250924/
@@ -96,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raidhour20251001
-DTSTAMP:20250904T014417Z
+DTSTAMP:20250905T014648Z
 SUMMARY:[RH] Dialga (Origin Forme) Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /raidhour20251001/
