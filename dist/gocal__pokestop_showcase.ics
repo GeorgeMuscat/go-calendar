@@ -25,25 +25,28 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241207T014340Z
+DTSTART:20241211T015233Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:gyarados-showcase
-DTSTAMP:20250903T014340Z
-SUMMARY:[PS] Gyarados PokéStop Showcases
+UID:farfetchd-mr-mime-kangaskhan-tauros-showcase
+DTSTAMP:20250907T015233Z
+SUMMARY:[PS] Farfetch'd\, Mr. Mime\, Kangaskhan\, and Tauros PokéStop Show
+ cases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /gyarados-showcase/
-URL:https://leekduck.com/events/gyarados-showcase/
+ /farfetchd-mr-mime-kangaskhan-tauros-showcase/
+URL:https://leekduck.com/events/farfetchd-mr-mime-kangaskhan-tauros-showcas
+ e/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
  es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250901
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250902
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250906
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20250907
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Gyarados PokéStop Showcases
+DESCRIPTION:[PS] Farfetch'd\, Mr. Mime\, Kangaskhan\, and Tauros PokéStop 
+ Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
