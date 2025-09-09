@@ -25,32 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241212T015221Z
+DTSTART:20241213T014833Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-sharpedo-raid-day-september-2025
-DTSTAMP:20250908T015221Z
-SUMMARY:[RD] Mega Sharpedo Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /mega-sharpedo-raid-day-september-2025/
-URL:https://leekduck.com/events/mega-sharpedo-raid-day-september-2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-09-07-mega-sharpedo-raid-day-september-2025/mega-sharpedo-raid-da
- y.jpg
-DTSTART;TZID=Australia/Sydney:20250907T140000
-DTEND;TZID=Australia/Sydney:20250907T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Mega Sharpedo Raid Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:mega-raid-day-september-2025
-DTSTAMP:20250908T015221Z
+DTSTAMP:20250909T014833Z
 SUMMARY:[RD] Mega Raid Day
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /mega-raid-day-september-2025/

@@ -25,34 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241212T015221Z
+DTSTART:20241213T014833Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:farfetchd-mr-mime-kangaskhan-tauros-showcase
-DTSTAMP:20250908T015221Z
-SUMMARY:[PS] Farfetch'd\, Mr. Mime\, Kangaskhan\, and Tauros PokéStop Show
- cases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /farfetchd-mr-mime-kangaskhan-tauros-showcase/
-URL:https://leekduck.com/events/farfetchd-mr-mime-kangaskhan-tauros-showcas
- e/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
- es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250906
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250907
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Farfetch'd\, Mr. Mime\, Kangaskhan\, and Tauros PokéStop 
- Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:venusaur-charizard-blastoise-showcase
-DTSTAMP:20250908T015221Z
+DTSTAMP:20250909T014833Z
 SUMMARY:[PS] Venusaur\, Charizard\, and Blastoise PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /venusaur-charizard-blastoise-showcase/
