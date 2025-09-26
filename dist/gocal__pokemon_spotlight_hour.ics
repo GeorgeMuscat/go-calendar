@@ -21,18 +21,23 @@ DTSTART:20251005T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20260405T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241229T014726Z
+DTSTART:20241230T014643Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemonspotlighthour2025-09-30
-DTSTAMP:20250925T014726Z
+DTSTAMP:20250926T014643Z
 SUMMARY:[PSH] Aron Spotlight Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /pokemonspotlighthour2025-09-30/
@@ -44,6 +49,74 @@ DTEND;TZID=Australia/Sydney:20250930T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PSH] Aron Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2025-10-07
+DTSTAMP:20250926T014643Z
+SUMMARY:[PSH] Ferroseed Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2025-10-07/
+URL:https://leekduck.com/events/pokemonspotlighthour2025-10-07/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20251007T180000
+DTEND;TZID=Australia/Sydney:20251007T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Ferroseed Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2025-10-14
+DTSTAMP:20250926T014643Z
+SUMMARY:[PSH] Petilil Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2025-10-14/
+URL:https://leekduck.com/events/pokemonspotlighthour2025-10-14/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20251014T180000
+DTEND;TZID=Australia/Sydney:20251014T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Petilil Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2025-10-21
+DTSTAMP:20250926T014643Z
+SUMMARY:[PSH] Gastly Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2025-10-21/
+URL:https://leekduck.com/events/pokemonspotlighthour2025-10-21/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20251021T180000
+DTEND;TZID=Australia/Sydney:20251021T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Gastly Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2025-10-28
+DTSTAMP:20250926T014643Z
+SUMMARY:[PSH] Sinistea Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2025-10-28/
+URL:https://leekduck.com/events/pokemonspotlighthour2025-10-28/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20251028T180000
+DTEND;TZID=Australia/Sydney:20251028T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Sinistea Spotlight Hour
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
