@@ -21,30 +21,35 @@ DTSTART:20251005T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20260405T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241107T022451Z
+DTSTART:20250112T014636Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:gigantamax-butterfree-max-battle-day
-DTSTAMP:20250804T022451Z
-SUMMARY:[MB] Gigantamax Butterfree Max Battle Day
+UID:gigantamax-garbodor-max-battle-day
+DTSTAMP:20251009T014636Z
+SUMMARY:[MB] Gigantamax Garbodor Max Battle Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /gigantamax-butterfree-max-battle-day/
-URL:https://leekduck.com/events/gigantamax-butterfree-max-battle-day/
+ /gigantamax-garbodor-max-battle-day/
+URL:https://leekduck.com/events/gigantamax-garbodor-max-battle-day/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-08-03-gigantamax-butterfree-max-battle-day/gigantamax-butterfree-
+ 025/2025-11-01-gigantamax-garbodor-max-battle-day/gigantamax-garbodor-max-
  battle-day.jpg
-DTSTART;TZID=Australia/Sydney:20250803T140000
-DTEND;TZID=Australia/Sydney:20250803T170000
+DTSTART;TZID=Australia/Sydney:20251101T140000
+DTEND;TZID=Australia/Sydney:20251101T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[MB] Gigantamax Butterfree Max Battle Day
+DESCRIPTION:[MB] Gigantamax Garbodor Max Battle Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
