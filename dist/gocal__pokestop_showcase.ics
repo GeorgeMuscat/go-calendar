@@ -30,32 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250130T020043Z
+DTSTART:20250131T015017Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-poltchageist-ghost-type-2025-10-25
-DTSTAMP:20251027T020043Z
-SUMMARY:[PS] Poltchageist and Ghost-type Pokémon PokéStop Showcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-poltchageist-ghost-type-2025-10-25/
-URL:https://leekduck.com/events/pokemon-showcase-poltchageist-ghost-type-20
- 25-10-25/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
- es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251025
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20251026
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Poltchageist and Ghost-type Pokémon PokéStop Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-noibat-teddiursa-noivern-ursaluna-2025-10-27
-DTSTAMP:20251027T020043Z
+DTSTAMP:20251028T015017Z
 SUMMARY:[PS] Noibat\, Teddiursa\, Noivern\, and Ursaluna PokéStop Showcase
  s
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
