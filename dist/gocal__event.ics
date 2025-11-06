@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250208T015518Z
+DTSTART:20250209T015509Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:enchanted-hollow-2025
-DTSTAMP:20251105T015518Z
+DTSTAMP:20251106T015509Z
 SUMMARY:[E] Enchanted Hollow
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /enchanted-hollow-2025/
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:into-the-wild-2025
-DTSTAMP:20251105T015518Z
+DTSTAMP:20251106T015509Z
 SUMMARY:[E] Into the Wild
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /into-the-wild-2025/
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:high-voltage-2025
-DTSTAMP:20251105T015518Z
+DTSTAMP:20251106T015509Z
 SUMMARY:[E] High Voltage
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /high-voltage-2025/
@@ -87,25 +87,8 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dynamax-max-battle-weekend-2025-1
-DTSTAMP:20251105T015518Z
-SUMMARY:[E] Dynamax Max Battle Weekend
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /dynamax-max-battle-weekend-2025-1/
-URL:https://leekduck.com/events/dynamax-max-battle-weekend-2025-1/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251121
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20251124
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Dynamax Max Battle Weekend
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:final-justice-2025
-DTSTAMP:20251105T015518Z
+DTSTAMP:20251106T015509Z
 SUMMARY:[E] Final Justice
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /final-justice-2025/
@@ -122,7 +105,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dynamax-max-battle-weekend-2025-2
-DTSTAMP:20251105T015518Z
+DTSTAMP:20251106T015509Z
 SUMMARY:[E] Dynamax Max Battle Weekend
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /dynamax-max-battle-weekend-2025-2/
@@ -139,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:trade-days-tales-of-transformation
-DTSTAMP:20251105T015518Z
+DTSTAMP:20251106T015509Z
 SUMMARY:[E] Trade Days | Tales of Transformation
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /trade-days-tales-of-transformation/

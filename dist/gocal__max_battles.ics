@@ -30,26 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250205T015925Z
+DTSTART:20250209T015509Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:gigantamax-garbodor-max-battle-day
-DTSTAMP:20251102T015925Z
-SUMMARY:[MB] Gigantamax Garbodor Max Battle Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /gigantamax-garbodor-max-battle-day/
-URL:https://leekduck.com/events/gigantamax-garbodor-max-battle-day/
+UID:dynamax-eevee-max-battle-weekend
+DTSTAMP:20251106T015509Z
+SUMMARY:[MB] Dynamax Eevee Max Battle Weekend
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /dynamax-eevee-max-battle-weekend/
+URL:https://leekduck.com/events/dynamax-eevee-max-battle-weekend/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-11-01-gigantamax-garbodor-max-battle-day/gigantamax-garbodor-max-
- battle-day.jpg
-DTSTART;TZID=Australia/Sydney:20251101T140000
-DTEND;TZID=Australia/Sydney:20251101T170000
+ 025/2025-11-21-dynamax-eevee-max-battle-weekend/dynamax-eevee-weekend.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251121
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20251124
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[MB] Gigantamax Garbodor Max Battle Day
+DESCRIPTION:[MB] Dynamax Eevee Max Battle Weekend
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
