@@ -21,29 +21,34 @@ DTSTART:20251005T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20260405T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20241106T022511Z
+DTSTART:20250210T015411Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fossil-research-day-august-2025
-DTSTAMP:20250803T022511Z
-SUMMARY:[RD] Fossil Research Day
+UID:research-day-december-2025
+DTSTAMP:20251107T015411Z
+SUMMARY:[RD] Research Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /fossil-research-day-august-2025/
-URL:https://leekduck.com/events/fossil-research-day-august-2025/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-08-02-fossil-research-day-august-2025/fossil-research-day.jpg
-DTSTART;TZID=Australia/Sydney:20250802T140000
-DTEND;TZID=Australia/Sydney:20250802T170000
+ /research-day-december-2025/
+URL:https://leekduck.com/events/research-day-december-2025/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20251220T140000
+DTEND;TZID=Australia/Sydney:20251220T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Fossil Research Day
+DESCRIPTION:[RD] Research Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
