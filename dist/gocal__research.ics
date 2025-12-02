@@ -10,41 +10,45 @@ X-WR-CALDESC:All Pokémon GO Research events\, in your local time\, auto-up
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
-TZID:Z
+TZID:Australia/Sydney
 BEGIN:STANDARD
-DTSTART:20250224T113000Z
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0000
+DTSTART:20250406T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20251005T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20260405T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250227T020302Z
+DTSTART:20250307T015826Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-latin-america-international-championships-2026-timed-research-t
- witch-drops
-DTSTAMP:20251124T020302Z
-SUMMARY:[R] Twitch Drops for 2026 Pokémon Latin America International Cham
- pionships
-DESCRIPTION:Starts at 11:30\, ends at 08:00.\n\nhttps://leekduck.com/events
- /pokemon-latin-america-international-championships-2026-timed-research-twi
- tch-drops/
-URL:https://leekduck.com/events/pokemon-latin-america-international-champio
- nships-2026-timed-research-twitch-drops/
+UID:masterwork-research-a-precious-catch
+DTSTAMP:20251202T015826Z
+SUMMARY:[R] Masterwork Research: A Precious Catch
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /masterwork-research-a-precious-catch/
+URL:https://leekduck.com/events/masterwork-research-a-precious-catch/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-11-21-pokemon-latin-america-international-championships-2026-time
- d-research-twitch-drops/laic-2026-stream-viewership-rewards.webp
-DTSTART;TZID=Z;VALUE=DATE:20251121
-DTEND;TZID=Z;VALUE=DATE:20251124
+ 025/2025-12-02-masterwork-research-a-precious-catch/masterball.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251202
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260303
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[R] Twitch Drops for 2026 Pokémon Latin America International 
- Championships
+DESCRIPTION:[R] Masterwork Research: A Precious Catch
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
