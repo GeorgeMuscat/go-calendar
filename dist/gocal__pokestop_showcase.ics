@@ -30,34 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250313T020020Z
+DTSTART:20250314T015933Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-kommo-o-feraligatr-corviknight-vanilluxe
-DTSTAMP:20251208T020020Z
-SUMMARY:[PS] Kommo-o\, Feraligatr\, Corviknight\, and Vanilluxe PokéStop S
- howcases
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-kommo-o-feraligatr-corviknight-vanilluxe/
-URL:https://leekduck.com/events/pokemon-showcase-kommo-o-feraligatr-corvikn
- ight-vanilluxe/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
- es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251206
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20251207
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PS] Kommo-o\, Feraligatr\, Corviknight\, and Vanilluxe PokéSt
- op Showcases
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-showcase-nacli-garganacl-tyranitar-salamence
-DTSTAMP:20251208T020020Z
+DTSTAMP:20251209T015933Z
 SUMMARY:[PS] Nacli\, Garganacl\, Tyranitar\, and Salamence PokéStop Showca
  ses
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
