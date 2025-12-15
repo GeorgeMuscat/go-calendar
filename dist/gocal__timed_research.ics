@@ -11,13 +11,18 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
+BEGIN:STANDARD
+DTSTART:20250406T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 BEGIN:DAYLIGHT
-DTSTART:20241006T020000Z
+DTSTART:20251005T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
 BEGIN:STANDARD
-DTSTART:20250406T030000Z
+DTSTART:20260405T030000Z
 TZOFFSETFROM:+1100
 TZOFFSETTO:+1000
 END:STANDARD
@@ -25,26 +30,26 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20240510T013819Z
+DTSTART:20250320T020624Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:legendary-flight-lead-up-timed-research-for-moltres
-DTSTAMP:20250204T013819Z
-SUMMARY:[TR] Legendary Flight Lead-Up Timed Research for Moltres
-DESCRIPTION:Starts at 10:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /legendary-flight-lead-up-timed-research-for-moltres/
-URL:https://leekduck.com/events/legendary-flight-lead-up-timed-research-for
- -moltres/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/dynamax-moltres.
- jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20250131
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20250203
+UID:best-friends-forever-timed-research
+DTSTAMP:20251215T020624Z
+SUMMARY:[TR] Best Friends Forever Timed Research
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /best-friends-forever-timed-research/
+URL:https://leekduck.com/events/best-friends-forever-timed-research/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-12-15-best-friends-forever-timed-research/best-friends-forever.jp
+ g
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251215
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20251229
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[TR] Legendary Flight Lead-Up Timed Research for Moltres
+DESCRIPTION:[TR] Best Friends Forever Timed Research
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
