@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250323T015902Z
+DTSTART:20250324T020147Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:max-mondays-2025-12-22
-DTSTAMP:20251218T015902Z
+DTSTAMP:20251219T020147Z
 SUMMARY:[MM] Dynamax Spheal during Max Monday
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /max-mondays-2025-12-22/
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2025-12-29
-DTSTAMP:20251218T015902Z
+DTSTAMP:20251219T020147Z
 SUMMARY:[MM] Dynamax Omanyte during Max Monday
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
  /max-mondays-2025-12-29/
@@ -66,6 +66,108 @@ DTEND;TZID=Australia/Sydney:20251229T190000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[MM] Dynamax Omanyte during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2025-01-05
+DTSTAMP:20251219T020147Z
+SUMMARY:[MM] Dynamax Drampa during Max Monday
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2025-01-05/
+URL:https://leekduck.com/events/max-mondays-2025-01-05/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20260105T180000
+DTEND;TZID=Australia/Sydney:20260105T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Drampa during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-01-05
+DTSTAMP:20251219T020147Z
+SUMMARY:[MM] Dynamax Drampa during Max Monday
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-01-05/
+URL:https://leekduck.com/events/max-mondays-2026-01-05/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20260105T180000
+DTEND;TZID=Australia/Sydney:20260105T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Drampa during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2025-01-12
+DTSTAMP:20251219T020147Z
+SUMMARY:[MM] Dynamax Caterpie during Max Monday
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2025-01-12/
+URL:https://leekduck.com/events/max-mondays-2025-01-12/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20260112T180000
+DTEND;TZID=Australia/Sydney:20260112T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Caterpie during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-01-12
+DTSTAMP:20251219T020147Z
+SUMMARY:[MM] Dynamax Caterpie during Max Monday
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-01-12/
+URL:https://leekduck.com/events/max-mondays-2026-01-12/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20260112T180000
+DTEND;TZID=Australia/Sydney:20260112T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Caterpie during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-01-19
+DTSTAMP:20251219T020147Z
+SUMMARY:[MM] Dynamax Beldum during Max Monday
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-01-19/
+URL:https://leekduck.com/events/max-mondays-2026-01-19/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20260119T180000
+DTEND;TZID=Australia/Sydney:20260119T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Beldum during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-01-26
+DTSTAMP:20251219T020147Z
+SUMMARY:[MM] Dynamax Roggenrola during Max Monday
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-01-26/
+URL:https://leekduck.com/events/max-mondays-2026-01-26/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20260126T180000
+DTEND;TZID=Australia/Sydney:20260126T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Roggenrola during Max Monday
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
