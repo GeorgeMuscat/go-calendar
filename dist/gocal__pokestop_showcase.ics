@@ -30,25 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250330T020341Z
+DTSTART:20250401T020029Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-sudowoodo-charjabug
-DTSTAMP:20251225T020341Z
-SUMMARY:[PS] Sudowoodo and Charjabug PokéStop Showcases
+UID:pokemon-showcase-eevee
+DTSTAMP:20251227T020029Z
+SUMMARY:[PS] Eevee PokéStop Showcase
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-sudowoodo-charjabug/
-URL:https://leekduck.com/events/pokemon-showcase-sudowoodo-charjabug/
+ /pokemon-showcase-eevee/
+URL:https://leekduck.com/events/pokemon-showcase-eevee/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
  es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251222
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20251224
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251227
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20251228
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Sudowoodo and Charjabug PokéStop Showcases
+DESCRIPTION:[PS] Eevee PokéStop Showcase
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
