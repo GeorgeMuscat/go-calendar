@@ -1,0 +1,101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:spatie/icalendar-generator
+NAME:GO Calendar - Pokémon Spotlight Hour (PSH)
+X-WR-CALNAME:GO Calendar - Pokémon Spotlight Hour (PSH)
+DESCRIPTION:All Pokémon GO Pokémon Spotlight Hour events\, in your local 
+ time\, auto-updated and sourced from Leek Duck.
+X-WR-CALDESC:All Pokémon GO Pokémon Spotlight Hour events\, in your local
+  time\, auto-updated and sourced from Leek Duck.
+REFRESH-INTERVAL;VALUE=DURATION:PT1440M
+X-PUBLISHED-TTL:PT1440M
+BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:DAYLIGHT
+DTSTART:20251005T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20260405T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:20250408T015934Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pokemonspotlighthour2026-01-06
+DTSTAMP:20260103T015934Z
+SUMMARY:[PSH] Barboach Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2026-01-06/
+URL:https://leekduck.com/events/pokemonspotlighthour2026-01-06/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20260106T180000
+DTEND;TZID=Australia/Sydney:20260106T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Barboach Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2026-01-13
+DTSTAMP:20260103T015934Z
+SUMMARY:[PSH] Mareep Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2026-01-13/
+URL:https://leekduck.com/events/pokemonspotlighthour2026-01-13/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20260113T180000
+DTEND;TZID=Australia/Sydney:20260113T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Mareep Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2026-01-20
+DTSTAMP:20260103T015934Z
+SUMMARY:[PSH] Hatenna Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2026-01-20/
+URL:https://leekduck.com/events/pokemonspotlighthour2026-01-20/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20260120T180000
+DTEND;TZID=Australia/Sydney:20260120T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Hatenna Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2026-01-27
+DTSTAMP:20260103T015934Z
+SUMMARY:[PSH] Foongus Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2026-01-27/
+URL:https://leekduck.com/events/pokemonspotlighthour2026-01-27/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20260127T180000
+DTEND;TZID=Australia/Sydney:20260127T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Foongus Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
