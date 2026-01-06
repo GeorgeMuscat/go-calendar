@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:STANDARD
-DTSTART:20250406T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-END:STANDARD
 BEGIN:DAYLIGHT
 DTSTART:20251005T020000Z
 TZOFFSETFROM:+1000
@@ -30,26 +25,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250406T022133Z
+DTSTART:20250411T020549Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-stantler-rolycoly-coalossal
-DTSTAMP:20260101T022133Z
-SUMMARY:[PS] Stantler\, Rolycoly\, and Coalossal PokéStop Showcase
+UID:pokemon-showcase-water-grass-type
+DTSTAMP:20260106T020549Z
+SUMMARY:[PS] Water-type and Grass-type PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-stantler-rolycoly-coalossal/
-URL:https://leekduck.com/events/pokemon-showcase-stantler-rolycoly-coalossa
- l/
+ /pokemon-showcase-water-grass-type/
+URL:https://leekduck.com/events/pokemon-showcase-water-grass-type/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
  es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251229
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20251231
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260105
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260107
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Stantler\, Rolycoly\, and Coalossal PokéStop Showcase
+DESCRIPTION:[PS] Water-type and Grass-type PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

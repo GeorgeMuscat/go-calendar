@@ -25,32 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250407T020558Z
+DTSTART:20250411T020549Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:january-communitydayclassic2026
-DTSTAMP:20260102T020558Z
-SUMMARY:[CD] Piplup Community Day Classic
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /january-communitydayclassic2026/
-URL:https://leekduck.com/events/january-communitydayclassic2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-01-04-january-communitydayclassic2026/piplup-community-day-classi
- c.jpg
-DTSTART;TZID=Australia/Sydney:20260104T140000
-DTEND;TZID=Australia/Sydney:20260104T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] Piplup Community Day Classic
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:january-communityday2026
-DTSTAMP:20260102T020558Z
+DTSTAMP:20260106T020549Z
 SUMMARY:[CD] Grookey Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /january-communityday2026/
@@ -68,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:february-communityday2026
-DTSTAMP:20260102T020558Z
+DTSTAMP:20260106T020549Z
 SUMMARY:[CD] February Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /february-communityday2026/
