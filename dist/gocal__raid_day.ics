@@ -25,31 +25,32 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250419T021049Z
+DTSTART:20250420T020524Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:shadow-raid-day-january-2026
-DTSTAMP:20260114T021049Z
-SUMMARY:[RD] Shadow Raid Day
+UID:shadow-raikou-raid-day-january-2026
+DTSTAMP:20260115T020524Z
+SUMMARY:[RD] Shadow Raikou Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /shadow-raid-day-january-2026/
-URL:https://leekduck.com/events/shadow-raid-day-january-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
+ /shadow-raikou-raid-day-january-2026/
+URL:https://leekduck.com/events/shadow-raikou-raid-day-january-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-01-24-shadow-raikou-raid-day-january-2026/shadow-raikou-raid-day.
+ jpg
 DTSTART;TZID=Australia/Sydney:20260124T140000
 DTEND;TZID=Australia/Sydney:20260124T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Shadow Raid Day
+DESCRIPTION:[RD] Shadow Raikou Raid Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raid-day-february-2026
-DTSTAMP:20260114T021049Z
+DTSTAMP:20260115T020524Z
 SUMMARY:[RD] Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /raid-day-february-2026/
