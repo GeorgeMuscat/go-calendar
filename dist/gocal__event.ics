@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250428T020707Z
+DTSTART:20250429T020340Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:precious-pals-2026
-DTSTAMP:20260123T020707Z
+DTSTAMP:20260124T020340Z
 SUMMARY:[E] Precious Pals
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /precious-pals-2026/
@@ -54,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:into-the-depths-2026
-DTSTAMP:20260123T020707Z
+DTSTAMP:20260124T020340Z
 SUMMARY:[E] Into the Depths
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /into-the-depths-2026/
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:catch-mastery-day-february-2026
-DTSTAMP:20260123T020707Z
+DTSTAMP:20260124T020340Z
 SUMMARY:[E] Catch Mastery Day
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /catch-mastery-day-february-2026/
@@ -87,8 +87,25 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:catch-mastery-2026
+DTSTAMP:20260124T020340Z
+SUMMARY:[E] Catch Mastery 2026
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /catch-mastery-2026/
+URL:https://leekduck.com/events/catch-mastery-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20260207T100000
+DTEND;TZID=Australia/Sydney:20260207T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Catch Mastery 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:carnival-of-flamigo
-DTSTAMP:20260123T020707Z
+DTSTAMP:20260124T020340Z
 SUMMARY:[E] Carnival of Flamigo
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /carnival-of-flamigo/
@@ -104,8 +121,76 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:carnival-of-flamigo-2026
+DTSTAMP:20260124T020340Z
+SUMMARY:[E] Carnival of Flamigo 2026
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /carnival-of-flamigo-2026/
+URL:https://leekduck.com/events/carnival-of-flamigo-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260203
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260208
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Carnival of Flamigo 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:valentines-day-2026
+DTSTAMP:20260124T020340Z
+SUMMARY:[E] Valentine's Day 2026
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /valentines-day-2026/
+URL:https://leekduck.com/events/valentines-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260210
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260215
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Valentine's Day 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-battle-day-2026
+DTSTAMP:20260124T020340Z
+SUMMARY:[E] Max Battle Day 2026
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /max-battle-day-2026/
+URL:https://leekduck.com/events/max-battle-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20260215T100000
+DTEND;TZID=Australia/Sydney:20260215T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Max Battle Day 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lunar-new-year-2026
+DTSTAMP:20260124T020340Z
+SUMMARY:[E] Lunar New Year 2026
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /lunar-new-year-2026/
+URL:https://leekduck.com/events/lunar-new-year-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260217
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260221
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Lunar New Year 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:hatch-day-april-2026
-DTSTAMP:20260123T020707Z
+DTSTAMP:20260124T020340Z
 SUMMARY:[E] Hatch Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-april-2026/
