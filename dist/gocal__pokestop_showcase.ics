@@ -25,25 +25,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250427T021149Z
+DTSTART:20250430T022443Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-showcase-fidough-dachsbun
-DTSTAMP:20260122T021149Z
-SUMMARY:[PS] Fidough and Dachsbun PokéStop Showcases
+UID:pokemon-showcase-ultra-buddy-or-higher
+DTSTAMP:20260125T022443Z
+SUMMARY:[PS] Ultra Buddy and Best Buddy PokéStop Showcases
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-showcase-fidough-dachsbun/
-URL:https://leekduck.com/events/pokemon-showcase-fidough-dachsbun/
+ /pokemon-showcase-ultra-buddy-or-higher/
+URL:https://leekduck.com/events/pokemon-showcase-ultra-buddy-or-higher/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
  es-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260119
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260121
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260124
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260125
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[PS] Fidough and Dachsbun PokéStop Showcases
+DESCRIPTION:[PS] Ultra Buddy and Best Buddy PokéStop Showcases
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
