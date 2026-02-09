@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250514T031346Z
+DTSTART:20250515T024252Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:flamigo-showcase-february-2026
-DTSTAMP:20260208T031346Z
+DTSTAMP:20260209T024252Z
 SUMMARY:[PS] Flamigo PokéStop Showcase
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /flamigo-showcase-february-2026/
@@ -44,6 +44,23 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20260208
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Flamigo PokéStop Showcase
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:flying-type-pokemon-showcase-february-2026
+DTSTAMP:20260209T024252Z
+SUMMARY:[PS] Flying-type Pokémon PokéStop Showcase
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /flying-type-pokemon-showcase-february-2026/
+URL:https://leekduck.com/events/flying-type-pokemon-showcase-february-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
+ es-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260209
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260211
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Flying-type Pokémon PokéStop Showcase
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
