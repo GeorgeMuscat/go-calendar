@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250515T024252Z
+DTSTART:20250516T025153Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:carnival-of-flamigo
-DTSTAMP:20260209T024252Z
-SUMMARY:[E] Carnival of Flamigo
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /carnival-of-flamigo/
-URL:https://leekduck.com/events/carnival-of-flamigo/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-02-03-carnival-of-flamigo/carnival-of-flamigo.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260203
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260208
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Carnival of Flamigo
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:valentines-day-2026
-DTSTAMP:20260209T024252Z
+DTSTAMP:20260210T025153Z
 SUMMARY:[E] Valentine's Day 2026
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /valentines-day-2026/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lunar-new-year-2026
-DTSTAMP:20260209T024252Z
+DTSTAMP:20260210T025153Z
 SUMMARY:[E] Lunar New Year 2026
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /lunar-new-year-2026/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:road-to-kalos
-DTSTAMP:20260209T024252Z
+DTSTAMP:20260210T025153Z
 SUMMARY:[E] Road to Kalos
 DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /road-to-kalos/
@@ -105,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-april-2026
-DTSTAMP:20260209T024252Z
+DTSTAMP:20260210T025153Z
 SUMMARY:[E] Hatch Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-april-2026/
