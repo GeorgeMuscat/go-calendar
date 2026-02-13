@@ -10,45 +10,41 @@ X-WR-CALDESC:All Pokémon GO Research events\, in your local time\, auto-up
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
-TZID:Australia/Sydney
+TZID:Z
 BEGIN:STANDARD
-DTSTART:20250406T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-END:STANDARD
-BEGIN:DAYLIGHT
-DTSTART:20251005T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
-BEGIN:STANDARD
-DTSTART:20260405T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
+DTSTART:20250519T090000Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250508T024225Z
+DTSTART:20250519T024542Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:masterwork-research-a-precious-catch
-DTSTAMP:20260202T024225Z
-SUMMARY:[R] Masterwork Research: A Precious Catch
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /masterwork-research-a-precious-catch/
-URL:https://leekduck.com/events/masterwork-research-a-precious-catch/
+UID:pokemon-europe-international-championships-2026-timed-research-twitch-d
+ rops
+DTSTAMP:20260213T024542Z
+SUMMARY:[R] Twitch Drops for 2026 Pokémon Europe International Championshi
+ ps
+DESCRIPTION:Starts at 09:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-europe-international-championships-2026-timed-research-twitch-dro
+ ps/
+URL:https://leekduck.com/events/pokemon-europe-international-championships-
+ 2026-timed-research-twitch-drops/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-12-02-masterwork-research-a-precious-catch/masterball.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251202
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260303
+ 026/2026-02-13-pokemon-europe-international-championships-2026-timed-resea
+ rch-twitch-drops/euic-2026.jpg
+DTSTART;TZID=Z;VALUE=DATE:20260213
+DTEND;TZID=Z;VALUE=DATE:20260214
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[R] Masterwork Research: A Precious Catch
+DESCRIPTION:[R] Twitch Drops for 2026 Pokémon Europe International Champio
+ nships
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
