@@ -20,7 +20,7 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250519T024542Z
+DTSTART:20250520T023242Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
@@ -28,7 +28,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-europe-international-championships-2026-timed-research-twitch-d
  rops
-DTSTAMP:20260213T024542Z
+DTSTAMP:20260214T023242Z
 SUMMARY:[R] Twitch Drops for 2026 Pokémon Europe International Championshi
  ps
 DESCRIPTION:Starts at 09:00\, ends at 20:00.\n\nhttps://leekduck.com/events
