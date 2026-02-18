@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250523T023758Z
+DTSTART:20250524T024129Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:galarian-ponyta-turtonator-showcase-february-2026
-DTSTAMP:20260217T023758Z
+DTSTAMP:20260218T024129Z
 SUMMARY:[PS] Galarian Ponyta and Turtonator PokéStop Showcase
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /galarian-ponyta-turtonator-showcase-february-2026/
