@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250528T024133Z
+DTSTART:20250529T024155Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:meowth-vulpix-alolan-vulpix-showcase-february-2026
-DTSTAMP:20260222T024133Z
+DTSTAMP:20260223T024155Z
 SUMMARY:[PS] Meowth\, Vulpix\, and Alolan Vulpix PokéStop Showcase
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /meowth-vulpix-alolan-vulpix-showcase-february-2026/
@@ -45,6 +45,23 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20260222
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Meowth\, Vulpix\, and Alolan Vulpix PokéStop Showcase
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pikachu-showcase-february-2026
+DTSTAMP:20260223T024155Z
+SUMMARY:[PS] Pikachu PokéStop Showcase
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pikachu-showcase-february-2026/
+URL:https://leekduck.com/events/pikachu-showcase-february-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
+ es-default.jpg
+DTSTART;TZID=Australia/Sydney:20260223T100000
+DTEND;TZID=Australia/Sydney:20260223T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Pikachu PokéStop Showcase
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
