@@ -10,22 +10,6 @@ X-WR-CALDESC:All Pokémon GO Pokémon GO Tour events\, in your local time\,
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
-TZID:Z
-BEGIN:STANDARD
-DTSTART:20250526T170000Z
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
-TZID:UTC
-BEGIN:STANDARD
-DTSTART:20250529T024155Z
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0000
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
 TZID:Australia/Sydney
 BEGIN:DAYLIGHT
 DTSTART:20251005T020000Z
@@ -38,46 +22,17 @@ TZOFFSETFROM:+1100
 TZOFFSETTO:+1000
 END:STANDARD
 END:VTIMEZONE
-BEGIN:VEVENT
-UID:pokemon-go-tour-kalos-los-angeles-2026
-DTSTAMP:20260223T024155Z
-SUMMARY:[PGT] Pokémon GO Tour: Kalos - Los Angeles 2026
-DESCRIPTION:Starts at 17:00\, ends at 01:00.\n\nhttps://leekduck.com/events
- /pokemon-go-tour-kalos-los-angeles-2026/
-URL:https://leekduck.com/events/pokemon-go-tour-kalos-los-angeles-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-02-20-pokemon-go-tour-kalos-los-angeles-2026/pokemon-go-tour-kalo
- s-los-angeles-2026.jpg
-DTSTART;TZID=Z;VALUE=DATE:20260220
-DTEND;TZID=Z;VALUE=DATE:20260223
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PGT] Pokémon GO Tour: Kalos - Los Angeles 2026
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-night-pokemon-go-tour-kalos-los-angeles-2026
-DTSTAMP:20260223T024155Z
-SUMMARY:[PGT] Mega Night at Pokémon GO Tour: Kalos - Los Angeles 2026
-DESCRIPTION:Starts at 02:00\, ends at 04:00.\n\nhttps://leekduck.com/events
- /mega-night-pokemon-go-tour-kalos-los-angeles-2026/
-URL:https://leekduck.com/events/mega-night-pokemon-go-tour-kalos-los-angele
- s-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-02-20-mega-night-pokemon-go-tour-kalos-los-angeles-2026/mega-nigh
- t-pokemon-go-tour-kalos-los-angeles-2026.jpg
-DTSTART;TZID=Z;VALUE=DATE:20260221
-DTEND;TZID=Z;VALUE=DATE:20260223
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PGT] Mega Night at Pokémon GO Tour: Kalos - Los Angeles 2026
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+DTSTART:20250530T023850Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-go-tour-kalos-global-2026
-DTSTAMP:20260223T024155Z
+DTSTAMP:20260224T023850Z
 SUMMARY:[PGT] Pokémon GO Tour: Kalos - Global 2026
 DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
  /pokemon-go-tour-kalos-global-2026/
