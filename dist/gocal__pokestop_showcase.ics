@@ -25,22 +25,39 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250530T023850Z
+DTSTART:20250531T023933Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:pikachu-showcase-february-2026
-DTSTAMP:20260224T023850Z
+UID:pikachu-showcase-february-2026-tuesday
+DTSTAMP:20260225T023933Z
 SUMMARY:[PS] Pikachu PokéStop Showcase
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pikachu-showcase-february-2026/
-URL:https://leekduck.com/events/pikachu-showcase-february-2026/
+ /pikachu-showcase-february-2026-tuesday/
+URL:https://leekduck.com/events/pikachu-showcase-february-2026-tuesday/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
  es-default.jpg
 DTSTART;TZID=Australia/Sydney:20260224T100000
 DTEND;TZID=Australia/Sydney:20260224T200000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PS] Pikachu PokéStop Showcase
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pikachu-showcase-february-2026-wednesday
+DTSTAMP:20260225T023933Z
+SUMMARY:[PS] Pikachu PokéStop Showcase
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pikachu-showcase-february-2026-wednesday/
+URL:https://leekduck.com/events/pikachu-showcase-february-2026-wednesday/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokestop-showcas
+ es-default.jpg
+DTSTART;TZID=Australia/Sydney:20260225T100000
+DTEND;TZID=Australia/Sydney:20260225T200000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[PS] Pikachu PokéStop Showcase
