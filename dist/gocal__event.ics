@@ -35,31 +35,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250627T023652Z
+DTSTART:20250628T024204Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:bug-out-2026
-DTSTAMP:20260324T023652Z
-SUMMARY:[E] Bug Out 2026
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /bug-out-2026/
-URL:https://leekduck.com/events/bug-out-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-03-17-bug-out-2026/bug-out-2026.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260317
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260323
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Bug Out 2026
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:a-shockingly-good-time-2026
-DTSTAMP:20260324T023652Z
+DTSTAMP:20260325T024204Z
 SUMMARY:[E] A Shockingly Good Time
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /a-shockingly-good-time-2026/
@@ -76,7 +59,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-april-2026
-DTSTAMP:20260324T023652Z
+DTSTAMP:20260325T024204Z
 SUMMARY:[E] Hatch Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-april-2026/
@@ -93,13 +76,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sustainability-week-2026
-DTSTAMP:20260324T023652Z
+DTSTAMP:20260325T024204Z
 SUMMARY:[E] Sustainability Week 2026
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /sustainability-week-2026/
 URL:https://leekduck.com/events/sustainability-week-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-04-14-sustainability-week-2026/sustainability-week-2026.jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260414
 DTEND;TZID=Australia/Sydney;VALUE=DATE:20260420
 BEGIN:VALARM
@@ -110,7 +93,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:steeled-resolve-2026
-DTSTAMP:20260324T023652Z
+DTSTAMP:20260325T024204Z
 SUMMARY:[E] Steeled Resolve
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /steeled-resolve-2026/
@@ -127,7 +110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:example_event
-DTSTAMP:20260324T023652Z
+DTSTAMP:20260325T024204Z
 SUMMARY:[E] Example Event Template (Auto ToC Demo)
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /example_event/
