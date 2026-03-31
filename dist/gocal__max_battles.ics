@@ -30,32 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250703T031634Z
+DTSTART:20250704T025042Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:gigantamax-pikachu-max-battle-day-2026
-DTSTAMP:20260330T031634Z
-SUMMARY:[MB] Gigantamax Pikachu Max Battle Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /gigantamax-pikachu-max-battle-day-2026/
-URL:https://leekduck.com/events/gigantamax-pikachu-max-battle-day-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-03-28-gigantamax-pikachu-max-battle-day-2026/gigantamax-pikachu-m
- ax-battle-day.jpg
-DTSTART;TZID=Australia/Sydney:20260328T140000
-DTEND;TZID=Australia/Sydney:20260328T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MB] Gigantamax Pikachu Max Battle Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:max-battle-day-april-2026
-DTSTAMP:20260330T031634Z
+DTSTAMP:20260331T025042Z
 SUMMARY:[MB] Max Battle Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /max-battle-day-april-2026/
