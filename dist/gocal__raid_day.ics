@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250709T031540Z
+DTSTART:20250710T031847Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fashion-raid-day-2026
-DTSTAMP:20260405T031540Z
-SUMMARY:[RD] Fashion Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /fashion-raid-day-2026/
-URL:https://leekduck.com/events/fashion-raid-day-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-04-04-fashion-raid-day-2026/fashion-week-2026.jpg
-DTSTART;TZID=Australia/Sydney:20260404T140000
-DTEND;TZID=Australia/Sydney:20260404T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Fashion Raid Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:shadow-raid-day-may-2026
-DTSTAMP:20260405T031540Z
+DTSTAMP:20260406T031847Z
 SUMMARY:[RD] Shadow Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /shadow-raid-day-may-2026/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:raid-day-may-2026
-DTSTAMP:20260405T031540Z
+DTSTAMP:20260406T031847Z
 SUMMARY:[RD] Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /raid-day-may-2026/
