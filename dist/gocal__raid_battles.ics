@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250711T025203Z
+DTSTART:20250712T025321Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:mega-manectric-in-mega-raids-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Mega Manectric in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /mega-manectric-in-mega-raids-april-2026/
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regidrago-in-5-star-raid-battles-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Regidrago in 5-star Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /regidrago-in-5-star-raid-battles-april-2026/
@@ -71,13 +71,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kyogre-in-5-star-raid-battles-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Kyogre in 5-star Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /kyogre-in-5-star-raid-battles-april-2026/
 URL:https://leekduck.com/events/kyogre-in-5-star-raid-battles-april-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/kyogre.jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260408
 DTEND;TZID=Australia/Sydney;VALUE=DATE:20260414
 BEGIN:VALARM
@@ -88,7 +87,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-aerodactyl-in-mega-raids-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Mega Aerodactyl in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /mega-aerodactyl-in-mega-raids-april-2026/
@@ -104,13 +103,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:groudon-in-5-star-raid-battles-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Groudon in 5-star Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /groudon-in-5-star-raid-battles-april-2026/
 URL:https://leekduck.com/events/groudon-in-5-star-raid-battles-april-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/groudon.jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260415
 DTEND;TZID=Australia/Sydney;VALUE=DATE:20260421
 BEGIN:VALARM
@@ -121,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-alakazam-in-mega-raids-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Mega Alakazam in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /mega-alakazam-in-mega-raids-april-2026/
@@ -137,7 +135,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-sharpedo-in-mega-raids-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Mega Sharpedo in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /mega-sharpedo-in-mega-raids-april-2026/
@@ -153,7 +151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tapu-koko-in-5-star-raid-battles-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Tapu Koko in 5-star Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /tapu-koko-in-5-star-raid-battles-april-2026/
@@ -171,7 +169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-latios-in-shadow-raids-april-may-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Shadow Latios in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-latios-in-shadow-raids-april-may-2026/
@@ -189,7 +187,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-banette-in-mega-raids-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Mega Banette in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /mega-banette-in-mega-raids-april-2026/
@@ -205,7 +203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tapu-lele-in-5-star-raid-battles-april-2026
-DTSTAMP:20260407T025203Z
+DTSTAMP:20260408T025321Z
 SUMMARY:[RB] Tapu Lele in 5-star Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /tapu-lele-in-5-star-raid-battles-april-2026/
