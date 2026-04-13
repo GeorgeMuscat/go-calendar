@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250716T032238Z
+DTSTART:20250717T032943Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:april-communityday2026
-DTSTAMP:20260412T032238Z
-SUMMARY:[CD] Tinkatink Community Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /april-communityday2026/
-URL:https://leekduck.com/events/april-communityday2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-04-11-april-communityday2026/tinkatink-cd-april-2026-key.jpg
-DTSTART;TZID=Australia/Sydney:20260411T140000
-DTEND;TZID=Australia/Sydney:20260411T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] Tinkatink Community Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:may-communityday2026
-DTSTAMP:20260412T032238Z
+DTSTAMP:20260413T032943Z
 SUMMARY:[CD] Lechonk Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /may-communityday2026/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:may-communitydayclassic2026
-DTSTAMP:20260412T032238Z
+DTSTAMP:20260413T032943Z
 SUMMARY:[CD] May Community Day Classic
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /may-communitydayclassic2026/
