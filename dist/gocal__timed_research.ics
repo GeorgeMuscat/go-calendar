@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:STANDARD
-DTSTART:20250406T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-END:STANDARD
 BEGIN:DAYLIGHT
 DTSTART:20251005T020000Z
 TZOFFSETFROM:+1000
@@ -26,30 +21,35 @@ DTSTART:20260405T030000Z
 TZOFFSETFROM:+1100
 TZOFFSETTO:+1000
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20261004T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250404T020413Z
+DTSTART:20250808T032823Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:best-friends-forever-timed-research
-DTSTAMP:20251230T020413Z
-SUMMARY:[TR] Best Friends Forever Timed Research
+UID:choose-your-path-timed-research
+DTSTAMP:20260505T032823Z
+SUMMARY:[TR] Choose Your Path Timed Research
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /best-friends-forever-timed-research/
-URL:https://leekduck.com/events/best-friends-forever-timed-research/
+ /choose-your-path-timed-research/
+URL:https://leekduck.com/events/choose-your-path-timed-research/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-12-15-best-friends-forever-timed-research/best-friends-forever.jp
- g
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251215
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20251229
+ 026/2026-05-05-choose-your-path-timed-research/choose-your-path-evergreen.
+ jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260505
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260512
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[TR] Best Friends Forever Timed Research
+DESCRIPTION:[TR] Choose Your Path Timed Research
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
