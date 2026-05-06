@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250808T032823Z
+DTSTART:20250809T034002Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:shadow-latios-in-shadow-raids-april-may-2026
-DTSTAMP:20260505T032823Z
+DTSTAMP:20260506T034002Z
 SUMMARY:[RB] Shadow Latios in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-latios-in-shadow-raids-april-may-2026/
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-banette-in-mega-raids-april-2026
-DTSTAMP:20260505T032823Z
+DTSTAMP:20260506T034002Z
 SUMMARY:[RB] Mega Banette in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /mega-banette-in-mega-raids-april-2026/
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tapu-lele-in-5-star-raid-battles-april-2026
-DTSTAMP:20260505T032823Z
+DTSTAMP:20260506T034002Z
 SUMMARY:[RB] Tapu Lele in 5-star Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /tapu-lele-in-5-star-raid-battles-april-2026/
@@ -88,8 +88,25 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:nihilego-in-5-star-raid-battles-may-2026
+DTSTAMP:20260506T034002Z
+SUMMARY:[RB] Nihilego in 5-star Raid Battles
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /nihilego-in-5-star-raid-battles-may-2026/
+URL:https://leekduck.com/events/nihilego-in-5-star-raid-battles-may-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/nihilego-raid-bo
+ ss.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260506
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260512
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Nihilego in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mega-camerupt-in-mega-raids-may-2026
-DTSTAMP:20260505T032823Z
+DTSTAMP:20260506T034002Z
 SUMMARY:[RB] Mega Camerupt in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 06:00.\n\nhttps://leekduck.com/events
  /mega-camerupt-in-mega-raids-may-2026/
@@ -104,34 +121,17 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:nihilego-in-5-star-raid-battles-may-2026
-DTSTAMP:20260505T032823Z
-SUMMARY:[RB] Nihilego in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 06:00.\n\nhttps://leekduck.com/events
- /nihilego-in-5-star-raid-battles-may-2026/
-URL:https://leekduck.com/events/nihilego-in-5-star-raid-battles-may-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260506
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260513
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Nihilego in 5-star Raid Battles
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:buzzwole-pheromosa-xurkitree-in-5-star-raid-battles-may-2026
-DTSTAMP:20260505T032823Z
+DTSTAMP:20260506T034002Z
 SUMMARY:[RB] Buzzwole\, Pheromosa\, and Xurkitree in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 06:00.\n\nhttps://leekduck.com/events
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /buzzwole-pheromosa-xurkitree-in-5-star-raid-battles-may-2026/
 URL:https://leekduck.com/events/buzzwole-pheromosa-xurkitree-in-5-star-raid
  -battles-may-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
  mg.jpg
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260513
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260520
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260519
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Buzzwole\, Pheromosa\, and Xurkitree in 5-star Raid Battle
@@ -141,7 +141,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-glalie-in-mega-raids-may-2026
-DTSTAMP:20260505T032823Z
+DTSTAMP:20260506T034002Z
 SUMMARY:[RB] Mega Glalie in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 06:00.\n\nhttps://leekduck.com/events
  /mega-glalie-in-mega-raids-may-2026/
@@ -156,8 +156,25 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:tapu-bulu-in-5-star-raid-battles-may-2026
+DTSTAMP:20260506T034002Z
+SUMMARY:[RB] Tapu Bulu in 5-star Raid Battles
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /tapu-bulu-in-5-star-raid-battles-may-2026/
+URL:https://leekduck.com/events/tapu-bulu-in-5-star-raid-battles-may-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260520
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260526
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Tapu Bulu in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:mega-altaria-in-mega-raids-may-2026
-DTSTAMP:20260505T032823Z
+DTSTAMP:20260506T034002Z
 SUMMARY:[RB] Mega Altaria in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 06:00.\n\nhttps://leekduck.com/events
  /mega-altaria-in-mega-raids-may-2026/
@@ -172,25 +189,26 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:tapu-bulu-in-5-star-raid-battles-may-2026
-DTSTAMP:20260505T032823Z
-SUMMARY:[RB] Tapu Bulu in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 06:00.\n\nhttps://leekduck.com/events
- /tapu-bulu-in-5-star-raid-battles-may-2026/
-URL:https://leekduck.com/events/tapu-bulu-in-5-star-raid-battles-may-2026/
+UID:tapu-fini-in-5-star-raid-battles-may-june-2026
+DTSTAMP:20260506T034002Z
+SUMMARY:[RB] Tapu Fini in 5-star Raid Battles
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /tapu-fini-in-5-star-raid-battles-may-june-2026/
+URL:https://leekduck.com/events/tapu-fini-in-5-star-raid-battles-may-june-2
+ 026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
  mg.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260520
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260527
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260527
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260602
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Tapu Bulu in 5-star Raid Battles
+DESCRIPTION:[RB] Tapu Fini in 5-star Raid Battles
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-cresselia-in-shadow-raids-may-june-2026
-DTSTAMP:20260505T032823Z
+DTSTAMP:20260506T034002Z
 SUMMARY:[RB] Shadow Cresselia in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 06:00.\n\nhttps://leekduck.com/events
  /shadow-cresselia-in-shadow-raids-may-june-2026/
@@ -208,7 +226,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-medicham-in-mega-raids-may-june-2026
-DTSTAMP:20260505T032823Z
+DTSTAMP:20260506T034002Z
 SUMMARY:[RB] Mega Medicham in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 06:00.\n\nhttps://leekduck.com/events
  /mega-medicham-in-mega-raids-may-june-2026/
@@ -219,24 +237,6 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20260603
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[RB] Mega Medicham in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:tapu-fini-in-5-star-raid-battles-may-june-2026
-DTSTAMP:20260505T032823Z
-SUMMARY:[RB] Tapu Fini in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 06:00.\n\nhttps://leekduck.com/events
- /tapu-fini-in-5-star-raid-battles-may-june-2026/
-URL:https://leekduck.com/events/tapu-fini-in-5-star-raid-battles-may-june-2
- 026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260527
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260603
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Tapu Fini in 5-star Raid Battles
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
