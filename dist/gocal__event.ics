@@ -31,18 +31,23 @@ DTSTART:20270404T030000Z
 TZOFFSETFROM:+1100
 TZOFFSETTO:+1000
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20271003T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250824T041253Z
+DTSTART:20250825T040802Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:blanches-quest-for-knowledge
-DTSTAMP:20260521T041253Z
+DTSTAMP:20260522T040802Z
 SUMMARY:[E] Blanche's Quest for Knowledge
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /blanches-quest-for-knowledge/
@@ -60,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sparks-caretaking-quest
-DTSTAMP:20260521T041253Z
+DTSTAMP:20260522T040802Z
 SUMMARY:[E] Spark's Caretaking Quest
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /sparks-caretaking-quest/
@@ -77,7 +82,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:candelas-quest-for-victory
-DTSTAMP:20260521T041253Z
+DTSTAMP:20260522T040802Z
 SUMMARY:[E] Candela's Quest for Victory
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /candelas-quest-for-victory/
@@ -94,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:weekend-event-july-2026
-DTSTAMP:20260521T041253Z
+DTSTAMP:20260522T040802Z
 SUMMARY:[E] Weekend Event
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /weekend-event-july-2026/
@@ -111,7 +116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-august-2026
-DTSTAMP:20260521T041253Z
+DTSTAMP:20260522T040802Z
 SUMMARY:[E] Hatch Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-august-2026/
@@ -128,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:example_event
-DTSTAMP:20260521T041253Z
+DTSTAMP:20260522T040802Z
 SUMMARY:[E] Example Event Template (Auto ToC Demo)
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /example_event/
@@ -140,6 +145,24 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20261202
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[E] Example Event Template (Auto ToC Demo)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-fossil-museum-chicago-2026
+DTSTAMP:20260522T040802Z
+SUMMARY:[E] Pokemon Fossil Museum - Chicago
+DESCRIPTION:Starts at 09:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /pokemon-fossil-museum-chicago-2026/
+URL:https://leekduck.com/events/pokemon-fossil-museum-chicago-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-05-22-pokemon-fossil-museum-chicago-2026/pokemon-fossil-museum-ch
+ icago-2026.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260522
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20270411
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Pokemon Fossil Museum - Chicago
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
