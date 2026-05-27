@@ -30,14 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250829T040347Z
+DTSTART:20250830T041728Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:season-22-memories-in-motion
-DTSTAMP:20260526T040347Z
+DTSTAMP:20260527T041728Z
 SUMMARY:[S] Memories in Motion
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /season-22-memories-in-motion/
@@ -50,6 +50,23 @@ DTEND;TZID=Australia/Sydney;VALUE=DATE:20260602
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[S] Memories in Motion
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:season-23-forever-forward
+DTSTAMP:20260527T041728Z
+SUMMARY:[S] Forever Forward
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /season-23-forever-forward/
+URL:https://leekduck.com/events/season-23-forever-forward/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-06-02-season-23-forever-forward/season-23-forever-forward.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260602
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260908
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[S] Forever Forward
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
