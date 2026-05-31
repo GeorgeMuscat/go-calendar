@@ -20,14 +20,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250902T035444Z
+DTSTART:20250903T041950Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:gbl-memories-in-motion_great-league_ultra-league_master-league-split-4
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | Memories in
   Motion
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_pokemon-north-america-international-ch
  ampionships-2026-cup-great-league-edition
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Great League and Pokémon North America International Champio
  nships 2026 Cup: Great League Edition | Forever Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -70,7 +70,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_ultra-league_pokemon-north-america-international-ch
  ampionships-2026-cup-great-league-edition
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Ultra League and Pokémon North America International Champio
  nships 2026 Cup: Great League Edition | Forever Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -92,7 +92,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_master-league-mega-edition_sunshine-cup-great-leagu
  e-edition
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Master League: Mega Edition and Sunshine Cup: Great League Ed
  ition | Forever Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -113,7 +113,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_ultra-league_master-league-split-1
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | Forever For
  ward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -133,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_summer-cup-great-league-edition
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Great League and Summer Cup: Great League Edition | Forever F
  orward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -153,7 +153,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_ultra-league_fantasy-cup-ultra-league-edition
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Ultra League and Fantasy Cup: Ultra League Edition | Forever 
  Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -173,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_master-league_retro-cup-great-league-edition
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Master League and Retro Cup: Great League Edition | Forever F
  orward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -193,7 +193,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_ultra-league_master-league-split-2
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | Forever For
  ward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -213,7 +213,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_master-premier
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Great League and Master Premier | Forever Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /gbl-forever-forward_great-league_master-premier/
@@ -231,7 +231,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_ultra-league_weather-cup-great-league-edition
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Ultra League and Weather Cup: Great League Edition | Forever 
  Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -251,7 +251,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_master-league_evolution-cup-great-league-edition
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Master League and Evolution Cup: Great League Edition | Forev
  er Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -271,7 +271,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_scroll-cup-great-league-edition
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Great League and Scroll Cup: Great League Edition | Forever F
  orward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -291,7 +291,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_ultra-league_master-league-split-3
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League | Forever For
  ward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
@@ -312,7 +312,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:gbl-forever-forward_great-league_ultra-league_master-league-mega-editio
  n
-DTSTAMP:20260530T035444Z
+DTSTAMP:20260531T041950Z
 SUMMARY:[GBL] Great League\, Ultra League\, and Master League: Mega Edition
   | Forever Forward
 DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
