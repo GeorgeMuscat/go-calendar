@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250905T043731Z
+DTSTART:20250906T044645Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:max-mondays-2026-06-01
-DTSTAMP:20260602T043731Z
-SUMMARY:[MM] Dynamax Inkay during Max Monday
-DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
- /max-mondays-2026-06-01/
-URL:https://leekduck.com/events/max-mondays-2026-06-01/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
- o.jpg
-DTSTART;TZID=Australia/Sydney:20260601T060000
-DTEND;TZID=Australia/Sydney:20260601T210000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Inkay during Max Monday
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:max-mondays-2026-06-08
-DTSTAMP:20260602T043731Z
+DTSTAMP:20260603T044645Z
 SUMMARY:[MM] Dynamax Electabuzz during Max Monday
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-mondays-2026-06-08/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-06-15
-DTSTAMP:20260602T043731Z
+DTSTAMP:20260603T044645Z
 SUMMARY:[MM] Dynamax Roggenrola during Max Monday
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-mondays-2026-06-15/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-06-22
-DTSTAMP:20260602T043731Z
+DTSTAMP:20260603T044645Z
 SUMMARY:[MM] Dynamax Hoothoot during Max Monday
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-mondays-2026-06-22/
@@ -105,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-06-29
-DTSTAMP:20260602T043731Z
+DTSTAMP:20260603T044645Z
 SUMMARY:[MM] Dynamax Pidove during Max Monday
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-mondays-2026-06-29/
