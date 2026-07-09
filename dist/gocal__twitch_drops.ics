@@ -20,14 +20,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251011T032015Z
+DTSTART:20251012T034716Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:pokemon-go-10th-anniversary-celebration-twitch-drops
-DTSTAMP:20260708T032015Z
+DTSTAMP:20260709T034716Z
 SUMMARY:[TD] Twitch Drops for Pokémon GO 10th Anniversary Celebration
 DESCRIPTION:Starts at 22:30\, ends at 01:30.\n\nhttps://leekduck.com/events
  /pokemon-go-10th-anniversary-celebration-twitch-drops/
