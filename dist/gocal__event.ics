@@ -25,31 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251014T031501Z
+DTSTART:20251015T032643Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:road-of-legends-2026
-DTSTAMP:20260711T031501Z
-SUMMARY:[E] Road of Legends
-DESCRIPTION:Starts at 00:01\, ends at 23:59.\n\nhttps://leekduck.com/events
- /road-of-legends-2026/
-URL:https://leekduck.com/events/road-of-legends-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-07-06-road-of-legends-2026/road-of-legends-2026.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260706
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260710
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Road of Legends
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:special-anniversary-pikachu-celebration-2026
-DTSTAMP:20260711T031501Z
+DTSTAMP:20260712T032643Z
 SUMMARY:[E] Special Anniversary Pikachu Celebration
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /special-anniversary-pikachu-celebration-2026/
@@ -68,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:happy-birthday-professor-willow-2026
-DTSTAMP:20260711T031501Z
+DTSTAMP:20260712T032643Z
 SUMMARY:[E] Happy Birthday\, Professor Willow!
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /happy-birthday-professor-willow-2026/
@@ -86,7 +69,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ozone-ascent-2026
-DTSTAMP:20260711T031501Z
+DTSTAMP:20260712T032643Z
 SUMMARY:[E] Ozone Ascent
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /ozone-ascent-2026/
@@ -103,7 +86,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hatch-day-august-2026
-DTSTAMP:20260711T031501Z
+DTSTAMP:20260712T032643Z
 SUMMARY:[E] Hatch Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-august-2026/
