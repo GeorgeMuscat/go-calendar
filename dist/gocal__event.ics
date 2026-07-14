@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251016T032943Z
+DTSTART:20251017T025137Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:special-anniversary-pikachu-celebration-2026
-DTSTAMP:20260713T032943Z
+DTSTAMP:20260714T025137Z
 SUMMARY:[E] Special Anniversary Pikachu Celebration
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /special-anniversary-pikachu-celebration-2026/
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:happy-birthday-professor-willow-2026
-DTSTAMP:20260713T032943Z
+DTSTAMP:20260714T025137Z
 SUMMARY:[E] Happy Birthday\, Professor Willow!
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /happy-birthday-professor-willow-2026/
@@ -69,7 +69,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ozone-ascent-2026
-DTSTAMP:20260713T032943Z
+DTSTAMP:20260714T025137Z
 SUMMARY:[E] Ozone Ascent
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /ozone-ascent-2026/
@@ -85,8 +85,26 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ultra-unlock-10th-anniversary-edition
+DTSTAMP:20260714T025137Z
+SUMMARY:[E] Ultra Unlock: 10th Anniversary Edition
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /ultra-unlock-10th-anniversary-edition/
+URL:https://leekduck.com/events/ultra-unlock-10th-anniversary-edition/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-07-21-ultra-unlock-10th-anniversary-edition/ultra-unlock-10th-ann
+ iversary-edition.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260721
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260727
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Ultra Unlock: 10th Anniversary Edition
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:hatch-day-august-2026
-DTSTAMP:20260713T032943Z
+DTSTAMP:20260714T025137Z
 SUMMARY:[E] Hatch Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-august-2026/
@@ -103,18 +121,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:water-festival-2026
-DTSTAMP:20260713T032943Z
-SUMMARY:[E] Water Festival
+DTSTAMP:20260714T025137Z
+SUMMARY:[E] Ultra Unlock: Water Festival
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /water-festival-2026/
 URL:https://leekduck.com/events/water-festival-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-08-18-water-festival-2026/water-festival-2026.jpg
+ 026/2026-08-18-water-festival-2026/water-festival-2026.jpg?v2
 DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260818
 DTEND;TZID=Australia/Sydney;VALUE=DATE:20260824
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[E] Water Festival
+DESCRIPTION:[E] Ultra Unlock: Water Festival
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
