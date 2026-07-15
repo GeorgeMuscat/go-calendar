@@ -25,14 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251017T025137Z
+DTSTART:20251018T025022Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:raichu-super-mega-raid-day-2026
-DTSTAMP:20260714T025137Z
+DTSTAMP:20260715T025022Z
 SUMMARY:[RD] Raichu Super Mega Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /raichu-super-mega-raid-day-2026/
@@ -49,19 +49,20 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:raid-day-august-2026
-DTSTAMP:20260714T025137Z
-SUMMARY:[RD] Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /raid-day-august-2026/
-URL:https://leekduck.com/events/raid-day-august-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney:20260822T140000
+UID:starmie-super-mega-raid-day-2026
+DTSTAMP:20260715T025022Z
+SUMMARY:[RD] Starmie Super Mega Raid Day
+DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /starmie-super-mega-raid-day-2026/
+URL:https://leekduck.com/events/starmie-super-mega-raid-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-08-22-starmie-super-mega-raid-day-2026/starmie-super-mega-raid-da
+ y-2026.jpg
+DTSTART;TZID=Australia/Sydney:20260822T110000
 DTEND;TZID=Australia/Sydney:20260822T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Raid Day
+DESCRIPTION:[RD] Starmie Super Mega Raid Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
