@@ -25,33 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251024T031724Z
+DTSTART:20251025T031542Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:special-anniversary-pikachu-celebration-2026
-DTSTAMP:20260721T031724Z
-SUMMARY:[E] Special Anniversary Pikachu Celebration
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /special-anniversary-pikachu-celebration-2026/
-URL:https://leekduck.com/events/special-anniversary-pikachu-celebration-202
- 6/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-07-13-special-anniversary-pikachu-celebration-2026/special-annive
- rsary-pikachu-celebration-2026.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260713
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260720
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Special Anniversary Pikachu Celebration
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:happy-birthday-professor-willow-2026
-DTSTAMP:20260721T031724Z
+DTSTAMP:20260722T031542Z
 SUMMARY:[E] Happy Birthday\, Professor Willow!
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /happy-birthday-professor-willow-2026/
@@ -69,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ozone-ascent-2026
-DTSTAMP:20260721T031724Z
+DTSTAMP:20260722T031542Z
 SUMMARY:[E] Ozone Ascent
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /ozone-ascent-2026/
@@ -86,7 +67,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ultra-unlock-10th-anniversary-edition
-DTSTAMP:20260721T031724Z
+DTSTAMP:20260722T031542Z
 SUMMARY:[E] Ultra Unlock: 10th Anniversary Edition
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /ultra-unlock-10th-anniversary-edition/
@@ -104,7 +85,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fire-and-ice-hatch-day-2026
-DTSTAMP:20260721T031724Z
+DTSTAMP:20260722T031542Z
 SUMMARY:[E] Fire and Ice Hatch Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /fire-and-ice-hatch-day-2026/
@@ -121,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:summer-marathon-2026
-DTSTAMP:20260721T031724Z
+DTSTAMP:20260722T031542Z
 SUMMARY:[E] Summer Marathon: Arctic Embers
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /summer-marathon-2026/
@@ -138,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:water-festival-2026
-DTSTAMP:20260721T031724Z
+DTSTAMP:20260722T031542Z
 SUMMARY:[E] Ultra Unlock: Water Festival
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /water-festival-2026/

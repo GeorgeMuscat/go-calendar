@@ -25,31 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251024T031724Z
+DTSTART:20251025T031542Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:max-mondays-2026-07-20
-DTSTAMP:20260721T031724Z
-SUMMARY:[MM] Dynamax Trubbish during Max Monday
-DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
- /max-mondays-2026-07-20/
-URL:https://leekduck.com/events/max-mondays-2026-07-20/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
- o.jpg
-DTSTART;TZID=Australia/Sydney:20260720T060000
-DTEND;TZID=Australia/Sydney:20260720T210000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Trubbish during Max Monday
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:max-mondays-2026-07-27
-DTSTAMP:20260721T031724Z
+DTSTAMP:20260722T031542Z
 SUMMARY:[MM] Dynamax Feebas during Max Monday
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-mondays-2026-07-27/
