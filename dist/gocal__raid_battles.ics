@@ -25,47 +25,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251122T013453Z
+DTSTART:20251123T013359Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:groudon-in-5-star-raid-battles-august-2026
-DTSTAMP:20260819T013453Z
-SUMMARY:[RB] Groudon in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /groudon-in-5-star-raid-battles-august-2026/
-URL:https://leekduck.com/events/groudon-in-5-star-raid-battles-august-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260812
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260818
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Groudon in 5-star Raid Battles
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-garchomp-in-mega-raids-august-2026
-DTSTAMP:20260819T013453Z
-SUMMARY:[RB] Mega Garchomp in Mega Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-garchomp-in-mega-raids-august-2026/
-URL:https://leekduck.com/events/mega-garchomp-in-mega-raids-august-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260812
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260818
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Garchomp in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:lunala-in-5-star-raid-battles-august-2026
-DTSTAMP:20260819T013453Z
+DTSTAMP:20260820T013359Z
 SUMMARY:[RB] Lunala in 5-star Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /lunala-in-5-star-raid-battles-august-2026/
@@ -81,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-swampert-in-mega-raids-august-2026
-DTSTAMP:20260819T013453Z
+DTSTAMP:20260820T013359Z
 SUMMARY:[RB] Mega Swampert in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /mega-swampert-in-mega-raids-august-2026/
@@ -97,7 +64,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shadow-giratina-altered-in-shadow-raids-august-2026
-DTSTAMP:20260819T013453Z
+DTSTAMP:20260820T013359Z
 SUMMARY:[RB] Shadow Giratina (Altered Forme) in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /shadow-giratina-altered-in-shadow-raids-august-2026/
@@ -115,7 +82,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-gyarados-in-mega-raids-august-2026
-DTSTAMP:20260819T013453Z
+DTSTAMP:20260820T013359Z
 SUMMARY:[RB] Mega Gyarados in Mega Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /mega-gyarados-in-mega-raids-august-2026/
@@ -131,7 +98,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:regirock-regice-registeel-in-5-star-raid-battles-august-2026
-DTSTAMP:20260819T013453Z
+DTSTAMP:20260820T013359Z
 SUMMARY:[RB] Regirock\, Regice\, and Registeel in 5-star Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
  /regirock-regice-registeel-in-5-star-raid-battles-august-2026/
