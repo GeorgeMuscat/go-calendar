@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251128T013444Z
+DTSTART:20251129T013928Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:water-festival-2026
-DTSTAMP:20260825T013444Z
-SUMMARY:[E] Ultra Unlock: Water Festival
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /water-festival-2026/
-URL:https://leekduck.com/events/water-festival-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-08-18-water-festival-2026/water-festival-2026.jpg?v2
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260818
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260824
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Ultra Unlock: Water Festival
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-xp-2026-worlds
-DTSTAMP:20260825T013444Z
+DTSTAMP:20260826T013928Z
 SUMMARY:[E] PokémonXP &amp\; 2026 Worlds
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /pokemon-xp-2026-worlds/
@@ -71,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mega-ascension
-DTSTAMP:20260825T013444Z
+DTSTAMP:20260826T013928Z
 SUMMARY:[E] Mega Ascension
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /mega-ascension/
@@ -88,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:10th-anniversary-celebration
-DTSTAMP:20260825T013444Z
+DTSTAMP:20260826T013928Z
 SUMMARY:[E] 10th Anniversary Celebration - Perfect Mewtwo Timed Research
 DESCRIPTION:Starts at 16:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /10th-anniversary-celebration/
@@ -106,8 +89,41 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:mega-squads-2026
+DTSTAMP:20260826T013928Z
+SUMMARY:[E] Mega Squads
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /mega-squads-2026/
+URL:https://leekduck.com/events/mega-squads-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260908
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260914
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Mega Squads
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:unannounced-september-event-season-24
+DTSTAMP:20260826T013928Z
+SUMMARY:[E] Unannounced Event
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /unannounced-september-event-season-24/
+URL:https://leekduck.com/events/unannounced-september-event-season-24/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260916
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20260922
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Unannounced Event
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:catch-mastery-september-2026
-DTSTAMP:20260825T013444Z
+DTSTAMP:20260826T013928Z
 SUMMARY:[E] Catch Mastery
 DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
  /catch-mastery-september-2026/
@@ -124,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lego-pokemon-go-2026
-DTSTAMP:20260825T013444Z
+DTSTAMP:20260826T013928Z
 SUMMARY:[E] LEGO Stores and Pokémon GO
 DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/events
  /lego-pokemon-go-2026/
@@ -140,8 +156,25 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:harvest-festival-2026
+DTSTAMP:20260826T013928Z
+SUMMARY:[E] Harvest Festival
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /harvest-festival-2026/
+URL:https://leekduck.com/events/harvest-festival-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260929
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261005
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Harvest Festival
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:hatch-day-october-2026
-DTSTAMP:20260825T013444Z
+DTSTAMP:20260826T013928Z
 SUMMARY:[E] Hatch Day
 DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /hatch-day-october-2026/
