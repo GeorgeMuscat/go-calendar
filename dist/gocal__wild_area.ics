@@ -10,43 +10,84 @@ X-WR-CALDESC:All Pokémon GO Wild Area events\, in your local time\, auto-u
 REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
-TZID:Australia/Sydney
+TZID:Z
 BEGIN:STANDARD
-DTSTART:20250406T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
-END:STANDARD
-BEGIN:DAYLIGHT
-DTSTART:20251005T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
-BEGIN:STANDARD
-DTSTART:20260405T030000Z
-TZOFFSETFROM:+1100
-TZOFFSETTO:+1000
+DTSTART:20260209T010000Z
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250220T015638Z
+DTSTART:20251214T040144Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:Australia/Sydney
+BEGIN:STANDARD
+DTSTART:20260405T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20261004T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20270404T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-UID:pokemon-go-wild-area-2025-global
-DTSTAMP:20251117T015638Z
+UID:pokemon-go-wild-area-2026-sendai-japan
+DTSTAMP:20260910T040144Z
+SUMMARY:[WA] Pokémon GO Wild Area: Sendai\, Tohoku
+DESCRIPTION:Starts at 01:00\, ends at 09:00.\n\nhttps://leekduck.com/events
+ /pokemon-go-wild-area-2026-sendai-japan/
+URL:https://leekduck.com/events/pokemon-go-wild-area-2026-sendai-japan/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-11-06-pokemon-go-wild-area-2026-sendai-japan/key-art.jpg
+DTSTART;TZID=Z;VALUE=DATE:20261106
+DTEND;TZID=Z;VALUE=DATE:20261108
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[WA] Pokémon GO Wild Area: Sendai\, Tohoku
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-go-wild-area-2026-mexico-city
+DTSTAMP:20260910T040144Z
+SUMMARY:[WA] Pokémon GO Wild Area: Mexico City
+DESCRIPTION:Starts at 16:00\, ends at 00:00.\n\nhttps://leekduck.com/events
+ /pokemon-go-wild-area-2026-mexico-city/
+URL:https://leekduck.com/events/pokemon-go-wild-area-2026-mexico-city/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-11-06-pokemon-go-wild-area-2026-mexico-city/key-art.jpg
+DTSTART;TZID=Z;VALUE=DATE:20261106
+DTEND;TZID=Z;VALUE=DATE:20261109
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[WA] Pokémon GO Wild Area: Mexico City
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-go-wild-area-2026-global
+DTSTAMP:20260910T040144Z
 SUMMARY:[WA] Pokémon GO Wild Area: Global
 DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
- /pokemon-go-wild-area-2025-global/
-URL:https://leekduck.com/events/pokemon-go-wild-area-2025-global/
+ /pokemon-go-wild-area-2026-global/
+URL:https://leekduck.com/events/pokemon-go-wild-area-2026-global/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 025/2025-11-15-pokemon-go-wild-area-2025-global/wild-area-2025-global-key-
- art.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20251115
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20251116
+ 026/2026-11-14-pokemon-go-wild-area-2026-global/key-art.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261114
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261115
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[WA] Pokémon GO Wild Area: Global
