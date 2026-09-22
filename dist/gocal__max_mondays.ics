@@ -21,35 +21,23 @@ DTSTART:20261004T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20270404T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251217T041050Z
+DTSTART:20251226T041349Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:max-mondays-2026-09-14
-DTSTAMP:20260913T041050Z
-SUMMARY:[MM] Dynamax Rhyhorn during Max Monday
-DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
- /max-mondays-2026-09-14/
-URL:https://leekduck.com/events/max-mondays-2026-09-14/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
- o.jpg
-DTSTART;TZID=Australia/Sydney:20260914T060000
-DTEND;TZID=Australia/Sydney:20260914T210000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Rhyhorn during Max Monday
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:max-mondays-2026-09-21
-DTSTAMP:20260913T041050Z
+DTSTAMP:20260922T041349Z
 SUMMARY:[MM] Dynamax Articuno\, Zapdos\, and Moltres during Max Monday
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-mondays-2026-09-21/
@@ -66,7 +54,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:max-mondays-2026-09-28
-DTSTAMP:20260913T041050Z
+DTSTAMP:20260922T041349Z
 SUMMARY:[MM] Dynamax Sobble during Max Monday
 DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
  /max-mondays-2026-09-28/
@@ -78,6 +66,74 @@ DTEND;TZID=Australia/Sydney:20260928T210000
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[MM] Dynamax Sobble during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-10-05
+DTSTAMP:20260922T041349Z
+SUMMARY:[MM] Dynamax Sizzlipede during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-10-05/
+URL:https://leekduck.com/events/max-mondays-2026-10-05/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20261005T060000
+DTEND;TZID=Australia/Sydney:20261005T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Sizzlipede during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-10-12
+DTSTAMP:20260922T041349Z
+SUMMARY:[MM] Dynamax Rookidee during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-10-12/
+URL:https://leekduck.com/events/max-mondays-2026-10-12/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20261012T060000
+DTEND;TZID=Australia/Sydney:20261012T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Rookidee during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-10-19
+DTSTAMP:20260922T041349Z
+SUMMARY:[MM] Dynamax Sneasel during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-10-19/
+URL:https://leekduck.com/events/max-mondays-2026-10-19/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20261019T060000
+DTEND;TZID=Australia/Sydney:20261019T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Sneasel during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-10-26
+DTSTAMP:20260922T041349Z
+SUMMARY:[MM] Dynamax Sableye during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-10-26/
+URL:https://leekduck.com/events/max-mondays-2026-10-26/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20261026T060000
+DTEND;TZID=Australia/Sydney:20261026T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Sableye during Max Monday
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
