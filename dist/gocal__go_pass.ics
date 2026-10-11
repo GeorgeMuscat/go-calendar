@@ -30,31 +30,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20260109T054604Z
+DTSTART:20260114T050535Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:go-pass-september-2026
-DTSTAMP:20261006T054604Z
-SUMMARY:[GP] GO Pass: September
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /go-pass-september-2026/
-URL:https://leekduck.com/events/go-pass-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-09-08-go-pass-september-2026/go-pass-september-2026.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260908
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GP] GO Pass: September
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:go-pass-october-2026
-DTSTAMP:20261006T054604Z
+DTSTAMP:20261011T050535Z
 SUMMARY:[GP] GO Pass: October
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /go-pass-october-2026/
