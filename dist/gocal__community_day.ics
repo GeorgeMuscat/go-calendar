@@ -30,24 +30,25 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20260123T041700Z
+DTSTART:20260128T040315Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:november-communityday2026
-DTSTAMP:20261020T041700Z
-SUMMARY:[CD] November Community Day
+DTSTAMP:20261025T040315Z
+SUMMARY:[CD] Pawniard Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /november-communityday2026/
 URL:https://leekduck.com/events/november-communityday2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-11-21-november-communityday2026/pawniard-november-cd-2026.jpg
 DTSTART;TZID=Australia/Sydney:20261121T140000
 DTEND;TZID=Australia/Sydney:20261121T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] November Community Day
+DESCRIPTION:[CD] Pawniard Community Day
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
