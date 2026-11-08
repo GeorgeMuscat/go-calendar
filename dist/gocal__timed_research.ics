@@ -11,11 +11,6 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1440M
 X-PUBLISHED-TTL:PT1440M
 BEGIN:VTIMEZONE
 TZID:Australia/Sydney
-BEGIN:DAYLIGHT
-DTSTART:20251005T020000Z
-TZOFFSETFROM:+1000
-TZOFFSETTO:+1100
-END:DAYLIGHT
 BEGIN:STANDARD
 DTSTART:20260405T030000Z
 TZOFFSETFROM:+1100
@@ -26,30 +21,36 @@ DTSTART:20261004T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20270404T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20250828T041817Z
+DTSTART:20260211T052613Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:choose-your-path-timed-research-2026-05-19
-DTSTAMP:20260525T041817Z
-SUMMARY:[TR] Choose Your Path Timed Research (May 19\, 2026)
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /choose-your-path-timed-research-2026-05-19/
-URL:https://leekduck.com/events/choose-your-path-timed-research-2026-05-19/
+UID:go-wild-area-gigantamax-machamp-power-up-timed-research
+DTSTAMP:20261108T052613Z
+SUMMARY:[TR] GO Wild Area: Gigantamax Machamp Power Up! Timed Research
+DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/events
+ /go-wild-area-gigantamax-machamp-power-up-timed-research/
+URL:https://leekduck.com/events/go-wild-area-gigantamax-machamp-power-up-ti
+ med-research/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-05-19-choose-your-path-timed-research-2026-05-19/choose-your-path
- -evergreen-2026-05-19.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260519
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260524
+ 025/2025-05-25-gigantamax-machamp-max-battle-day-may-2025/gigantamax-macha
+ mp-max-battles.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261106
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261115
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[TR] Choose Your Path Timed Research (May 19\, 2026)
+DESCRIPTION:[TR] GO Wild Area: Gigantamax Machamp Power Up! Timed Research
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
