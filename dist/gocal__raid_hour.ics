@@ -21,60 +21,51 @@ DTSTART:20261004T020000Z
 TZOFFSETFROM:+1000
 TZOFFSETTO:+1100
 END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20270404T030000Z
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251217T041050Z
+DTSTART:20260219T054527Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:raidhour20260916
-DTSTAMP:20260913T041050Z
-SUMMARY:[RH] Zamazenta (Hero of Many Battles) Raid Hour
+UID:raidhour20261118
+DTSTAMP:20261116T054527Z
+SUMMARY:[RH] Cresselia and Darkrai Raid Hour
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20260916/
-URL:https://leekduck.com/events/raidhour20260916/
+ /raidhour20261118/
+URL:https://leekduck.com/events/raidhour20261118/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20260916T180000
-DTEND;TZID=Australia/Sydney:20260916T190000
+DTSTART;TZID=Australia/Sydney:20261118T180000
+DTEND;TZID=Australia/Sydney:20261118T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Zamazenta (Hero of Many Battles) Raid Hour
+DESCRIPTION:[RH] Cresselia and Darkrai Raid Hour
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:raidhour20260923
-DTSTAMP:20260913T041050Z
-SUMMARY:[RH] Xurkitree\, Pheromosa\, and Buzzwole Raid Hour
+UID:raidhour20261125
+DTSTAMP:20261116T054527Z
+SUMMARY:[RH] Deoxys (Normal\, Defense\, Attack\, and Speed Formes) Raid Hou
+ r
 DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20260923/
-URL:https://leekduck.com/events/raidhour20260923/
+ /raidhour20261125/
+URL:https://leekduck.com/events/raidhour20261125/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20260923T180000
-DTEND;TZID=Australia/Sydney:20260923T190000
+DTSTART;TZID=Australia/Sydney:20261125T180000
+DTEND;TZID=Australia/Sydney:20261125T190000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RH] Xurkitree\, Pheromosa\, and Buzzwole Raid Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:raidhour20260930
-DTSTAMP:20260913T041050Z
-SUMMARY:[RH] Xerneas Raid Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20260930/
-URL:https://leekduck.com/events/raidhour20260930/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20260930T180000
-DTEND;TZID=Australia/Sydney:20260930T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] Xerneas Raid Hour
+DESCRIPTION:[RH] Deoxys (Normal\, Defense\, Attack\, and Speed Formes) Raid
+  Hour
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

@@ -26,11 +26,16 @@ DTSTART:20270404T030000Z
 TZOFFSETFROM:+1100
 TZOFFSETTO:+1000
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20271003T020000Z
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251217T041050Z
+DTSTART:20260219T054527Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
@@ -38,824 +43,14 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:Z
 BEGIN:STANDARD
-DTSTART:20251212T200000Z
+DTSTART:20260213T210000Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:september-communitydayclassic2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[CD] Gible Community Day Classic
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /september-communitydayclassic2026/
-URL:https://leekduck.com/events/september-communitydayclassic2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-09-12-september-communitydayclassic2026/gible-community-day-class
- ic.jpg
-DTSTART;TZID=Australia/Sydney:20260912T140000
-DTEND;TZID=Australia/Sydney:20260912T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] Gible Community Day Classic
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemonspotlighthour2026-09-13
-DTSTAMP:20260913T041050Z
-SUMMARY:[PSH] Houndour and Houndoom Spotlight Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2026-09-13/
-URL:https://leekduck.com/events/pokemonspotlighthour2026-09-13/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
- hour.jpg
-DTSTART;TZID=Australia/Sydney:20260913T180000
-DTEND;TZID=Australia/Sydney:20260913T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Houndour and Houndoom Spotlight Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-squads
-DTSTAMP:20260913T041050Z
-SUMMARY:[E] Mega Squads
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /mega-squads/
-URL:https://leekduck.com/events/mega-squads/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-09-08-mega-squads/mega-squads.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260908
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260914
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Mega Squads
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:max-mondays-2026-09-14
-DTSTAMP:20260913T041050Z
-SUMMARY:[MM] Dynamax Rhyhorn during Max Monday
-DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
- /max-mondays-2026-09-14/
-URL:https://leekduck.com/events/max-mondays-2026-09-14/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
- o.jpg
-DTSTART;TZID=Australia/Sydney:20260914T060000
-DTEND;TZID=Australia/Sydney:20260914T210000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Rhyhorn during Max Monday
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition
- _master-league-mega-edition-split-1
-DTSTAMP:20260913T041050Z
-SUMMARY:[GBL] Great League: Mega Edition\, Ultra League: Mega Edition\, and
-  Master League: Mega Edition | Twilight Trails
-DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_m
- aster-league-mega-edition-split-1/
-URL:https://leekduck.com/events/gbl-twilight-trails_great-league-mega-editi
- on_ultra-league-mega-edition_master-league-mega-edition-split-1/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-league
- -season-28-twilight-trails.png
-DTSTART;TZID=Z;VALUE=DATE:20260908
-DTEND;TZID=Z;VALUE=DATE:20260915
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Great League: Mega Edition\, Ultra League: Mega Edition\,
-  and Master League: Mega Edition | Twilight Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-beedrill-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Beedrill in Mega Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-beedrill-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-beedrill-in-mega-raids-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260908
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260915
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Beedrill in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Zacian (Hero of Many Battles) in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026/
-URL:https://leekduck.com/events/zacian-hero-of-many-battles-in-5-star-raid-
- battles-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/zacian-and-zamaz
- enta-2.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260909
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260915
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Zacian (Hero of Many Battles) in 5-star Raid Battles
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-houndoom-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Houndoom in Mega Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-houndoom-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-houndoom-in-mega-raids-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260911
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260915
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Houndoom in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:raidhour20260916
-DTSTAMP:20260913T041050Z
-SUMMARY:[RH] Zamazenta (Hero of Many Battles) Raid Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20260916/
-URL:https://leekduck.com/events/raidhour20260916/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20260916T180000
-DTEND;TZID=Australia/Sydney:20260916T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] Zamazenta (Hero of Many Battles) Raid Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemonspotlighthour2026-09-17
-DTSTAMP:20260913T041050Z
-SUMMARY:[PSH] Mystery Pokémon Spotlight Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2026-09-17/
-URL:https://leekduck.com/events/pokemonspotlighthour2026-09-17/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
- hour.jpg
-DTSTART;TZID=Australia/Sydney:20260917T180000
-DTEND;TZID=Australia/Sydney:20260917T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Mystery Pokémon Spotlight Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:staraptor-super-mega-raid-day-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RD] Staraptor Super Mega Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /staraptor-super-mega-raid-day-2026/
-URL:https://leekduck.com/events/staraptor-super-mega-raid-day-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-09-19-staraptor-super-mega-raid-day-2026/staraptor-super-mega-rai
- d-day-2026.jpg
-DTSTART;TZID=Australia/Sydney:20260919T140000
-DTEND;TZID=Australia/Sydney:20260919T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Staraptor Super Mega Raid Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:max-mondays-2026-09-21
-DTSTAMP:20260913T041050Z
-SUMMARY:[MM] Dynamax Articuno\, Zapdos\, and Moltres during Max Monday
-DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
- /max-mondays-2026-09-21/
-URL:https://leekduck.com/events/max-mondays-2026-09-21/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
- o.jpg
-DTSTART;TZID=Australia/Sydney:20260921T060000
-DTEND;TZID=Australia/Sydney:20260921T210000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Articuno\, Zapdos\, and Moltres during Max Monday
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gbl-twilight-trails_great-league_ultra-league-mega-edition_willpower-cu
- p-great-league-edition
-DTSTAMP:20260913T041050Z
-SUMMARY:[GBL] Great League\, Ultra League: Mega Edition\, and Willpower Cup
- : Great League Edition | Twilight Trails
-DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /gbl-twilight-trails_great-league_ultra-league-mega-edition_willpower-cup-
- great-league-edition/
-URL:https://leekduck.com/events/gbl-twilight-trails_great-league_ultra-leag
- ue-mega-edition_willpower-cup-great-league-edition/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/gobattle-greatle
- ague-key.jpg
-DTSTART;TZID=Z;VALUE=DATE:20260915
-DTEND;TZID=Z;VALUE=DATE:20260922
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Great League\, Ultra League: Mega Edition\, and Willpower
-  Cup: Great League Edition | Twilight Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemon-horizons-the-series-celebration-event-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[E] Pokémon Horizons: The Series Celebration Event
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /pokemon-horizons-the-series-celebration-event-2026/
-URL:https://leekduck.com/events/pokemon-horizons-the-series-celebration-eve
- nt-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-09-16-pokemon-horizons-the-series-celebration-event-2026/pokemon-
- horizons-celebration-event-2026.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260916
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260922
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Pokémon Horizons: The Series Celebration Event
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-venusaur-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Venusaur in Mega Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-venusaur-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-venusaur-in-mega-raids-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260916
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260922
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Venusaur in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Zamazenta (Hero of Many Battles) in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026/
-URL:https://leekduck.com/events/zamazenta-hero-of-many-battles-in-5-star-ra
- id-battles-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/zacian-and-zamaz
- enta-2.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260916
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260922
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Zamazenta (Hero of Many Battles) in 5-star Raid Battles
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:raidhour20260923
-DTSTAMP:20260913T041050Z
-SUMMARY:[RH] Xurkitree\, Pheromosa\, and Buzzwole Raid Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20260923/
-URL:https://leekduck.com/events/raidhour20260923/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20260923T180000
-DTEND;TZID=Australia/Sydney:20260923T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] Xurkitree\, Pheromosa\, and Buzzwole Raid Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemonspotlighthour2026-09-24
-DTSTAMP:20260913T041050Z
-SUMMARY:[PSH] Rattata Spotlight Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /pokemonspotlighthour2026-09-24/
-URL:https://leekduck.com/events/pokemonspotlighthour2026-09-24/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
- hour.jpg
-DTSTART;TZID=Australia/Sydney:20260924T180000
-DTEND;TZID=Australia/Sydney:20260924T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[PSH] Rattata Spotlight Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:catch-mastery-phantump-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[E] Phantump Catch Mastery
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /catch-mastery-phantump-2026/
-URL:https://leekduck.com/events/catch-mastery-phantump-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-09-26-catch-mastery-phantump-2026/phantump-catch-mastery.jpg?v2
-DTSTART;TZID=Australia/Sydney:20260926T100000
-DTEND;TZID=Australia/Sydney:20260926T200000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Phantump Catch Mastery
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:max-mondays-2026-09-28
-DTSTAMP:20260913T041050Z
-SUMMARY:[MM] Dynamax Sobble during Max Monday
-DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
- /max-mondays-2026-09-28/
-URL:https://leekduck.com/events/max-mondays-2026-09-28/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
- o.jpg
-DTSTART;TZID=Australia/Sydney:20260928T060000
-DTEND;TZID=Australia/Sydney:20260928T210000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MM] Dynamax Sobble during Max Monday
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gbl-twilight-trails_ultra-league_master-league-mega-edition_retro-cup-g
- reat-league-edition
-DTSTAMP:20260913T041050Z
-SUMMARY:[GBL] Ultra League\, Master League: Mega Edition\, and Retro Cup: G
- reat League Edition | Twilight Trails
-DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /gbl-twilight-trails_ultra-league_master-league-mega-edition_retro-cup-gre
- at-league-edition/
-URL:https://leekduck.com/events/gbl-twilight-trails_ultra-league_master-lea
- gue-mega-edition_retro-cup-great-league-edition/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-league
- -ultra-league-machamp-swampert.jpg
-DTSTART;TZID=Z;VALUE=DATE:20260922
-DTEND;TZID=Z;VALUE=DATE:20260929
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Ultra League\, Master League: Mega Edition\, and Retro Cu
- p: Great League Edition | Twilight Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-malamar-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Malamar in Mega Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-malamar-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-malamar-in-mega-raids-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260923
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260929
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Malamar in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:xurkitree-pheromosa-buzzwole-in-5-star-raid-battles-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Xurkitree\, Pheromosa\, and Buzzwole in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /xurkitree-pheromosa-buzzwole-in-5-star-raid-battles-september-2026/
-URL:https://leekduck.com/events/xurkitree-pheromosa-buzzwole-in-5-star-raid
- -battles-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/buzzwole-xurkitr
- ee-pheromosa-ultra-beasts.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260923
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260929
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Xurkitree\, Pheromosa\, and Buzzwole in 5-star Raid Battle
- s
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:raidhour20260930
-DTSTAMP:20260913T041050Z
-SUMMARY:[RH] Xerneas Raid Hour
-DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
- /raidhour20260930/
-URL:https://leekduck.com/events/raidhour20260930/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
-DTSTART;TZID=Australia/Sydney:20260930T180000
-DTEND;TZID=Australia/Sydney:20260930T190000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RH] Xerneas Raid Hour
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:lego-pokemon-go-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[E] LEGO Stores and Pokémon GO
-DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/events
- /lego-pokemon-go-2026/
-URL:https://leekduck.com/events/lego-pokemon-go-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-08-03-lego-pokemon-go-2026/lego-stores-pokemon-go.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260803
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260930
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] LEGO Stores and Pokémon GO
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:patterns-of-the-wild-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[E] Patterns of the Wild
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /patterns-of-the-wild-2026/
-URL:https://leekduck.com/events/patterns-of-the-wild-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-10-02-patterns-of-the-wild-2026/patterns-of-the-wild-2026.jpg
-DTSTART;TZID=Australia/Sydney:20261002T100000
-DTEND;TZID=Australia/Sydney:20261002T200000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Patterns of the Wild
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gigantamax-cinderace-max-battle-day-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[MB] Gigantamax Cinderace Max Battle Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /gigantamax-cinderace-max-battle-day-2026/
-URL:https://leekduck.com/events/gigantamax-cinderace-max-battle-day-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-10-03-gigantamax-cinderace-max-battle-day-2026/gigantamax-cindera
- ce-max-battle-day.jpg
-DTSTART;TZID=Australia/Sydney:20261003T140000
-DTEND;TZID=Australia/Sydney:20261003T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MB] Gigantamax Cinderace Max Battle Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:harvest-festival-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[E] Harvest Festival 2026: Applin Picking
-DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /harvest-festival-2026/
-URL:https://leekduck.com/events/harvest-festival-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-09-29-harvest-festival-2026/harvest-festival-2026.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260929
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261005
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Harvest Festival 2026: Applin Picking
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:harvest-festival-taken-over-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[E] Harvest Festival: Taken Over
-DESCRIPTION:Starts at 00:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /harvest-festival-taken-over-2026/
-URL:https://leekduck.com/events/harvest-festival-taken-over-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-10-02-harvest-festival-taken-over-2026/harvest-festival-taken-ove
- r-2026.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261002
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261005
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Harvest Festival: Taken Over
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:go-pass-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[GP] GO Pass: September
-DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
- /go-pass-september-2026/
-URL:https://leekduck.com/events/go-pass-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-09-08-go-pass-september-2026/go-pass-september-2026.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260908
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GP] GO Pass: September
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gbl-twilight-trails_master-league_mega-color-cup-great-league-edition
-DTSTAMP:20260913T041050Z
-SUMMARY:[GBL] Master League and Mega Color Cup: Great League Edition | Twil
- ight Trails
-DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /gbl-twilight-trails_master-league_mega-color-cup-great-league-edition/
-URL:https://leekduck.com/events/gbl-twilight-trails_master-league_mega-colo
- r-cup-great-league-edition/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/gobattleleague-m
- aster-key.jpg
-DTSTART;TZID=Z;VALUE=DATE:20260929
-DTEND;TZID=Z;VALUE=DATE:20261006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Master League and Mega Color Cup: Great League Edition | 
- Twilight Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Shadow Thundurus (Incarnate Forme) in Shadow Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026/
-URL:https://leekduck.com/events/shadow-thundurus-incarnate-forme-in-shadow-
- raids-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260909
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Shadow Thundurus (Incarnate Forme) in Shadow Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-victreebel-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Victreebel in Mega Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-victreebel-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-victreebel-in-mega-raids-september-202
- 6/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260930
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Victreebel in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:xerneas-in-5-star-raid-battles-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Xerneas in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /xerneas-in-5-star-raid-battles-september-2026/
-URL:https://leekduck.com/events/xerneas-in-5-star-raid-battles-september-20
- 26/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/xerneas-woods.jp
- g
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260930
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Xerneas in 5-star Raid Battles
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:october-communityday2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[CD] October Community Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /october-communityday2026/
-URL:https://leekduck.com/events/october-communityday2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
-DTSTART;TZID=Australia/Sydney:20261010T140000
-DTEND;TZID=Australia/Sydney:20261010T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[CD] October Community Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition
- _master-league-mega-edition-split-2
-DTSTAMP:20260913T041050Z
-SUMMARY:[GBL] Great League: Mega Edition\, Ultra League: Mega Edition\, and
-  Master League: Mega Edition | Twilight Trails
-DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_m
- aster-league-mega-edition-split-2/
-URL:https://leekduck.com/events/gbl-twilight-trails_great-league-mega-editi
- on_ultra-league-mega-edition_master-league-mega-edition-split-2/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-league
- -season-28-twilight-trails.png
-DTSTART;TZID=Z;VALUE=DATE:20261006
-DTEND;TZID=Z;VALUE=DATE:20261013
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Great League: Mega Edition\, Ultra League: Mega Edition\,
-  and Master League: Mega Edition | Twilight Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:hatch-day-october-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[E] Hatch Day
-DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /hatch-day-october-2026/
-URL:https://leekduck.com/events/hatch-day-october-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney:20261017T110000
-DTEND;TZID=Australia/Sydney:20261017T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[E] Hatch Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gbl-twilight-trails_great-league_ultra-league-mega-edition_little-cup
-DTSTAMP:20260913T041050Z
-SUMMARY:[GBL] Great League\, Ultra League: Mega Edition\, and Little Cup | 
- Twilight Trails
-DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /gbl-twilight-trails_great-league_ultra-league-mega-edition_little-cup/
-URL:https://leekduck.com/events/gbl-twilight-trails_great-league_ultra-leag
- ue-mega-edition_little-cup/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/gobattle-greatle
- ague-key.jpg
-DTSTART;TZID=Z;VALUE=DATE:20261013
-DTEND;TZID=Z;VALUE=DATE:20261020
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Great League\, Ultra League: Mega Edition\, and Little Cu
- p | Twilight Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:max-battle-day-october-24-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[MB] Max Battle Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /max-battle-day-october-24-2026/
-URL:https://leekduck.com/events/max-battle-day-october-24-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney:20261024T140000
-DTEND;TZID=Australia/Sydney:20261024T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[MB] Max Battle Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gbl-twilight-trails_ultra-league_master-league-mega-edition_fantasy-cup
- -great-league-edition
-DTSTAMP:20260913T041050Z
-SUMMARY:[GBL] Ultra League\, Master League: Mega Edition\, and Fantasy Cup:
-  Great League Edition | Twilight Trails
-DESCRIPTION:Starts at 20:00\, ends at 20:00.\n\nhttps://leekduck.com/events
- /gbl-twilight-trails_ultra-league_master-league-mega-edition_fantasy-cup-g
- reat-league-edition/
-URL:https://leekduck.com/events/gbl-twilight-trails_ultra-league_master-lea
- gue-mega-edition_fantasy-cup-great-league-edition/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-league
- -ultra-league-machamp-swampert.jpg
-DTSTART;TZID=Z;VALUE=DATE:20261020
-DTEND;TZID=Z;VALUE=DATE:20261027
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Ultra League\, Master League: Mega Edition\, and Fantasy 
- Cup: Great League Edition | Twilight Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:super-mega-raid-day-october-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RD] Super Mega Raid Day
-DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /super-mega-raid-day-october-2026/
-URL:https://leekduck.com/events/super-mega-raid-day-october-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney:20261031T140000
-DTEND;TZID=Australia/Sydney:20261031T170000
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RD] Super Mega Raid Day
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gbl-twilight-trails_master-league_mega-halloween-cup-great-league-editi
- on
-DTSTAMP:20260913T041050Z
-SUMMARY:[GBL] Master League and Mega Halloween Cup: Great League Edition | 
- Twilight Trails
-DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/events
- /gbl-twilight-trails_master-league_mega-halloween-cup-great-league-edition
- /
-URL:https://leekduck.com/events/gbl-twilight-trails_master-league_mega-hall
- oween-cup-great-league-edition/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/gobattleleague-m
- aster-key.jpg
-DTSTART;TZID=Z;VALUE=DATE:20261027
-DTEND;TZID=Z;VALUE=DATE:20261103
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Master League and Mega Halloween Cup: Great League Editio
- n | Twilight Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemon-go-wild-area-2026-sendai-japan
-DTSTAMP:20260913T041050Z
-SUMMARY:[WA] Pokémon GO Wild Area 2026: Sendai • Tohoku
-DESCRIPTION:Starts at 01:00\, ends at 09:00.\n\nhttps://leekduck.com/events
- /pokemon-go-wild-area-2026-sendai-japan/
-URL:https://leekduck.com/events/pokemon-go-wild-area-2026-sendai-japan/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-11-06-pokemon-go-wild-area-2026-sendai-japan/key-art.jpg
-DTSTART;TZID=Z;VALUE=DATE:20261106
-DTEND;TZID=Z;VALUE=DATE:20261108
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[WA] Pokémon GO Wild Area 2026: Sendai • Tohoku
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:pokemon-go-wild-area-2026-mexico-city
-DTSTAMP:20260913T041050Z
-SUMMARY:[WA] Pokémon GO Wild Area 2026: Mexico City
-DESCRIPTION:Starts at 16:00\, ends at 00:00.\n\nhttps://leekduck.com/events
- /pokemon-go-wild-area-2026-mexico-city/
-URL:https://leekduck.com/events/pokemon-go-wild-area-2026-mexico-city/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
- 026/2026-11-06-pokemon-go-wild-area-2026-mexico-city/key-art.jpg
-DTSTART;TZID=Z;VALUE=DATE:20261106
-DTEND;TZID=Z;VALUE=DATE:20261109
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[WA] Pokémon GO Wild Area 2026: Mexico City
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition
- _master-league-mega-edition-split-3
-DTSTAMP:20260913T041050Z
-SUMMARY:[GBL] Great League: Mega Edition\, Ultra League: Mega Edition\, and
-  Master League: Mega Edition | Twilight Trails
-DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/events
- /gbl-twilight-trails_great-league-mega-edition_ultra-league-mega-edition_m
- aster-league-mega-edition-split-3/
-URL:https://leekduck.com/events/gbl-twilight-trails_great-league-mega-editi
- on_ultra-league-mega-edition_master-league-mega-edition-split-3/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/go-battle-league
- -season-28-twilight-trails.png
-DTSTART;TZID=Z;VALUE=DATE:20261103
-DTEND;TZID=Z;VALUE=DATE:20261110
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[GBL] Great League: Mega Edition\, Ultra League: Mega Edition\,
-  and Master League: Mega Edition | Twilight Trails
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:pokemon-go-wild-area-2026-global
-DTSTAMP:20260913T041050Z
+DTSTAMP:20261116T054527Z
 SUMMARY:[WA] Pokémon GO Wild Area 2026: Global
 DESCRIPTION:Starts at 10:00\, ends at 18:00.\n\nhttps://leekduck.com/events
  /pokemon-go-wild-area-2026-global/
@@ -871,9 +66,45 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:go-wild-area-gigantamax-machamp-power-up-timed-research
+DTSTAMP:20261116T054527Z
+SUMMARY:[TR] GO Wild Area: Gigantamax Machamp Power Up! Timed Research
+DESCRIPTION:Starts at 10:00\, ends at 23:59.\n\nhttps://leekduck.com/events
+ /go-wild-area-gigantamax-machamp-power-up-timed-research/
+URL:https://leekduck.com/events/go-wild-area-gigantamax-machamp-power-up-ti
+ med-research/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 025/2025-05-25-gigantamax-machamp-max-battle-day-may-2025/gigantamax-macha
+ mp-max-battles.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261106
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261115
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[TR] GO Wild Area: Gigantamax Machamp Power Up! Timed Research
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-11-16
+DTSTAMP:20261116T054527Z
+SUMMARY:[MM] Max Monday: Pokémon to be announced
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-11-16/
+URL:https://leekduck.com/events/max-mondays-2026-11-16/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20261116T060000
+DTEND;TZID=Australia/Sydney:20261116T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Max Monday: Pokémon to be announced
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gbl-twilight-trails_great-league_ultra-league-mega-edition_2026-go-laic
  -cup
-DTSTAMP:20260913T041050Z
+DTSTAMP:20261116T054527Z
 SUMMARY:[GBL] Great League\, Ultra League: Mega Edition\, and 2026 GO LAIC 
  Cup | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/events
@@ -893,25 +124,161 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:raidhour20261118
+DTSTAMP:20261116T054527Z
+SUMMARY:[RH] Cresselia and Darkrai Raid Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20261118/
+URL:https://leekduck.com/events/raidhour20261118/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20261118T180000
+DTEND;TZID=Australia/Sydney:20261118T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Cresselia and Darkrai Raid Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2026-11-19
+DTSTAMP:20261116T054527Z
+SUMMARY:[PSH] Grookey\, Scorbunny\, and Sobble Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2026-11-19/
+URL:https://leekduck.com/events/pokemonspotlighthour2026-11-19/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20261119T180000
+DTEND;TZID=Australia/Sydney:20261119T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Grookey\, Scorbunny\, and Sobble Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:minior-showers-leonids-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[E] Minior Showers: Leonids 2026
+DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
+ /minior-showers-leonids-2026/
+URL:https://leekduck.com/events/minior-showers-leonids-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/minior-showers-2
+ 026.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261114
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261119
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Minior Showers: Leonids 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eternamax-eternatus-max-battles-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[MB] Eternamax Eternatus Returns
+DESCRIPTION:Starts at 11:00\, ends at 14:00.\n\nhttps://leekduck.com/events
+ /eternamax-eternatus-max-battles-2026/
+URL:https://leekduck.com/events/eternamax-eternatus-max-battles-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-11-16-dynamax-trails-2026/dynamax-trails-2026.jpg
+DTSTART;TZID=Australia/Sydney:20261121T110000
+DTEND;TZID=Australia/Sydney:20261121T140000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MB] Eternamax Eternatus Returns
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:november-communityday2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[CD] November Community Day
+DTSTAMP:20261116T054527Z
+SUMMARY:[CD] Pawniard Community Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
  /november-communityday2026/
 URL:https://leekduck.com/events/november-communityday2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-11-21-november-communityday2026/pawniard-november-cd-2026.jpg
 DTSTART;TZID=Australia/Sydney:20261121T140000
 DTEND;TZID=Australia/Sydney:20261121T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[CD] November Community Day
+DESCRIPTION:[CD] Pawniard Community Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamax-trails-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[E] Dynamax Trails
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /dynamax-trails-2026/
+URL:https://leekduck.com/events/dynamax-trails-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-11-16-dynamax-trails-2026/dynamax-trails-2026.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261116
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261123
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Dynamax Trails
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-11-23
+DTSTAMP:20261116T054527Z
+SUMMARY:[MM] Dynamax Espurr during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-11-23/
+URL:https://leekduck.com/events/max-mondays-2026-11-23/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20261123T060000
+DTEND;TZID=Australia/Sydney:20261123T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Espurr during Max Monday
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cresselia-darkrai-in-5-star-raid-battles-november-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Cresselia and Darkrai in 5-star Raid Battles
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /cresselia-darkrai-in-5-star-raid-battles-november-2026/
+URL:https://leekduck.com/events/cresselia-darkrai-in-5-star-raid-battles-no
+ vember-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/legendary-cresse
+ lia.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261116
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Cresselia and Darkrai in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-banette-in-mega-raids-november-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Mega Banette in Mega Raids
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /mega-banette-in-mega-raids-november-2026/
+URL:https://leekduck.com/events/mega-banette-in-mega-raids-november-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261116
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Banette in Mega Raids
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:gbl-twilight-trails_ultra-league_master-league-mega-edition_2026-go-lai
  c-cup
-DTSTAMP:20260913T041050Z
+DTSTAMP:20261116T054527Z
 SUMMARY:[GBL] Ultra League\, Master League: Mega Edition\, and 2026 GO LAIC
   Cup | Twilight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/events
@@ -931,25 +298,94 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:super-mega-raid-day-november-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RD] Super Mega Raid Day
+UID:raidhour20261125
+DTSTAMP:20261116T054527Z
+SUMMARY:[RH] Deoxys (Normal\, Defense\, Attack\, and Speed Formes) Raid Hou
+ r
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /raidhour20261125/
+URL:https://leekduck.com/events/raidhour20261125/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/raidhour.jpg
+DTSTART;TZID=Australia/Sydney:20261125T180000
+DTEND;TZID=Australia/Sydney:20261125T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RH] Deoxys (Normal\, Defense\, Attack\, and Speed Formes) Raid
+  Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemonspotlighthour2026-11-26
+DTSTAMP:20261116T054527Z
+SUMMARY:[PSH] Noibat Spotlight Hour
+DESCRIPTION:Starts at 18:00\, ends at 19:00.\n\nhttps://leekduck.com/events
+ /pokemonspotlighthour2026-11-26/
+URL:https://leekduck.com/events/pokemonspotlighthour2026-11-26/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemonspotlight
+ hour.jpg
+DTSTART;TZID=Australia/Sydney:20261126T180000
+DTEND;TZID=Australia/Sydney:20261126T190000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PSH] Noibat Spotlight Hour
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:clefable-super-mega-raid-day-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RD] Clefable Super Mega Raid Day
 DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
- /super-mega-raid-day-november-2026/
-URL:https://leekduck.com/events/super-mega-raid-day-november-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
+ /clefable-super-mega-raid-day-2026/
+URL:https://leekduck.com/events/clefable-super-mega-raid-day-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/clefable-super-m
+ ega-raid-day-2026.jpg
 DTSTART;TZID=Australia/Sydney:20261128T140000
 DTEND;TZID=Australia/Sydney:20261128T170000
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RD] Super Mega Raid Day
+DESCRIPTION:[RD] Clefable Super Mega Raid Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:twilight-wishes-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[E] Twilight Wishes
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /twilight-wishes-2026/
+URL:https://leekduck.com/events/twilight-wishes-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/twilight-wishes-
+ 2026.jpg?v2
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261124
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261130
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Twilight Wishes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-mondays-2026-11-30
+DTSTAMP:20261116T054527Z
+SUMMARY:[MM] Dynamax Cryogonal during Max Monday
+DESCRIPTION:Starts at 06:00\, ends at 21:00.\n\nhttps://leekduck.com/events
+ /max-mondays-2026-11-30/
+URL:https://leekduck.com/events/max-mondays-2026-11-30/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/max-battles-kant
+ o.jpg
+DTSTART;TZID=Australia/Sydney:20261130T060000
+DTEND;TZID=Australia/Sydney:20261130T210000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MM] Dynamax Cryogonal during Max Monday
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:season-24-twilight-trails
-DTSTAMP:20260913T041050Z
+DTSTAMP:20261116T054527Z
 SUMMARY:[S] Twilight Trails
 DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
  /season-24-twilight-trails/
@@ -965,8 +401,25 @@ TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:go-pass-november-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[GP] GO Pass: November
+DESCRIPTION:Starts at 10:00\, ends at 10:00.\n\nhttps://leekduck.com/events
+ /go-pass-november-2026/
+URL:https://leekduck.com/events/go-pass-november-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/article-images/2
+ 026/2026-11-03-go-pass-november-2026/go-pass-november-2026.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261103
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261201
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[GP] GO Pass: November
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:gbl-twilight-trails_master-league_mega-catch-cup-great-league-edition
-DTSTAMP:20260913T041050Z
+DTSTAMP:20261116T054527Z
 SUMMARY:[GBL] Master League and Mega Catch Cup: Great League Edition | Twil
  ight Trails
 DESCRIPTION:Starts at 21:00\, ends at 21:00.\n\nhttps://leekduck.com/events
@@ -981,6 +434,381 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:[GBL] Master League and Mega Catch Cup: Great League Edition | 
  Twilight Trails
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Shadow Tornadus (Incarnate Forme) in Shadow Raids
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026/
+URL:https://leekduck.com/events/shadow-tornadus-incarnate-forme-in-shadow-r
+ aids-november-16-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/tornadus.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261116
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261201
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Shadow Tornadus (Incarnate Forme) in Shadow Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-novemb
+ er-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Deoxys (Normal\, Defense\, Attack\, and Speed Formes) in 5-sta
+ r Raid Battles
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november
+ -2026/
+URL:https://leekduck.com/events/deoxys-normal-defense-attack-speed-formes-i
+ n-5-star-raid-battles-november-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/deoxys-all-forme
+ s.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261125
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261201
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Deoxys (Normal\, Defense\, Attack\, and Speed Formes) in 5
+ -star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-metagross-in-mega-raids-november-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Mega Metagross in Mega Raids
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /mega-metagross-in-mega-raids-november-2026/
+URL:https://leekduck.com/events/mega-metagross-in-mega-raids-november-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261125
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261201
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Mega Metagross in Mega Raids
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-battle-day-december-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[MB] Max Battle Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /max-battle-day-december-2026/
+URL:https://leekduck.com/events/max-battle-day-december-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20261205T140000
+DTEND;TZID=Australia/Sydney:20261205T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MB] Max Battle Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:december-communityday2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[CD] December Community Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /december-communityday2026/
+URL:https://leekduck.com/events/december-communityday2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261212
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261213
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] December Community Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:minior-showers-geminids-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[E] Minior Showers: Geminids 2026
+DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
+ /minior-showers-geminids-2026/
+URL:https://leekduck.com/events/minior-showers-geminids-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/minior-showers-2
+ 026.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261211
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261216
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Minior Showers: Geminids 2026
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raid-day-december-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RD] Raid Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /raid-day-december-2026/
+URL:https://leekduck.com/events/raid-day-december-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20261219T140000
+DTEND;TZID=Australia/Sydney:20261219T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] Raid Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hatch-day-december-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[E] Hatch Day
+DESCRIPTION:Starts at 11:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /hatch-day-december-2026/
+URL:https://leekduck.com/events/hatch-day-december-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20261226T110000
+DTEND;TZID=Australia/Sydney:20261226T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Hatch Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:january-communitydayclassic2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[CD] January Community Day Classic
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /january-communitydayclassic2027/
+URL:https://leekduck.com/events/january-communitydayclassic2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Australia/Sydney:20270102T140000
+DTEND;TZID=Australia/Sydney:20270102T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] January Community Day Classic
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:super-mega-raid-day-january-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[RD] Super Mega Raid Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /super-mega-raid-day-january-2027/
+URL:https://leekduck.com/events/super-mega-raid-day-january-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20270109T140000
+DTEND;TZID=Australia/Sydney:20270109T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] Super Mega Raid Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-x-adidas-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[R] adidas × Pokémon Timed Research
+DESCRIPTION:Starts at 10:00\, ends at 20:00.\n\nhttps://leekduck.com/events
+ /pokemon-x-adidas-2026/
+URL:https://leekduck.com/events/pokemon-x-adidas-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/pokemon-x-adidas
+ -2026.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260925
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20270115
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[R] adidas × Pokémon Timed Research
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:january-communityday2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[CD] January Community Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /january-communityday2027/
+URL:https://leekduck.com/events/january-communityday2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Australia/Sydney:20270116T140000
+DTEND;TZID=Australia/Sydney:20270116T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] January Community Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:max-battle-day-january-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[MB] Max Battle Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /max-battle-day-january-2027/
+URL:https://leekduck.com/events/max-battle-day-january-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20270123T140000
+DTEND;TZID=Australia/Sydney:20270123T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[MB] Max Battle Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:super-mega-raid-day-january-30-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[RD] Super Mega Raid Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /super-mega-raid-day-january-30-2027/
+URL:https://leekduck.com/events/super-mega-raid-day-january-30-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20270130T140000
+DTEND;TZID=Australia/Sydney:20270130T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] Super Mega Raid Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:february-communityday2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[CD] February Community Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /february-communityday2027/
+URL:https://leekduck.com/events/february-communityday2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/cd-default.jpg
+DTSTART;TZID=Australia/Sydney:20270206T140000
+DTEND;TZID=Australia/Sydney:20270206T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[CD] February Community Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:raid-day-february-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[RD] Raid Day
+DESCRIPTION:Starts at 14:00\, ends at 17:00.\n\nhttps://leekduck.com/events
+ /raid-day-february-2027/
+URL:https://leekduck.com/events/raid-day-february-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney:20270213T140000
+DTEND;TZID=Australia/Sydney:20270213T170000
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RD] Raid Day
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-go-tour-alola-kaohsiung-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[PGT] Pokémon GO Tour: Alola - Kaohsiung 2027
+DESCRIPTION:Starts at 16:00\, ends at 15:59.\n\nhttps://leekduck.com/events
+ /pokemon-go-tour-alola-kaohsiung-2027/
+URL:https://leekduck.com/events/pokemon-go-tour-alola-kaohsiung-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Z;VALUE=DATE:20270218
+DTEND;TZID=Z;VALUE=DATE:20270221
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PGT] Pokémon GO Tour: Alola - Kaohsiung 2027
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-go-tour-alola-los-angeles-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[PGT] Pokémon GO Tour: Alola - Los Angeles 2027
+DESCRIPTION:Starts at 08:00\, ends at 07:59.\n\nhttps://leekduck.com/events
+ /pokemon-go-tour-alola-los-angeles-2027/
+URL:https://leekduck.com/events/pokemon-go-tour-alola-los-angeles-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Z;VALUE=DATE:20270219
+DTEND;TZID=Z;VALUE=DATE:20270222
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PGT] Pokémon GO Tour: Alola - Los Angeles 2027
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:pokemon-go-tour-alola-global-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[PGT] Pokémon GO Tour: Alola - Global 2027
+DESCRIPTION:Starts at 00:00\, ends at 23:59.\n\nhttps://leekduck.com/events
+ /pokemon-go-tour-alola-global-2027/
+URL:https://leekduck.com/events/pokemon-go-tour-alola-global-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
+ mg.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20270227
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20270228
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[PGT] Pokémon GO Tour: Alola - Global 2027
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:minior-showers-eta-aquariids-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[E] Minior Showers: Eta Aquariids 2027
+DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
+ /minior-showers-eta-aquariids-2027/
+URL:https://leekduck.com/events/minior-showers-eta-aquariids-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/minior-showers-2
+ 026.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20270503
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20270508
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Minior Showers: Eta Aquariids 2027
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:minior-showers-southern-delta-aquariids-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[E] Minior Showers: Southern Delta Aquariids 2027
+DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
+ /minior-showers-southern-delta-aquariids-2027/
+URL:https://leekduck.com/events/minior-showers-southern-delta-aquariids-202
+ 7/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/minior-showers-2
+ 026.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20270728
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20270802
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Minior Showers: Southern Delta Aquariids 2027
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:minior-showers-perseids-2027
+DTSTAMP:20261116T054527Z
+SUMMARY:[E] Minior Showers: Perseids 2027
+DESCRIPTION:Starts at 17:00\, ends at 23:59.\n\nhttps://leekduck.com/events
+ /minior-showers-perseids-2027/
+URL:https://leekduck.com/events/minior-showers-perseids-2027/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/minior-showers-2
+ 026.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20270810
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20270815
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[E] Minior Showers: Perseids 2027
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT

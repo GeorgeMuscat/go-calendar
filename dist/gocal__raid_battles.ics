@@ -30,180 +30,97 @@ END:VTIMEZONE
 BEGIN:VTIMEZONE
 TZID:UTC
 BEGIN:STANDARD
-DTSTART:20251217T041050Z
+DTSTART:20260219T054527Z
 TZOFFSETFROM:+0000
 TZOFFSETTO:+0000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:mega-beedrill-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Beedrill in Mega Raids
+UID:cresselia-darkrai-in-5-star-raid-battles-november-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Cresselia and Darkrai in 5-star Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-beedrill-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-beedrill-in-mega-raids-september-2026/
+ /cresselia-darkrai-in-5-star-raid-battles-november-2026/
+URL:https://leekduck.com/events/cresselia-darkrai-in-5-star-raid-battles-no
+ vember-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/legendary-cresse
+ lia.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261116
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261124
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Cresselia and Darkrai in 5-star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-banette-in-mega-raids-november-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Mega Banette in Mega Raids
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /mega-banette-in-mega-raids-november-2026/
+URL:https://leekduck.com/events/mega-banette-in-mega-raids-november-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260908
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260915
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261116
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261124
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Beedrill in Mega Raids
+DESCRIPTION:[RB] Mega Banette in Mega Raids
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Zacian (Hero of Many Battles) in 5-star Raid Battles
+UID:shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Shadow Tornadus (Incarnate Forme) in Shadow Raids
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /zacian-hero-of-many-battles-in-5-star-raid-battles-september-2026/
-URL:https://leekduck.com/events/zacian-hero-of-many-battles-in-5-star-raid-
- battles-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/zacian-and-zamaz
- enta-2.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260909
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260915
+ /shadow-tornadus-incarnate-forme-in-shadow-raids-november-16-2026/
+URL:https://leekduck.com/events/shadow-tornadus-incarnate-forme-in-shadow-r
+ aids-november-16-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/tornadus.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261116
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261201
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Zacian (Hero of Many Battles) in 5-star Raid Battles
+DESCRIPTION:[RB] Shadow Tornadus (Incarnate Forme) in Shadow Raids
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:mega-houndoom-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Houndoom in Mega Raids
+UID:deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-novemb
+ er-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Deoxys (Normal\, Defense\, Attack\, and Speed Formes) in 5-sta
+ r Raid Battles
 DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-houndoom-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-houndoom-in-mega-raids-september-2026/
+ /deoxys-normal-defense-attack-speed-formes-in-5-star-raid-battles-november
+ -2026/
+URL:https://leekduck.com/events/deoxys-normal-defense-attack-speed-formes-i
+ n-5-star-raid-battles-november-2026/
+IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/deoxys-all-forme
+ s.jpg
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261125
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261201
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:[RB] Deoxys (Normal\, Defense\, Attack\, and Speed Formes) in 5
+ -star Raid Battles
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mega-metagross-in-mega-raids-november-2026
+DTSTAMP:20261116T054527Z
+SUMMARY:[RB] Mega Metagross in Mega Raids
+DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
+ /mega-metagross-in-mega-raids-november-2026/
+URL:https://leekduck.com/events/mega-metagross-in-mega-raids-november-2026/
 IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260911
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260915
+DTSTART;TZID=Australia/Sydney;VALUE=DATE:20261125
+DTEND;TZID=Australia/Sydney;VALUE=DATE:20261201
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Houndoom in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-venusaur-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Venusaur in Mega Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-venusaur-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-venusaur-in-mega-raids-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260916
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260922
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Venusaur in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Zamazenta (Hero of Many Battles) in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /zamazenta-hero-of-many-battles-in-5-star-raid-battles-september-2026/
-URL:https://leekduck.com/events/zamazenta-hero-of-many-battles-in-5-star-ra
- id-battles-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/zacian-and-zamaz
- enta-2.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260916
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260922
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Zamazenta (Hero of Many Battles) in 5-star Raid Battles
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-malamar-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Malamar in Mega Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-malamar-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-malamar-in-mega-raids-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260923
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260929
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Malamar in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:xurkitree-pheromosa-buzzwole-in-5-star-raid-battles-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Xurkitree\, Pheromosa\, and Buzzwole in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /xurkitree-pheromosa-buzzwole-in-5-star-raid-battles-september-2026/
-URL:https://leekduck.com/events/xurkitree-pheromosa-buzzwole-in-5-star-raid
- -battles-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/buzzwole-xurkitr
- ee-pheromosa-ultra-beasts.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260923
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20260929
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Xurkitree\, Pheromosa\, and Buzzwole in 5-star Raid Battle
- s
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Shadow Thundurus (Incarnate Forme) in Shadow Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /shadow-thundurus-incarnate-forme-in-shadow-raids-september-2026/
-URL:https://leekduck.com/events/shadow-thundurus-incarnate-forme-in-shadow-
- raids-september-2026/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/events-default-i
- mg.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260909
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Shadow Thundurus (Incarnate Forme) in Shadow Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:mega-victreebel-in-mega-raids-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Mega Victreebel in Mega Raids
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /mega-victreebel-in-mega-raids-september-2026/
-URL:https://leekduck.com/events/mega-victreebel-in-mega-raids-september-202
- 6/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/mega-default.jpg
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260930
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Mega Victreebel in Mega Raids
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:xerneas-in-5-star-raid-battles-september-2026
-DTSTAMP:20260913T041050Z
-SUMMARY:[RB] Xerneas in 5-star Raid Battles
-DESCRIPTION:Starts at 06:00\, ends at 22:00.\n\nhttps://leekduck.com/events
- /xerneas-in-5-star-raid-battles-september-2026/
-URL:https://leekduck.com/events/xerneas-in-5-star-raid-battles-september-20
- 26/
-IMAGE;VALUE=URI:https://cdn.leekduck.com/assets/img/events/xerneas-woods.jp
- g
-DTSTART;TZID=Australia/Sydney;VALUE=DATE:20260930
-DTEND;TZID=Australia/Sydney;VALUE=DATE:20261006
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:[RB] Xerneas in 5-star Raid Battles
+DESCRIPTION:[RB] Mega Metagross in Mega Raids
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
