@@ -75,7 +75,7 @@ class LeekDuckEvent
     }
 
     /**
-     * Create an array of LeekDuckEvent objects from the JSON array object.
+     * Create an array of LeekDuckEvent objects, skipping events without confirmed dates.
      *
      * @return array<LeekDuckEvent>
      */
@@ -84,6 +84,12 @@ class LeekDuckEvent
         $parsedEvents = [];
 
         foreach ($events as $event) {
+            // Carbon parses null and blank dates as "now", but these events are not scheduled yet.
+            if (! is_string($event['start'] ?? null) || trim($event['start']) === ''
+                || ! is_string($event['end'] ?? null) || trim($event['end']) === '') {
+                continue;
+            }
+
             $parsedEvents[] = self::create(
                 event: $event,
                 timezone: $timezone
